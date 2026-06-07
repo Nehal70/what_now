@@ -31,7 +31,7 @@ export async function POST(request: Request) {
     }
 
     let location = null;
-    if (transcript === START_TOKEN && session) {
+    if (session) {
       location = getUserLocation(session.userId);
     }
 

@@ -19,13 +19,43 @@ from tools.nearby_search import emit_nearby
 load_dotenv(override=True)
 
 START_RESPONSE = {
-    "response": "I'm here. Are you hurt?",
+    "response": "Hello, how can I help?",
     "tool_called": None,
     "reasoning": "Initial greeting",
     "latency_ms": 0,
     "phase": "questioning",
     "profile": [{"step": "request_received", "ms": 0}, {"step": "response_complete", "ms": 0}],
 }
+
+SILENCE_RESPONSE = {
+    "response": (
+        "I'm still here. I can help with your insurance coverage, "
+        "pull up nearby medical options on your screen, or answer any questions. "
+        "What would be most helpful?"
+    ),
+    "tool_called": None,
+    "reasoning": "User silence — offering next-step options",
+    "latency_ms": 0,
+    "phase": "guiding",
+    "profile": [{"step": "request_received", "ms": 0}, {"step": "response_complete", "ms": 0}],
+}
+
+MEDICAL_NEARBY_TRIGGERS = (
+    "urgent care",
+    "emergency room",
+    "er ",
+    "hospital",
+    "doctor",
+    "clinic",
+    "medical",
+    "nearby",
+    "where can i go",
+    "find a",
+    "get checked",
+    "see a doctor",
+    "hurt bad",
+    "in pain",
+)
 
 NEARBY_SIDE_EVENT_TIMEOUT = 35.0
 
@@ -99,9 +129,31 @@ def _history_payload(request: ChatRequest) -> list[dict]:
 
 def _merged_context(request: ChatRequest, result_context: dict | None = None) -> dict:
     merged = dict(request.context or {})
+    if request.location:
+        merged["user_location"] = {
+            "lat": request.location.lat,
+            "lng": request.location.lng,
+        }
     if result_context:
         merged.update(result_context)
     return merged
+
+
+def _transcript_wants_medical_nearby(transcript: str) -> bool:
+    t = transcript.lower()
+    return any(trigger in t for trigger in MEDICAL_NEARBY_TRIGGERS)
+
+
+def _maybe_trigger_medical_nearby_on_request(request: ChatRequest) -> None:
+    if not request.location:
+        return
+    if request.transcript == "__START__":
+        _trigger_medical_nearby(request)
+        return
+    if request.transcript in ("__USER_SILENT__",) or _transcript_wants_medical_nearby(
+        request.transcript
+    ):
+        _trigger_medical_nearby(request)
 
 
 def _trigger_medical_nearby(request: ChatRequest) -> None:
@@ -167,9 +219,12 @@ async def chat(request: ChatRequest):
     session_id = request.session_id or str(uuid.uuid4())
 
     if request.transcript == "__START__":
-        if request.location:
-            _trigger_medical_nearby(request)
+        _maybe_trigger_medical_nearby_on_request(request)
         return ChatResponse(**START_RESPONSE, session_id=session_id)
+
+    if request.transcript == "__USER_SILENT__":
+        _maybe_trigger_medical_nearby_on_request(request)
+        return ChatResponse(**SILENCE_RESPONSE, session_id=session_id)
 
     profiler = LatencyProfiler()
     profiler.mark("request_received")
@@ -181,6 +236,7 @@ async def chat(request: ChatRequest):
         _merged_context(request),
     )
 
+    _maybe_trigger_medical_nearby_on_request(request)
     _maybe_trigger_legal_nearby(request, result)
 
     profile = result.get("profile") or profiler.checkpoints
@@ -208,8 +264,7 @@ async def chat_stream(request: ChatRequest):
             queue: asyncio.Queue = asyncio.Queue()
             bind_event_queue(queue)
             try:
-                if request.location:
-                    _trigger_medical_nearby(request)
+                _maybe_trigger_medical_nearby_on_request(request)
 
                 yield _sse({"type": "token", "content": START_RESPONSE["response"]})
                 yield _sse({"type": "done", "session_id": session_id, **START_RESPONSE})
@@ -220,6 +275,24 @@ async def chat_stream(request: ChatRequest):
                 clear_event_queue()
 
         return StreamingResponse(start_stream(), media_type="text/event-stream")
+
+    if request.transcript == "__USER_SILENT__":
+
+        async def silence_stream():
+            queue: asyncio.Queue = asyncio.Queue()
+            bind_event_queue(queue)
+            try:
+                _maybe_trigger_medical_nearby_on_request(request)
+
+                yield _sse({"type": "token", "content": SILENCE_RESPONSE["response"]})
+                yield _sse({"type": "done", "session_id": session_id, **SILENCE_RESPONSE})
+
+                async for side_event in _yield_side_events(queue):
+                    yield _sse(side_event)
+            finally:
+                clear_event_queue()
+
+        return StreamingResponse(silence_stream(), media_type="text/event-stream")
 
     profiler = LatencyProfiler()
     profiler.mark("request_received")
@@ -238,6 +311,7 @@ async def chat_stream(request: ChatRequest):
             ):
                 if event.get("type") == "done":
                     event["session_id"] = session_id
+                    _maybe_trigger_medical_nearby_on_request(request)
                     _maybe_trigger_legal_nearby(request, event)
                 yield _sse(event)
 

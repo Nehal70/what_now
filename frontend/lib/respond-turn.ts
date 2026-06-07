@@ -17,7 +17,7 @@ import type {
   SSEEvent,
   UserLocation,
 } from "@/lib/types";
-import { IMAGE_UPLOAD_TOKEN, START_TOKEN } from "@/lib/types";
+import { IMAGE_UPLOAD_TOKEN, SILENCE_TOKEN, START_TOKEN } from "@/lib/types";
 
 function userFacingTranscript(transcript: string, imageCount?: number): string {
   if (transcript === IMAGE_UPLOAD_TOKEN) {
@@ -121,7 +121,7 @@ async function persistTurn(
     throw new Error("Session not found");
   }
 
-  if (transcript !== START_TOKEN) {
+  if (transcript !== START_TOKEN && transcript !== SILENCE_TOKEN) {
     await appendMessage({
       sessionId,
       role: "user",

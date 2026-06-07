@@ -556,10 +556,27 @@ VALID_CLASSIFICATIONS = frozenset({
 })
 
 INSURANCE_TRIGGERS = [
-    "insurance", "cover", "coverage",
+    "insurance", "cover", "coverage", "covered",
     "claim", "adjuster", "policy",
-    "pay for", "will they pay",
-    "who pays", "med pay", "deductible",
+    "pay for", "will they pay", "will my insurance",
+    "who pays", "med pay", "medpay", "deductible",
+    "tell my insurance", "talk to my insurance",
+    "what to say to", "what do i tell",
+]
+
+MEDICAL_TRIGGERS = [
+    "urgent care",
+    "emergency room",
+    "er ",
+    "hospital",
+    "doctor",
+    "clinic",
+    "medical care",
+    "nearby",
+    "where can i go",
+    "find a hospital",
+    "get checked",
+    "see a doctor",
 ]
 
 CARRIER_TRIGGERS = [
@@ -801,6 +818,12 @@ def classify_tool(transcript: str, phase: str, context: dict) -> tuple[str, bool
     if any(w in t for w in OWN_POLICY_TRIGGERS):
         return _save("insurance_tool", True)
 
+    if any(w in t for w in MEDICAL_TRIGGERS):
+        return _save("safety_check", True)
+
+    if any(w in t for w in INSURANCE_TRIGGERS):
+        return _save("insurance_tool", True)
+
     if context.get("other_carrier") or any(c in t for c in CARRIER_TRIGGERS):
         return _save("insurance_tool", True)
 
@@ -812,9 +835,6 @@ def classify_tool(transcript: str, phase: str, context: dict) -> tuple[str, bool
 
     if any(w in t for w in RETALIATION_TRIGGERS):
         return _save("legal_tool", True)
-
-    if any(w in t for w in INSURANCE_TRIGGERS):
-        return _save("insurance_tool", True)
 
     if any(w in t for w in LEGAL_TRIGGERS):
         return _save("legal_tool", True)
@@ -1707,6 +1727,12 @@ async def _prepare_phase_run(
         )
     profiler.mark("tool_classification_done")
 
+    t_lower = transcript.lower()
+    if classified == "insurance_tool" or any(
+        w in t_lower for w in INSURANCE_TRIGGERS + OWN_POLICY_TRIGGERS
+    ):
+        context["policy_moss"] = True
+
     skip_state_prefetch = intent_override and classified == "insurance_tool" and not first_guiding
 
     if context.get("state") and not skip_state_prefetch and (
@@ -1757,6 +1783,16 @@ async def _prepare_phase_run(
             "\n\nMEDICAL URGENCY: Lead with ONE urgent medical action "
             "(ER or urgent care today). Dog bites and serious injuries "
             "need professional evaluation now."
+        )
+
+    if context.get("user_location") and any(
+        w in transcript.lower() for w in MEDICAL_TRIGGERS
+    ):
+        messages[0]["content"] += (
+            "\n\nNEARBY MEDICAL: The user asked about medical care and their "
+            "location is available. Urgent care options are being shown on "
+            "their screen now. Mention that you've pulled up nearby facilities "
+            "and reference MedPay or their policy coverage when relevant."
         )
     context["intent_override"] = intent_override
     override_tools = {"legal_tool", "insurance_tool", "moss_retrieval", "scene_guide"}

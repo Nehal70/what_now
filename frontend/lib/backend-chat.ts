@@ -38,7 +38,7 @@ function buildBackendBody(
     payload.session_id = sessionId;
   }
 
-  if (transcript === START_TOKEN && location) {
+  if (location) {
     payload.location = location;
   }
 

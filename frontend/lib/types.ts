@@ -103,6 +103,7 @@ export type ToolName =
 
 export const IMAGE_UPLOAD_TOKEN = "__IMAGE_UPLOAD__";
 export const START_TOKEN = "__START__";
+export const SILENCE_TOKEN = "__USER_SILENT__";
 
 export type SSEEvent = {
   type:

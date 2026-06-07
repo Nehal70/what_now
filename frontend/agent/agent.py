@@ -41,6 +41,9 @@ INTERNAL_API_SECRET = os.getenv("INTERNAL_API_SECRET", "")
 AGENT_NAME = os.getenv("AGENT_NAME", "what-now-agent")
 START_TOKEN = "__START__"
 IMAGE_UPLOAD_TOKEN = "__IMAGE_UPLOAD__"
+SILENCE_TOKEN = "__USER_SILENT__"
+SILENCE_SECONDS = float(os.getenv("SILENCE_PROMPT_SECONDS", "12"))
+SYSTEM_TOKENS = frozenset({START_TOKEN, IMAGE_UPLOAD_TOKEN, SILENCE_TOKEN})
 
 
 class WhatNowBridge(Agent):
@@ -56,6 +59,7 @@ class WhatNowBridge(Agent):
         self._history: list[dict[str, str]] = []
         self._context: dict = {}
         self._started = False
+        self._silence_task: asyncio.Task | None = None
 
     async def on_enter(self) -> None:
         if self._started or not self._session_id:
@@ -63,7 +67,27 @@ class WhatNowBridge(Agent):
         self._started = True
         await self._respond(START_TOKEN)
 
+    def _cancel_silence_timer(self) -> None:
+        if self._silence_task and not self._silence_task.done():
+            self._silence_task.cancel()
+        self._silence_task = None
+
+    def _schedule_silence_prompt(self) -> None:
+        self._cancel_silence_timer()
+        if not self._session_id:
+            return
+
+        async def _fire() -> None:
+            try:
+                await asyncio.sleep(SILENCE_SECONDS)
+                await self._respond(SILENCE_TOKEN)
+            except asyncio.CancelledError:
+                pass
+
+        self._silence_task = asyncio.create_task(_fire())
+
     async def on_user_turn_completed(self, turn_ctx, new_message) -> None:
+        self._cancel_silence_timer()
         user_text = (getattr(new_message, "text_content", None) or "").strip()
         if not user_text or not self._session_id:
             return
@@ -100,9 +124,12 @@ class WhatNowBridge(Agent):
 
         response = (data.get("response") or "").strip()
         if not response:
-            return
+            response = (
+                "I'm still here. I can help with insurance, nearby medical care, "
+                "or any questions you have."
+            )
 
-        if transcript != START_TOKEN:
+        if transcript not in SYSTEM_TOKENS:
             self._history.append({"role": "user", "text": transcript})
 
         self._history.append({"role": "assistant", "text": response})
@@ -111,6 +138,8 @@ class WhatNowBridge(Agent):
             self._context = data["context"]
 
         await self.session.say(response)
+        if transcript != SILENCE_TOKEN:
+            self._schedule_silence_prompt()
 
     async def handle_turn_complete(self, payload: dict) -> None:
         if payload.get("type") != "turn_complete":
@@ -120,8 +149,13 @@ class WhatNowBridge(Agent):
         response = (payload.get("response") or "").strip()
         context = payload.get("context") or {}
 
+        self._cancel_silence_timer()
+
         if not response:
-            return
+            response = (
+                "I'm still here. I can help with insurance, nearby medical care, "
+                "or any questions you have."
+            )
 
         if transcript == IMAGE_UPLOAD_TOKEN:
             self._history.append({"role": "user", "text": "Sent photos in the app"})
@@ -131,6 +165,7 @@ class WhatNowBridge(Agent):
         self._history.append({"role": "assistant", "text": response})
         self._context = context
         await self.session.say(response)
+        self._schedule_silence_prompt()
 
 
 server = AgentServer()
