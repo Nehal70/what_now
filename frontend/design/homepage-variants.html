@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>What Now? — Homepage Design Variants</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Sans:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Instrument Sans", system-ui, sans-serif;
+      background: #111318;
+      color: #e8e4dc;
+      line-height: 1.5;
+      padding: 2rem 1.5rem 4rem;
+    }
+    .board-header { max-width: 1100px; margin: 0 auto 2.5rem; }
+    .board-header h1 { font-size: 1.5rem; font-weight: 600; margin-bottom: 0.5rem; }
+    .board-header p { color: #9a9488; max-width: 62ch; font-size: 0.95rem; }
+    .board-header .product-brief {
+      margin-top: 1rem;
+      padding: 1rem 1.25rem;
+      border-left: 3px solid #e85d3b;
+      background: rgba(255,255,255,0.03);
+      border-radius: 0 8px 8px 0;
+      font-size: 0.875rem;
+      color: #b8b2a6;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
+    .variant {
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 12px;
+      overflow: hidden;
+      background: #1a1d24;
+    }
+    .variant-meta {
+      padding: 1rem 1.25rem;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .variant-meta .label {
+      font-size: 0.7rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: #e85d3b;
+      margin-bottom: 0.35rem;
+    }
+    .variant-meta h2 { font-size: 1.1rem; font-weight: 600; margin-bottom: 0.35rem; }
+    .variant-meta p { font-size: 0.8rem; color: #9a9488; }
+    .preview {
+      aspect-ratio: 4 / 3;
+      overflow: hidden;
+      position: relative;
+    }
+    .preview-inner {
+      width: 200%;
+      height: 200%;
+      transform: scale(0.5);
+      transform-origin: top left;
+      pointer-events: none;
+    }
+
+    /* ── Variant A: Warm Authority ── */
+    .a { background: #0b0d12; color: #f4f0e8; min-height: 100%; padding: 3rem 2.5rem; font-family: "Instrument Sans", sans-serif; position: relative; }
+    .a::before {
+      content: "";
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse 70% 50% at 15% 10%, rgba(232,93,59,0.12), transparent 55%),
+                  radial-gradient(ellipse 50% 40% at 85% 90%, rgba(107,143,122,0.08), transparent 50%);
+      pointer-events: none;
+    }
+    .a .tag { font-size: 0.65rem; letter-spacing: 0.22em; text-transform: uppercase; color: #e85d3b; margin-bottom: 1rem; position: relative; }
+    .a h1 { font-family: Fraunces, serif; font-size: 2.4rem; line-height: 1.08; font-weight: 600; max-width: 14ch; position: relative; }
+    .a h1 span { color: #9a9488; }
+    .a .sub { margin-top: 1rem; font-size: 0.95rem; color: #9a9488; max-width: 28ch; line-height: 1.55; position: relative; }
+    .a .phone-card {
+      margin-top: 2rem; display: inline-block; padding: 1.25rem 1.75rem;
+      border: 1px solid rgba(255,255,255,0.1); border-radius: 16px;
+      background: rgba(20,24,32,0.9); position: relative;
+      box-shadow: 0 0 40px rgba(232,93,59,0.15);
+    }
+    .a .phone-card .call-label { font-size: 0.6rem; letter-spacing: 0.25em; text-transform: uppercase; color: #9a9488; }
+    .a .phone-card .number { font-family: "IBM Plex Mono", monospace; font-size: 1.5rem; margin-top: 0.35rem; color: #f4f0e8; }
+    .a .phases { margin-top: 1.5rem; display: flex; gap: 0.5rem; flex-wrap: wrap; position: relative; }
+    .a .phase { font-size: 0.6rem; padding: 0.35rem 0.65rem; border-radius: 999px; background: rgba(232,93,59,0.12); color: #e85d3b; border: 1px solid rgba(232,93,59,0.25); }
+    .a .phase.muted { background: rgba(255,255,255,0.04); color: #6b6b6b; border-color: transparent; }
+
+    /* ── Variant B: Dispatch Terminal ── */
+    .b { background: #050608; color: #c8d4c8; min-height: 100%; padding: 2rem 2rem; font-family: "IBM Plex Mono", monospace; font-size: 0.85rem; }
+    .b .scanline {
+      position: absolute; inset: 0; opacity: 0.04; pointer-events: none;
+      background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.4) 2px, rgba(0,0,0,0.4) 4px);
+    }
+    .b .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; font-size: 0.65rem; color: #5a6a5a; }
+    .b .live { color: #ffb020; }
+    .b .live::before { content: "● "; animation: blink 1.2s infinite; }
+    @keyframes blink { 50% { opacity: 0.3; } }
+    .b h1 { font-family: "DM Sans", sans-serif; font-size: 1.75rem; font-weight: 600; color: #eef2ee; letter-spacing: -0.02em; line-height: 1.2; max-width: 18ch; }
+    .b .prompt { color: #ffb020; margin-top: 1rem; }
+    .b .number-block {
+      margin-top: 1.75rem; padding: 1rem 1.25rem;
+      border: 1px solid #2a3a2a; background: #0a0e0a;
+    }
+    .b .number-block .lbl { font-size: 0.6rem; color: #5a6a5a; }
+    .b .number-block .num { font-size: 1.6rem; color: #ffb020; margin-top: 0.25rem; letter-spacing: 0.05em; }
+    .b .status { margin-top: 1.25rem; font-size: 0.65rem; color: #5a6a5a; }
+    .b .status span { color: #7cb87c; }
+
+    /* ── Variant C: Editorial Calm ── */
+    .c { background: #f6f1e8; color: #1a1814; min-height: 100%; padding: 2.5rem 2.25rem; font-family: "Newsreader", serif; }
+    .c .kicker { font-family: "Instrument Sans", sans-serif; font-size: 0.65rem; letter-spacing: 0.18em; text-transform: uppercase; color: #8b7355; margin-bottom: 1.25rem; }
+    .c h1 { font-size: 2.1rem; font-weight: 600; line-height: 1.15; max-width: 16ch; color: #1a1814; }
+    .c .body { font-family: "Instrument Sans", sans-serif; font-size: 0.9rem; color: #5c5348; margin-top: 1rem; max-width: 30ch; line-height: 1.6; }
+    .c .phone-row {
+      margin-top: 2rem; display: flex; align-items: center; gap: 1.25rem;
+      padding-top: 1.5rem; border-top: 1px solid #d4c9b8;
+    }
+    .c .phone-row .big { font-family: "IBM Plex Mono", monospace; font-size: 1.35rem; font-weight: 500; color: #1a1814; }
+    .c .phone-row .hint { font-family: "Instrument Sans", sans-serif; font-size: 0.75rem; color: #8b7355; max-width: 14ch; }
+    .c .steps { margin-top: 1.5rem; font-family: "Instrument Sans", sans-serif; font-size: 0.7rem; color: #8b7355; display: flex; gap: 1rem; }
+
+    /* ── Variant D: Cinematic Poster ── */
+    .d {
+      background: #000; color: #fff; min-height: 100%;
+      display: flex; flex-direction: column; justify-content: center; align-items: center;
+      text-align: center; padding: 2.5rem 2rem; position: relative;
+    }
+    .d::after {
+      content: "";
+      position: absolute; bottom: 0; left: 0; right: 0; height: 40%;
+      background: linear-gradient(to top, rgba(180,40,30,0.25), transparent);
+      pointer-events: none;
+    }
+    .d .wordmark { font-family: Fraunces, serif; font-size: 0.75rem; letter-spacing: 0.35em; text-transform: uppercase; color: rgba(255,255,255,0.45); margin-bottom: 2rem; position: relative; z-index: 1; }
+    .d h1 { font-family: Fraunces, serif; font-size: 2.5rem; font-weight: 500; line-height: 1.1; max-width: 12ch; position: relative; z-index: 1; }
+    .d .number { font-family: "IBM Plex Mono", monospace; font-size: 1.75rem; margin-top: 2.5rem; color: #ff6b4a; position: relative; z-index: 1; letter-spacing: 0.02em; }
+    .d .tap { font-family: "Instrument Sans", sans-serif; font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: rgba(255,255,255,0.4); margin-top: 0.75rem; position: relative; z-index: 1; }
+    .d .orb {
+      width: 120px; height: 120px; border-radius: 50%; margin-top: 2rem;
+      background: radial-gradient(circle at 35% 35%, #ff8a70, #c42d1a 60%, #1a0806);
+      box-shadow: 0 0 60px rgba(255,80,50,0.35);
+      position: relative; z-index: 1;
+    }
+  </style>
+</head>
+<body>
+  <header class="board-header">
+    <h1>What Now? — Homepage Design Variants</h1>
+    <p>Four directions for the landing page. Primary action is always <strong>dial a phone number</strong> (LiveKit SIP) — not browser voice, not sign-up.</p>
+    <div class="product-brief">
+      <strong>Product:</strong> The first call after an emergency — after 911 and loved ones. A calm AI voice walks the caller through safety, the scene, insurance, and legal rights. Judges see a live dashboard; the caller uses a physical phone.
+    </div>
+  </header>
+
+  <div class="grid">
+    <!-- A -->
+    <article class="variant">
+      <div class="variant-meta">
+        <div class="label">Variant A</div>
+        <h2>Warm Authority</h2>
+        <p>Dark ink + ember accent. Serif warmth, asymmetric layout. Mission: calm human presence under pressure.</p>
+      </div>
+      <div class="preview">
+        <div class="preview-inner">
+          <div class="a">
+            <div class="tag">After 911 · After your people</div>
+            <h1>You called 911.<br /><span>Now what?</span></h1>
+            <p class="sub">Pick up the phone. A calm voice walks you through what to do next — one step at a time.</p>
+            <div class="phone-card">
+              <div class="call-label">Call now</div>
+              <div class="number">(555) 010-0911</div>
+            </div>
+            <div class="phases">
+              <span class="phase">Safety</span>
+              <span class="phase muted">Scene</span>
+              <span class="phase muted">Insurance</span>
+              <span class="phase muted">Legal</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- B -->
+    <article class="variant">
+      <div class="variant-meta">
+        <div class="label">Variant B</div>
+        <h2>Dispatch Terminal</h2>
+        <p>Utilitarian monospace, amber-on-black. Feels like a live ops line — urgent but controlled.</p>
+      </div>
+      <div class="preview">
+        <div class="preview-inner">
+          <div class="b">
+            <div class="scanline"></div>
+            <div class="header">
+              <span>WHAT_NOW // v0.1</span>
+              <span class="live">LINE OPEN</span>
+            </div>
+            <h1>911 is on the way. Don't hang up on yourself.</h1>
+            <p class="prompt">&gt; NEXT_ACTION: dial guidance line</p>
+            <div class="number-block">
+              <div class="lbl">INBOUND_SIP</div>
+              <div class="num">+1 (555) 010-0911</div>
+            </div>
+            <p class="status">AGENT_STATUS: <span>READY</span> · 24/7 · NO APP REQUIRED</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- C -->
+    <article class="variant">
+      <div class="variant-meta">
+        <div class="label">Variant C</div>
+        <h2>Editorial Calm</h2>
+        <p>Light, magazine-like warmth. Unexpected for crisis tech — feels like a trusted letter, not a startup.</p>
+      </div>
+      <div class="preview">
+        <div class="preview-inner">
+          <div class="c">
+            <div class="kicker">For the minutes after the sirens</div>
+            <h1>Someone is still with you.</h1>
+            <p class="body">You've called the people who love you. You've called for help. This line is what comes next — plain guidance, no forms, no app.</p>
+            <div class="phone-row">
+              <div class="big">(555) 010-0911</div>
+              <div class="hint">Dial from any phone. Stay on the line.</div>
+            </div>
+            <div class="steps">
+              <span>Safety</span>
+              <span>→</span>
+              <span>Scene</span>
+              <span>→</span>
+              <span>Insurance</span>
+              <span>→</span>
+              <span>Rights</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- D -->
+    <article class="variant">
+      <div class="variant-meta">
+        <div class="label">Variant D</div>
+        <h2>Cinematic Poster</h2>
+        <p>Near-black, single focal point. Film-poster drama — one number, one orb, maximum emotional punch.</p>
+      </div>
+      <div class="preview">
+        <div class="preview-inner">
+          <div class="d">
+            <div class="wordmark">What Now</div>
+            <h1>Now what?</h1>
+            <div class="number">(555) 010-0911</div>
+            <div class="tap">Tap to call · Available now</div>
+            <div class="orb" aria-hidden="true"></div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+</body>
+</html>

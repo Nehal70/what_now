@@ -1,8 +1,10 @@
 # Secrets
 .env
+.env.local
+.env*.local
 *.pem
 
-# Python
+# Python (backend)
 __pycache__/
 *.py[cod]
 *.egg-info/
@@ -10,11 +12,39 @@ __pycache__/
 venv/
 .Python
 
+# Stray root artifacts (run npm from frontend/)
+node_modules/
+moss-hacker-starter/
+agent/
+
+# Node / Next.js (frontend)
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.pnp
+frontend/.pnp.*
+frontend/coverage/
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
+
+# moss-hacker-starter generated artifacts
+frontend/moss-hacker-starter/**/node_modules
+frontend/moss-hacker-starter/**/.next
+frontend/moss-hacker-starter/agent-py/.venv
+frontend/moss-hacker-starter/**/__pycache__
+frontend/moss-hacker-starter/**/*.egg-info
+
 # OS / IDE
 .DS_Store
 .idea/
 .vscode/
+.cursor/
 
 # Logs / temp
 *.log
 /tmp/
+.vercel
+
+# Local-only planning notes
+.context/local/*
+!.context/local/.gitkeep
