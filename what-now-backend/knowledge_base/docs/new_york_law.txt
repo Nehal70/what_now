@@ -1,0 +1,478 @@
+NEW YORK PERSONAL INJURY LAW — COMPLETE FIELD GUIDE
+WHAT NOW KNOWLEDGE BASE — VOICE ASSISTANT REFERENCE
+Last updated: June 2026
+Scope: New York negligence, premises liability, auto no-fault, scaffold law, dog bite
+Audience: Injured parties, advocates, legal assistants, voice-assistant retrieval
+Disclaimer: Educational reference only — not legal advice. Laws change; consult licensed New York counsel.
+
+================================================================================
+TABLE OF CONTENTS
+================================================================================
+SECTION 1:  Pure Comparative Fault — CPLR 1411
+SECTION 2:  Premises Liability — Constructive Notice, 15-20 Minute Rule, Basso v. Miller
+SECTION 3:  NYC Big Apple Pothole Law — 90-Day Written Notice Requirement
+SECTION 4:  Scaffold Law — Labor Law Section 240 (Unique New York)
+SECTION 5:  Statute of Limitations — CPLR 214 and Related Deadlines
+SECTION 6:  No-Fault Insurance — PIP $50,000, 30-Day Rule, Serious Injury Threshold
+SECTION 7:  Dog Bite Law — Mixed System, Agriculture and Markets Law 121
+SECTION 8:  Average Settlements and Valuation in New York
+SECTION 9:  Finding a New York Personal Injury Lawyer
+APPENDIX A:  NYC vs. Upstate Jury Tendencies
+APPENDIX B:  Snow and Ice Premises Liability in New York
+APPENDIX C:  Grocery Store Slip-and-Fall Playbook — New York Edition
+
+
+================================================================================
+SECTION 1: PURE COMPARATIVE FAULT — CPLR 1411
+================================================================================
+
+OVERVIEW
+New York follows pure comparative negligence. An injured person may recover damages even if predominantly at fault — recovery reduced by plaintiff's percentage of fault. There is no 50% or 51% bar like Texas.
+
+CPLR 1411: "In any action to recover damages for personal injury, injury to property, or wrongful death, the culpable conduct attributable to the claimant or to decedent, including contributory negligence or assumption of risk, shall not bar recovery, but the amount of damages otherwise recoverable shall be diminished in the proportion which the culpable conduct attributable to the claimant or decedent bears to the culpable conduct which caused the damages."
+
+EXAMPLES
+Total damages $300,000, plaintiff 25% at fault: Recovery $225,000.
+Total damages $300,000, plaintiff 60% at fault: Recovery $120,000 — still allowed.
+Total damages $300,000, plaintiff 90% at fault: Recovery $30,000.
+
+JOINT AND SEVERAL LIABILITY
+New York retains joint and several liability for economic damages in many cases — deep-pocket defendant may pay full economic damages and seek contribution.
+
+For noneconomic damages (pain and suffering), several liability reforms apply when defendant below 50% fault in certain circumstances under CPLR 1601 — verify current application with counsel in multi-defendant cases.
+
+KEY CASE LAW
+Ross v. Reed (1974) — Adoption of pure comparative fault in New York.
+Assumption of risk analyzed within comparative framework — not complete bar in most negligence cases.
+
+DEFENSE TACTICS
+Comparative fault arguments in premises: not looking, improper footwear, running, ignoring wet floor sign.
+Auto cases: comparative fault on intersection collisions, pedestrian dart-out arguments.
+Reduce payout proportionally even when liability clear — "20% your fault" on $500,000 case saves insurer $100,000.
+
+PLAINTIFF COUNTER-TACTICS
+Document scene, preserve video, witness statements.
+Emphasize defendant's superior knowledge and control of premises.
+Statutory violations — building code, vehicle and traffic law.
+
+
+================================================================================
+SECTION 2: PREMISES LIABILITY — CONSTRUCTIVE NOTICE, 15-20 MINUTE RULE, BASSO V. MILLER
+================================================================================
+
+GENERAL FRAMEWORK
+New York premises liability requires proof that owner/possessor created or had actual or constructive notice of dangerous condition and failed to remediate in reasonable time.
+
+Basso v. Miller (1984) — Landowner must maintain premises in reasonably safe condition — foundational modern NY premises case.
+
+VISITOR STATUS
+New York recognizes invitee, licensee, trespasser distinctions though business invitee cases dominate retail slip-and-fall volume.
+
+Business invitee (shopper, diner, hotel guest): Highest duty — keep premises safe, inspect, repair, warn.
+
+ELEMENTS OF SLIP-AND-FALL CLAIM
+1. Dangerous condition existed on property.
+2. Owner/possessor had actual or constructive notice of condition.
+3. Owner failed to remediate within reasonable time or warn adequately.
+4. Condition caused fall and injury.
+
+ACTUAL NOTICE
+Employee caused spill and walked away.
+Manager told about leak earlier.
+Prior written complaint about broken tile.
+
+CONSTRUCTIVE NOTICE — THE 15-20 MINUTE RULE (JUDICIAL HEURISTIC)
+New York courts frequently analyze whether hazard existed long enough that reasonable inspection would have found it. While not a rigid statutory rule, appellate decisions often discuss time frames:
+
+15-20 minutes frequently cited in case law as period after which constructive notice may be inferred for transitory spills in retail settings — IF plaintiff presents evidence hazard existed that long (video timestamps, dried spill edges, multiple witness observations).
+
+Shorter duration — defendant wins summary judgment: "Spill just occurred, no time to clean."
+
+Longer duration — strong plaintiff case: surveillance shows liquid on floor 45 minutes.
+
+See Gordon v. American Museum of Natural History — constructive notice requires temporal evidence, not speculation.
+
+MODE OF OPERATION (LIMITED IN NY)
+Some courts allow notice inference from self-service operations creating foreseeable spills — salad bars, beverage stations. Post-reform trend requires more specific proof than pre-2000 era.
+
+RECURRING CONDITION
+Repeated leaks from same freezer, chronic roof drip, habitual ice at entrance — constructive notice through pattern even if specific spill timing unknown.
+
+OPEN AND OBVIOUS
+Available defense but less dispositive than Texas — NY courts still analyze whether landowner should remediate despite visibility.
+
+DEFENSE SUMMARY JUDGMENT MOTIONS
+Major NY defense strategy — motion before trial arguing no notice as matter of law. Plaintiff must defeat with specific factual evidence of duration or recurrence.
+
+NYC COMMERCIAL PREMISES
+Duane Reade, CVS, Whole Foods, Trader Joe's, bodegas, subway platform adjacent retail — high foot traffic, frequent spill cases.
+
+Upstate malls, big-box stores — similar law, different jury values.
+
+
+================================================================================
+SECTION 3: NYC BIG APPLE POTHOLE LAW — 90-DAY WRITTEN NOTICE REQUIREMENT
+================================================================================
+
+OVERVIEW
+Suing New York City for sidewalk defect, pothole, or street condition requires compliance with Administrative Code Section 7-201(c)(2) — commonly called the "Big Apple Pothole" law or "Pothole Law."
+
+90-DAY WRITTEN NOTICE RULE
+Before filing lawsuit against City of New York for personal injury or property damage caused by sidewalk, roadway, or street defect, claimant must have filed written notice of the defect with the Commissioner of Transportation (or appropriate agency) within 90 days AFTER the incident occurred.
+
+Notice must include:
+  Exact location (address, intersection, coordinates helpful)
+  Date and time of injury
+  Nature of defect (pothole depth, sidewalk flag condition)
+  Nature of injuries
+  Claimant contact information
+
+Failure to file 90-day notice can result in dismissal of claim against City — even if 3-year statute of limitations has not expired.
+
+EXCEPTIONS — PRIOR WRITTEN NOTICE TO CITY
+If City received prior written notice of the specific defect before your injury (e.g., 311 complaint, prior claimant notice on file), you may not need to file your own 90-day notice — City's prior knowledge satisfies statutory scheme.
+
+Search: NYC Open Data, 311 complaint history, FOIL requests for prior notices on same defect location.
+
+SIDEWALK LIABILITY — ADMINISTRATIVE CODE 7-210
+Adjacent property owner may be liable for sidewalk defect in many cases — City liability limited. After 2003 reforms, commercial property owners often primarily liable for sidewalk maintenance. Residential owner-occupied exceptions exist.
+
+Practical result: Trip on sidewalk — sue building owner AND potentially City if defect in roadway/pothole with proper notice.
+
+OTHER MUNICIPAL ENTITIES
+MTA (subway, bus) — separate claim procedures, MTA Bus Company notice requirements.
+NYCHA housing — housing authority claim process.
+State-owned property — different notice under Court of Claims.
+
+VOICE ASSISTANT CRITICAL SCRIPT
+Q: I tripped on a NYC sidewalk pothole. What deadline matters?
+A: Two deadlines. First, you generally must file written notice with NYC within 90 days of the injury for the defect claim against the City. Second, you have three years under CPLR 214 to file a lawsuit — but missing the 90-day notice can bar your claim against the City even if you're within three years. Also check whether the adjacent building owner is liable for the sidewalk. File 311 complaint and document the defect immediately with photos and measurements.
+
+
+================================================================================
+SECTION 4: SCAFFOLD LAW — LABOR LAW SECTION 240 (UNIQUE NEW YORK)
+================================================================================
+
+OVERVIEW
+New York Labor Law Section 240 — the "Scaffold Law" — imposes absolute liability on owners and general contractors for gravity-related injuries at construction, demolition, and repair sites.
+
+UNIQUE TO NEW YORK
+No other state has equivalent strict liability for elevation falls. Does NOT apply to typical grocery store slip-and-fall — applies to construction workplace gravity injuries.
+
+COVERED SCENARIOS
+Worker falls from ladder, scaffold, building edge.
+Worker struck by falling object (tools, debris, materials).
+Failure to provide proper safety devices — harness, guardrails, secure scaffold.
+
+Statute: "All contractors and owners and their agents... in the erection, demolition, repairing, altering, painting, cleaning or pointing of a building or structure shall furnish or erect... devices which shall be so constructed, placed and operated as to give proper protection to a person so employed."
+
+ABSOLUTE LIABILITY STANDARD
+If statutory violation (inadequate safety device) proximately caused injury, owner and general contractor liable — plaintiff's comparative fault often NOT reducible in 240 claims (see Blake v. Neighborhood Housing — comparative negligence generally not available to defendants in 241(6) and limited in 240 strict liability context — consult current case law).
+
+Labor Law 241(6) — Violation of industrial code regulations — negligence per se alternative theory.
+
+WHO CAN SUE
+Injured construction worker — typically against owner and general contractor, not employer if workers comp applies to employer.
+
+Third-party pedestrians struck by falling debris — may have 240 claim plus general negligence.
+
+SETTLEMENT VALUES — CONSTRUCTION 240
+Significant — falls from height cause catastrophic injury.
+Paralysis, TBI, multiple fractures — settlements $1M - $10M+ common when liability clear.
+Insurance coverage through owner and contractor policies.
+
+VOICE ASSISTANT DISTINCTION
+Q: Does Scaffold Law apply to my supermarket fall?
+A: No. Labor Law 240 applies to gravity-related injuries at construction sites — falls from heights or struck by falling objects during building work. A slip-and-fall in a store is a general premises liability case, not a Scaffold Law case.
+
+
+================================================================================
+SECTION 5: STATUTE OF LIMITATIONS — CPLR 214 AND RELATED DEADLINES
+================================================================================
+
+PERSONAL INJURY NEGLIGENCE — CPLR 214(5)
+Three years from date of injury to file lawsuit.
+
+Applies to: slip and fall, general negligence, dog bites, most premises cases, assault/battery negligence theories.
+
+New York's three-year window is longer than California and Texas (two years) — but evidence disappears quickly; do not delay.
+
+INTENTIONAL TORTS — CPLR 215(3)
+One year for intentional torts (assault, battery intentional).
+
+MEDICAL MALPRACTICE — CPLR 214-a
+Two years and six months from malpractice OR from end of continuous treatment by provider, with discovery rule in limited circumstances.
+
+WRONGFUL DEATH — CPLR 214(5)
+Two years from date of death.
+
+PROPERTY DAMAGE — CPLR 214(4)
+Three years.
+
+MUNICIPAL / GOVERNMENT
+90-day notice for NYC defects (Section 3 above).
+Notice of claim requirements for other municipalities — often 90 days to 6 months depending on entity (verify General Municipal Law 50-e for towns, villages, school districts).
+
+Court of Claims for state — 90-day notice of claim for suits against State of New York.
+
+MINORS
+Infancy toll — CPLR 208: Limitations tolled while minor under 18, then period begins running (typically 3 years from 18th birthday for negligence).
+
+DISCOVERY RULE
+Accrual generally at injury for general negligence. Malpractice and fraud have specialized discovery accrual rules.
+
+
+================================================================================
+SECTION 6: NO-FAULT INSURANCE — PIP $50,000, 30-DAY RULE, SERIOUS INJURY THRESHOLD
+================================================================================
+
+OVERVIEW
+New York is a no-fault auto insurance state. Mandatory Personal Injury Protection (PIP) pays basic economic loss regardless of fault up to $50,000 per person. To sue at-fault driver for pain and suffering, plaintiff must meet "serious injury" threshold under Insurance Law 5102(d).
+
+MANDATORY PIP — $50,000 BASIC ECONOMIC LOSS
+New York Insurance Law Article 51 (Comprehensive Motor Vehicle Insurance Reparations).
+
+Covers:
+  Medical and rehabilitation expenses — reasonable and necessary
+  Lost earnings — 80% of lost wages up to $2,000 per month
+  Other reasonable and necessary expenses — up to $25 per day for up to one year
+  Death benefit — $2,000 to estate
+
+Total basic economic loss cap: $50,000 per person per accident (unless optional additional PIP purchased).
+
+Applies to driver, passenger, pedestrian struck by vehicle in most scenarios.
+
+30-DAY APPLICATION RULE — CRITICAL
+No-fault application (NF-2 form) must be submitted to insurer within 30 days of accident.
+
+Missing 30-day deadline — insurer may deny PIP benefits entirely except very limited excusable delay arguments.
+
+This is the #1 administrative trap for New York auto accident victims.
+
+SERIOUS INJURY THRESHOLD — INSURANCE LAW 5102(d)
+To bring liability lawsuit for pain and suffering against at-fault motorist, plaintiff must prove serious injury:
+
+Categories include:
+  Death
+  Dismemberment
+  Significant disfigurement
+  Fracture
+  Loss of fetus
+  Permanent loss of use of body organ, member, function or system
+  Permanent consequential limitation of body organ or member
+  Significant limitation of use of body function or system — medically determined based on 90/180 rule
+  Medically determined injury or impairment of non-permanent nature which prevents substantial use of body organ or member for 90 days during first 180 days after accident
+
+90/180 RULE
+Soft tissue cases often hinge on this — must prove substantially limited from normal activities for 90 of first 180 days with medical documentation.
+
+Defense IME aggressively challenges 90/180 qualification.
+
+THRESHOLD NOT REQUIRED FOR
+Premises liability, dog bites, construction 240 claims, intentional torts — no-fault only applies to motor vehicle accidents.
+
+COORDINATION WITH HEALTH INSURANCE
+No-fault primary for auto-related medical bills first — health insurance secondary.
+
+Lost wage coordination — 80% up to $2,000/month from PIP.
+
+UNDERINSURED MOTORIST
+Optional UM/SUM coverage — sue own policy if at-fault driver lacks adequate insurance after threshold met.
+
+ADDITIONAL PIP (APIP)
+Optional purchase increases economic loss coverage beyond $50,000.
+
+
+================================================================================
+SECTION 7: DOG BITE LAW — MIXED SYSTEM, AGRICULTURE AND MARKETS LAW 121
+================================================================================
+
+OVERVIEW
+New York does not have full statewide strict liability for all dog bites like California. Mixed system combining strict liability for previously adjudicated "dangerous dogs" with negligence/common-law vicious propensity rule for other dogs.
+
+AGRICULTURE AND MARKETS LAW SECTION 121 — DANGEROUS DOG
+Strict liability if dog previously adjudicated "dangerous" by court or animal control and subsequently bites.
+
+Dangerous dog determination requires hearing — prior bite, attack, or menacing behavior.
+
+VICIOUS PROPENSITY RULE — COMMON LAW
+For non-adjudicated dogs, plaintiff must prove owner knew or should have known of vicious propensities.
+
+Evidence of vicious propensity:
+  Prior bites or attacks
+  Prior aggressive behavior toward people
+  Dog kept as guard dog, trained to attack
+  Owner warnings ("dog bites")
+  Prior complaints
+
+One-bite analysis still used — first bite without prior knowledge harder case.
+
+STRICT LIABILITY DISTINCTION FROM CALIFORNIA
+California: first bite = strict liability (CC 3342).
+New York: first bite = must prove knowledge of viciousness unless dangerous dog adjudication.
+
+NYC ADMINISTRATIVE CODE
+Leash laws, muzzle requirements for dangerous dogs.
+Violation supports negligence per se.
+
+LANDLORD LIABILITY
+Landlord may be liable if knew tenant kept vicious dog and had ability to remove — similar to other states.
+
+PRACTICAL STEPS
+Report to animal control — check dangerous dog registry.
+Medical care — infection, rabies.
+Identify owner and renter/homeowner insurance.
+Prior complaint history from neighbors.
+
+
+================================================================================
+SECTION 8: AVERAGE SETTLEMENTS AND VALUATION IN NEW YORK
+================================================================================
+
+VALUATION FRAMEWORK
+Specials plus pain-and-suffering multiplier.
+NYC higher than upstate for comparable injuries.
+No-fault auto: threshold met = full pain-and-suffering available; threshold not met = PIP economic only.
+
+PREMISES SLIP AND FALL — TYPICAL RANGES
+Minor soft tissue, no surgery: $10,000 - $40,000
+Moderate with MRI, injections: $50,000 - $175,000
+Surgery required: $150,000 - $500,000
+Permanent disability: $300,000 - $1.5M+
+NYC grocery with clear 20+ minute video notice: $75,000 - $300,000 moderate injury
+
+AUTO ACCIDENT — THRESHOLD MET
+Soft tissue meeting 90/180: $15,000 - $50,000
+Fracture: $75,000 - $250,000
+Herniated disc surgery: $150,000 - $500,000
+Catastrophic TBI/spinal cord: $1M - $10M+
+
+AUTO — THRESHOLD NOT MET
+Limited to $50,000 PIP economic benefits — no pain-and-suffering from at-fault driver.
+
+SCAFFOLD LAW 240 CONSTRUCTION
+Moderate fall injury: $500,000 - $2M
+Paralysis/catastrophic: $3M - $15M+ depending on coverage
+
+DOG BITE
+With vicious propensity proof: $50,000 - $300,000 moderate
+Facial scarring child: $150,000 - $600,000
+No prior knowledge — difficult case, $0 - $25,000
+
+REGIONAL VARIATION
+NYC boroughs: Plaintiff-friendly relative to upstate — Bronx, Brooklyn historically higher awards than Staten Island variance.
+Long Island (Nassau, Suffolk): Suburban moderate to high.
+Upstate rural: Lower multipliers, conservative juries.
+
+
+================================================================================
+SECTION 9: FINDING A NEW YORK PERSONAL INJURY LAWYER
+================================================================================
+
+WHEN TO HIRE
+Serious injury, surgery, permanent impairment
+Auto case — threshold dispute or high damages
+NYC 90-day pothole notice deadline approaching
+Scaffold Law construction injury
+Permanent scarring
+Wrongful death
+Complex multi-defendant case
+
+CONTINGENCY FEE
+Standard 33.33% pre-litigation, 40% after filing suit, 45% after trial verdict in some contracts.
+
+NY court approval required for minors' settlements.
+
+VERIFICATION
+NYS Unified Court System attorney search.
+New York State Bar Association referral — nysba.org.
+
+QUESTIONS FOR CONSULTATION
+Experience with 90-day NYC notice and FOIL prior notice searches?
+No-fault 30-day deadline handling?
+Serious injury threshold litigation experience?
+Labor Law 240 construction experience if applicable?
+Which boroughs do you typically litigate in?
+
+REFERRAL
+New York State Trial Lawyers Association — nystla.org
+NYC bar association referral panels.
+
+
+================================================================================
+APPENDIX A: NYC VS. UPSTATE JURY TENDENCIES
+================================================================================
+
+NYC BOROUGHS
+Manhattan: Corporate defendants, high income jurors, moderate to high awards.
+Brooklyn: Historically plaintiff-friendly, diverse pool.
+Bronx: Reputation for plaintiff-friendly verdicts in clear liability cases.
+Queens: Mixed suburban-urban, moderate awards.
+Staten Island: More conservative relative to other boroughs.
+
+Factors increasing NYC verdicts: high medical costs, high lost wage baselines, transit-related accidents, dense surveillance availability.
+
+UPSTATE NEW YORK
+Buffalo, Rochester, Syracuse, Albany — generally lower pain-and-suffering awards than NYC for comparable injuries.
+Rural upstate — conservative, lower multipliers.
+College towns (Ithaca) — mixed pools.
+
+
+================================================================================
+APPENDIX B: SNOW AND ICE PREMISES LIABILITY IN NEW YORK
+================================================================================
+
+STORM IN PROGRESS DOCTRINE
+During active storm, commercial property owner may not be liable for failure to remove accumulating snow/ice — natural accumulation doctrine.
+
+REASONABLE TIME AFTER STORM
+Once storm ends, owner must act within reasonable time to remediate — salt, plow, mop entrance tracked-in slush.
+
+Entrance mats in retail — recurring issue November through March.
+
+TIMING EVIDENCE
+Plaintiff must show ice existed long enough after storm for owner to remediate — weather service records, timestamp photos.
+
+GOVERNMENT SNOW CLAIMS
+City snow removal — notice requirements, prior written notice of defect location if chronic ice at same spot.
+
+
+================================================================================
+APPENDIX C: GROCERY STORE SLIP-AND-FALL PLAYBOOK — NEW YORK EDITION
+================================================================================
+
+AT SCENE — NYC OR UPSTATE
+Report to manager — Fairway, Whole Foods, Key Food, Stop & Shop, Trader Joe's.
+Photograph spill, frozen product melt, entrance slush.
+Note time precisely — constructive notice 15-20 minute analysis starts here.
+Get witness names — NYC bystanders often willing if approached respectfully.
+
+WITHIN 30 DAYS (IF AUTO ACCIDENT IN PARKING LOT)
+Separate no-fault deadline if struck by vehicle in lot — NF-2 to auto insurer.
+
+WITHIN 90 DAYS (IF CITY OWNS ADJACENT SIDEWALK DEFECT CONTRIBUTED)
+Big Apple notice if municipal defect involved.
+
+IMMEDIATE LEGAL PRIORITIES
+Spoliation letter — NYC stores often have HD surveillance overwritten in 14-30 days.
+Medical care same day — threshold documentation for any related auto component.
+
+DISCOVERY TARGETS
+Video with timestamps — prove 15+ minutes on floor.
+Prior incident reports same aisle — FOIL if government adjacent.
+Employee deposition on cleaning interval schedules.
+
+DEFENSE MOTIONS
+Summary judgment — no constructive notice as matter of law.
+Argue open and obvious, comparative fault.
+
+SETTLEMENT — MODERATE INJURY, 30-MINUTE VIDEO PROOF
+NYC: $80,000 - $250,000 pre-suit
+Upstate: $40,000 - $120,000 same profile
+
+LITIGATION IF
+Notice disputed
+Threshold case (parking lot auto component)
+Surgery required
+
+END OF NEW YORK PERSONAL INJURY LAW FIELD GUIDE

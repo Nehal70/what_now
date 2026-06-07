@@ -1,0 +1,757 @@
+═══════════════════════════════════════════════════════════════════════════════
+FLORIDA PERSONAL INJURY LAW — COMPLETE FIELD GUIDE
+WHAT NOW KNOWLEDGE BASE — VOICE ASSISTANT REFERENCE
+═══════════════════════════════════════════════════════════════════════════════
+
+Scope: Florida tort law, insurance interplay, procedural deadlines, and practical
+claim strategy for slip-and-fall, motor vehicle, dog bite, premises liability,
+wrongful death, and government claims.
+Audience: Injured Floridians, advocates, legal assistants, voice-assistant KB.
+Disclaimer: Educational reference only — not legal advice. Laws change; verify
+current statutes and consult a Florida-licensed attorney for your specific facts.
+
+Last updated: June 2026
+Primary statutes: Fla. Stat. Ch. 95 (limitations), Ch. 627 (PIP), Ch. 768 (torts),
+Ch. 767 (dogs), Ch. 440 (workers comp), Ch. 768.28 (sovereign immunity)
+
+TABLE OF CONTENTS
+─────────────────
+SECTION 1:  Overview — Florida as a Changed Legal Landscape (2023 Reform)
+SECTION 2:  Comparative Fault — HB 837 and the 51% Bar
+SECTION 3:  Statute of Limitations — 2-Year Deadline (Formerly 4 Years)
+SECTION 4:  No-Fault PIP — $10,000, 14-Day Rule, EMC Threshold
+SECTION 5:  Motor Vehicle Injury Threshold — When You Can Sue for Pain & Suffering
+SECTION 6:  Premises Liability — General Framework
+SECTION 7:  Slip and Fall on Transitory Substances — Fla. Stat. 768.0755
+SECTION 8:  Dog Bite Law — Fla. Stat. 767.04 Strict Liability
+SECTION 9:  Workers Compensation in Florida
+SECTION 10: Government / Sovereign Immunity Claims — 3-Year Framework
+SECTION 11: Settlement Ranges and Valuation in Florida
+SECTION 12: Top Florida Insurers and Adjuster Tactics
+SECTION 13: Florida-Specific Pitfalls — What Not to Do
+SECTION 14: Immediate Action Checklist for Florida Claimants
+APPENDIX A: Key Florida Statute Citations
+APPENDIX B: Voice Assistant Quick-Answer Scripts
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 1: OVERVIEW — FLORIDA AS A CHANGED LEGAL LANDSCAPE (2023 REFORM)
+═══════════════════════════════════════════════════════════════════════════════
+
+Florida historically was one of the most plaintiff-friendly states in America for
+personal injury litigation. House Bill 837 (2023), signed by Governor Ron DeSantis
+and effective March 24, 2023, fundamentally reshaped Florida tort law in favor of
+defendants and insurers. Two changes matter most for every injured person:
+
+CHANGE 1 — COMPARATIVE FAULT: Florida moved from PURE comparative negligence
+(you could recover even if 99% at fault, reduced proportionally) to MODIFIED
+comparative negligence with a 51% BAR. If a jury finds you MORE THAN 50% at fault,
+you recover NOTHING — zero dollars — regardless of how severe your injuries are.
+
+CHANGE 2 — STATUTE OF LIMITATIONS: Florida reduced the general negligence SOL
+from FOUR YEARS to TWO YEARS. Claims that previously could be filed within four
+years of injury must now be filed within two years. Missing this deadline is a
+PERMANENT BAR — courts lose jurisdiction and insurers know it.
+
+These reforms apply broadly to negligence actions filed on or after March 24, 2023.
+Existing cases filed before that date may be governed by prior law depending on
+accrual and filing dates — a transitional issue requiring attorney review.
+
+Other HB 837 provisions affecting injury claims include:
+- Modified bad-faith insurance claim standards (higher burden for insureds suing
+  their own carrier for unreasonable denial/delay)
+- Changes to how medical evidence is presented at trial (admissibility of certain
+  billing and treatment records)
+- Adjustments to how comparative fault is apportioned among defendants
+- Reduction of one-way attorney fee provisions in certain insurance disputes
+
+For voice assistant users: if the injury occurred before March 2023 but not yet
+filed, or if the two-year window is approaching, URGENCY is critical. Florida is
+no longer a "plenty of time" state for PI claims.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 2: COMPARATIVE FAULT — HB 837 AND THE 51% BAR
+═══════════════════════════════════════════════════════════════════════════════
+
+STATUTE: Fla. Stat. 768.81 (as amended by HB 837, effective March 24, 2023)
+
+RULE IN PLAIN LANGUAGE:
+Florida now uses modified comparative negligence. Each party's fault percentage is
+determined by the jury (or judge in bench trial). Your total damages are then
+REDUCED by your percentage of fault. If your fault exceeds 50%, you are BARRED
+from any recovery.
+
+FORMULA:
+Net Recovery = Total Damages × (100% − Your Fault %)
+If Your Fault > 50% → Recovery = $0
+
+WORKED EXAMPLES:
+
+Example 1 — Clear liability slip-and-fall:
+Total damages (medical + pain/suffering + lost wages): $200,000
+Jury finds you 10% at fault (looking at phone briefly)
+Recovery: $200,000 × 90% = $180,000
+
+Example 2 — Disputed liability car accident:
+Total damages: $500,000
+Jury finds you 35% at fault (following too closely in chain reaction)
+Recovery: $500,000 × 65% = $325,000
+
+Example 3 — 51% bar triggered:
+Total damages: $1,000,000 (catastrophic spinal injury)
+Jury finds you 51% at fault (failed to yield, disputed facts)
+Recovery: $0 — COMPLETE BAR despite million-dollar injuries
+
+Example 4 — Exactly 50% fault:
+Total damages: $100,000
+Jury finds you 50% at fault
+Recovery: $100,000 × 50% = $50,000
+Note: At exactly 50%, you CAN still recover. The bar applies only when fault is
+GREATER THAN 50% (i.e., 51% or more).
+
+HOW INSURERS USE THE 51% BAR:
+Florida adjusters now aggressively argue comparative fault in every claim:
+- "You weren't watching where you were walking" (premises)
+- "You stopped short" / "You were speeding" (auto)
+- "You provoked the dog" / "You ignored warning signs" (dog bite)
+- "You were wearing improper footwear" (slip-and-fall)
+- "Pre-existing condition means your fault for not protecting yourself"
+
+Recorded statements are weaponized to extract admissions supporting 51%+ fault.
+Even innocent phrases like "I guess I should have been more careful" can destroy
+a case under the new standard.
+
+DEFENSE STRATEGY FOR CLAIMANTS:
+- Never admit fault at the scene or to adjusters
+- Document hazard, lack of warnings, and defendant's control of premises
+- Obtain witness statements before memories fade
+- Preserve video before deletion (spoliation letter within 24 hours)
+- Do not give recorded statement without legal counsel in serious cases
+
+MULTIPLE DEFENDANTS:
+Under Fla. Stat. 768.81, fault is apportioned among all negligent parties.
+A defendant who pays more than their share may seek contribution from other
+at-fault parties. Joint and several liability rules were also modified by HB 837
+for certain categories of defendants — consult current statute for economic vs.
+noneconomic damages allocation among defendants.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 3: STATUTE OF LIMITATIONS — 2-YEAR DEADLINE (FORMERLY 4 YEARS)
+═══════════════════════════════════════════════════════════════════════════════
+
+STATUTE: Fla. Stat. 95.11(3)(a) — as amended effective March 24, 2023
+
+GENERAL NEGLIGENCE / PERSONAL INJURY: 2 YEARS from date cause of action accrues.
+Accrual is generally the DATE OF INJURY (accident date), not when you finish
+treatment or receive a diagnosis.
+
+PRIOR LAW: Before March 2023, Florida allowed 4 years for general negligence.
+Many people still believe they have 4 years — THIS IS WRONG for new claims.
+Insurers will not remind you of the deadline.
+
+OTHER FLORIDA LIMITATIONS PERIODS (selected):
+- Wrongful death: 2 years from date of death (Fla. Stat. 95.11(4)(d))
+- Medical malpractice: 2 years from discovery or when should have been discovered,
+  with outer limits — complex; consult Fla. Stat. 95.11(4)(b)
+- Intentional torts (assault/battery): 4 years (Fla. Stat. 95.11(3)(f))
+- Property damage: 4 years (Fla. Stat. 95.11(3)(p))
+- Contract actions: 5 years written, 4 years oral
+- Libel/slander: 2 years
+
+TOLLING EXCEPTIONS (limited — do not rely without attorney):
+- Minors: SOL may be tolled until age 18 for certain claims, then 2 years runs
+- Mental incapacity: tolling under Fla. Stat. 95.051
+- Defendant absent from state: possible tolling under Fla. Stat. 95.051(2)(a)
+- Fraudulent concealment: rare, high burden
+- Insurance negotiation does NOT toll SOL unless written agreement signed (extremely rare)
+
+CONSEQUENCE OF MISSING SOL:
+Filing even one day late = court dismisses case with prejudice = PERMANENT BAR.
+No amount of injury severity, clear liability, or insurer bad faith revives a
+time-barred claim in standard negligence actions.
+
+PRACTICAL TIMELINE:
+Injury date: January 15, 2025
+Last day to file lawsuit: January 15, 2027 (watch for weekend/holiday rules)
+Best practice: File or settle at least 90 days before deadline to avoid courthouse
+filing errors, server problems, or defendant identification delays.
+
+VOICE ASSISTANT ALERT PHRASE:
+"If your Florida injury happened more than 18 months ago and you haven't filed a
+lawsuit or settled, you are in the danger zone. Florida now has only a 2-year
+statute of limitations for personal injury."
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 4: NO-FAULT PIP — $10,000, 14-DAY RULE, EMC THRESHOLD
+═══════════════════════════════════════════════════════════════════════════════
+
+STATUTE: Fla. Stat. 627.736, 627.737 (Personal Injury Protection)
+
+Florida is a NO-FAULT auto insurance state. Every Florida registered vehicle must
+carry Personal Injury Protection (PIP) with minimum limits of $10,000.
+
+WHAT PIP COVERS (regardless of who caused the accident):
+- 80% of reasonable and necessary medical expenses
+- 60% of lost wages
+- 100% of replacement services (e.g., household help)
+- Death benefit up to $5,000 (separate from medical PIP)
+
+WHO PIP PAYS:
+Your OWN auto insurer pays PIP benefits — even if the other driver was 100% at
+fault. This is the "no-fault" system: you look first to your own policy.
+
+PIP follows the person in many scenarios:
+- You driving your insured car: your PIP
+- Passenger in insured Florida vehicle: that vehicle's PIP
+- Pedestrian struck by Florida insured vehicle: driver's PIP covers pedestrian
+- Out-of-state visitor: complex — may involve Florida resident's PIP or own state
+
+═══════════════════════════════════════════════════════════════════════════════
+THE 14-DAY RULE — CRITICAL — MOST COMMON FLORIDA PIP TRAP
+═══════════════════════════════════════════════════════════════════════════════
+
+Fla. Stat. 627.736(1)(a): PIP medical benefits are payable ONLY for services
+rendered within 14 DAYS after the motor vehicle accident.
+
+If you do NOT receive initial medical treatment within 14 days of the crash,
+you forfeit ALL PIP medical benefits — the entire $10,000 (or $2,500) is lost.
+
+WHAT COUNTS AS "INITIAL SERVICES":
+- Emergency room visit
+- Urgent care visit
+- Physician office visit
+- Chiropractic evaluation
+- Ambulance transport to medical facility
+- Telemedicine visit with licensed provider (if documented properly)
+
+WHAT DOES NOT SAVE PIP:
+- Calling your insurer within 14 days (insurer notification is separate requirement)
+- "Planning to go to the doctor"
+- Home rest without medical evaluation
+- Massage or non-licensed treatment without initial medical visit
+
+INSURER TACTIC: GEICO, Progressive, and State Farm Florida adjusters routinely
+deny PIP citing the 14-day rule. Document date of first treatment with timestamped
+medical records. If day 13-14, go to ER or urgent care immediately.
+
+═══════════════════════════════════════════════════════════════════════════════
+EMC THRESHOLD — $10,000 vs. $2,500 CAP
+═══════════════════════════════════════════════════════════════════════════════
+
+Even if you treat within 14 days, FULL $10,000 PIP is available ONLY if a licensed
+physician (MD or DO), dentist, physician assistant, or advanced registered nurse
+practitioner determines you suffered an EMERGENCY MEDICAL CONDITION (EMC).
+
+Without EMC certification: PIP medical benefits capped at $2,500.
+
+EMC DEFINITION (Fla. Stat. 627.732(16)):
+Medical condition manifesting itself by acute symptoms of sufficient severity
+that absence of immediate medical attention could reasonably be expected to result
+in serious jeopardy to patient health, serious impairment to bodily functions,
+or serious dysfunction of any bodily organ or part.
+
+PRACTICAL EMC EXAMPLES:
+- Broken bone, laceration requiring sutures, head trauma with concussion symptoms
+- Cervical strain with severe spasm documented on exam (physician discretion)
+- Soft tissue only with mild symptoms: EMC may NOT be certified → $2,500 cap
+
+Chiropractors alone CANNOT certify EMC under Florida law — physician-level provider
+must document EMC for full PIP.
+
+PIP EXCLUSIONS AND LIMITS:
+- Massage therapy, acupuncture limited post-reform
+- Non-emergency treatment after EMC determination follows fee schedule
+- Deductible ($500 or $1,000) and co-pay (20% medical) reduce net payment
+- Death within 90 days of accident: PIP may pay remaining benefits to estate
+
+PIP CLAIM FILING:
+Notify your insurer promptly (policy may require "as soon as practicable").
+Complete Application for Benefits (form from insurer).
+Insurer has 30 days to pay or deny each claim with explanation.
+Disputes go to PIP mediation or court — attorney fees limited post-HB 837.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 5: MOTOR VEHICLE INJURY THRESHOLD — PAIN & SUFFERING LAWSUIT
+═══════════════════════════════════════════════════════════════════════════════
+
+STATUTE: Fla. Stat. 627.737
+
+Because Florida is no-fault for auto, you generally CANNOT sue the at-fault driver
+for pain and suffering, lost wages beyond PIP, or general damages UNLESS you meet
+the "serious injury" / tort threshold:
+
+You must prove ONE of the following:
+1. Significant and permanent loss of an important bodily function
+2. Permanent injury within a reasonable degree of medical probability
+3. Significant and permanent scarring or disfigurement
+4. Death
+
+Without meeting threshold: limited to PIP benefits + property damage claim.
+With threshold met: full tort claim against at-fault driver including pain and
+suffering, full lost wages, future medical, loss of consortium.
+
+Threshold requires medical expert testimony in most cases — not just your complaint
+of ongoing pain. MRI showing herniation, surgical recommendation, or physician
+affidavit of permanency commonly used.
+
+Bodily Injury (BI) liability limits on at-fault driver's policy then cap recovery.
+Florida minimum BI limits (as commonly cited): $10,000 per person / $20,000 per
+accident — many drivers carry only minimums. UM/UIM on YOUR policy critical.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 6: PREMISES LIABILITY — GENERAL FRAMEWORK
+═══════════════════════════════════════════════════════════════════════════════
+
+Business and property owners in Florida owe a duty of reasonable care to invitees
+(persons invited onto property for business purposes — customers, clients, guests
+of commercial establishments). Homeowners owe similar duties to social guests and
+invitees; trespassers receive lesser duties.
+
+ELEMENTS OF PREMISES NEGLIGENCE (general):
+1. Duty — defendant owned, occupied, or controlled the property
+2. Breach — failed to maintain safe conditions or warn of known hazards
+3. Causation — hazardous condition caused the fall/injury
+4. Damages — medical bills, pain/suffering, lost wages, etc.
+
+NOTICE is central in Florida premises cases:
+- ACTUAL NOTICE: owner/employee knew of hazard ( saw spill, knew broken step)
+- CONSTRUCTIVE NOTICE: hazard existed long enough that owner should have discovered
+  it through reasonable inspection and maintenance
+
+KEY FLORIDA CASES (background):
+- Owens v. Publix Super Markets: constructive notice can be inferred from hazard
+  duration or recurring nature of similar incidents
+- Post-2010 and post-2023 reforms narrowed "mode of operation" theories for
+  transitory substances — see Section 7 for current statutory standard
+
+TYPES OF PREMISES CASES:
+- Slip-and-fall on wet floor, spilled liquid, tracked-in rain
+- Trip-and-fall on uneven flooring, carpet defects, parking lot potholes
+- Inadequate lighting in stairwells or parking garages
+- Swimming pool drowning / inadequate fencing (Florida pool safety statutes)
+- Negligent security (assault in parking lot with known crime history)
+- Elevator/escalator malfunction
+- Construction site hazards
+
+DEFENSES PROPERTY OWNERS RAISE:
+- Open and obvious danger (should have seen hazard)
+- Comparative fault (51% bar arguments)
+- Lack of notice (especially transitory substances under 768.0755)
+- Assumption of risk
+- Idempotent condition (minor defect not actionable)
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 7: SLIP AND FALL ON TRANSITORY SUBSTANCES — FLA. STAT. 768.0755
+═══════════════════════════════════════════════════════════════════════════════
+
+STATUTE: Fla. Stat. 768.0755 — Actions against persons or entities in business
+of owning, operating, or managing business or retail establishment for damages
+related to transitory foreign substance in business establishment.
+
+This statute is THE defining law for grocery store, big-box, restaurant, and
+retail slip-and-fall cases involving spills, liquids, and other transitory
+(not permanently fixed) substances on floors.
+
+THE STATUTORY REQUIREMENT — PLAINTIFF'S BURDEN:
+In a slip-and-fall action arising from transitory foreign substance, the injured
+person must PROVE that the business establishment had ACTUAL or CONSTRUCTIVE
+knowledge of the dangerous condition and should have taken action to remedy it.
+
+CONSTRUCTIVE KNOWLEDGE — plaintiff must prove ONE of two pathways:
+
+PATHWAY A — TIME/DURATION:
+The dangerous condition existed for such a length of time that, in the exercise of
+ordinary care, the business establishment should have known of the condition.
+
+Translation: The spill sat on the floor long enough that a reasonable store with
+proper inspection procedures would have found and cleaned it. Plaintiff must
+present evidence of duration — employee testimony, video showing spill present
+for 30+ minutes, circumstantial evidence of foot traffic through spill.
+
+PATHWAY B — REGULARITY/FORESEEABILITY:
+The condition occurred with regularity and was therefore reasonably foreseeable.
+
+Translation: Spills of this type happen routinely in this area (e.g., self-serve
+drink station, produce mister, entrance on rainy days) and the store should have
+anticipated and guarded against it with mats, inspections, or warnings.
+
+WHAT 768.0755 ELIMINATED / LIMITED:
+The "mode of operation" doctrine — which allowed inference of notice from the
+very nature of how the business operates (e.g., "they sell liquids, spills happen")
+— was substantially curtailed. Plaintiffs can no longer rely solely on mode of
+operation; they must prove actual/constructive knowledge under the statutory test.
+
+PROCEDURAL REQUIREMENT:
+Plaintiff must prove notice as part of case in chief BEFORE resting — cannot wait
+to respond only to defense arguments. Failure to meet burden = directed verdict
+for defendant.
+
+EVIDENCE TO PROVE 768.0755 ELEMENTS:
+- Surveillance video (request preservation immediately — spoliation letter day 1)
+- Incident reports showing prior spills at same location
+- Employee statements ("I knew the floor was wet")
+- Rain logs / customer traffic on wet days at entrance
+- Inspection logs (or lack thereof — discovery)
+- Photographs of spill pattern, size, tracking (shows duration)
+- OSHA or health department prior violations
+
+DEFENDANT EVIDENCE:
+- "Clean as you go" policies and sweep logs every 30 minutes
+- Warning cones immediately placed
+- Spill occurred seconds before fall (no time for notice)
+- Plaintiff caused spill (dropped own item)
+- Open and obvious wet floor with visible cone
+
+PUBLIX, WALMART, TARGET, WINN-DIXIE, ALDI FLORIDA:
+These defendants fight 768.0755 cases aggressively. National counsel, video
+preservation teams, and comparative fault at 51% bar are standard. Early attorney
+involvement improves video preservation and discovery success rate dramatically.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 8: DOG BITE LAW — FLA. STAT. 767.04 STRICT LIABILITY
+═══════════════════════════════════════════════════════════════════════════════
+
+STATUTE: Fla. Stat. 767.04 — Dog owner liability for damages to persons bitten
+
+Florida is a STRICT LIABILITY state for dog bites — one of the most victim-friendly
+dog bite regimes in America. Unlike Texas "one-bite rule," Florida does NOT require
+proof that the owner knew the dog was vicious or had bitten before.
+
+THE RULE:
+Dog owner is liable for any damage done by their dog to a person bitten, if the
+person is bitten while on or in a public place, OR lawfully on or in private
+property including the property of the dog owner.
+
+"Lawfully" on private property includes:
+- Invitees (mail carrier, delivery driver, guest invited by owner)
+- Person performing duty imposed by law
+- Person on property at owner's implied or express invitation
+
+OWNER LIABILITY IS AUTOMATIC if:
+- Bite occurred
+- Victim was lawfully present
+- No applicable defense applies
+
+DEFENSES UNDER 767.04:
+
+DEFENSE 1 — PROVOCATION / NEGLIGENCE OF VICTIM:
+If victim's negligence contributed, damages reduced by victim's fault percentage
+under comparative fault (51% bar applies). Owner must prove victim teased, tormented,
+abused, or unreasonably provoked dog.
+
+DEFENSE 2 — TRESPASSING WITH WARNINGS:
+If victim trespassed on owner's property AND owner had displayed readable sign
+"Bad Dog" or equivalent warning at least 2 inches high in prominent place on
+premises — owner may avoid liability UNLESS victim is child under 6 years old.
+
+THE "BAD DOG" SIGN DEFENSE — DETAILS:
+- Sign must be easily readable
+- Must warn of bad dog (not just "Beware of Dog" in all contexts — courts analyze)
+- Applies to trespassers on private property, NOT to lawful invitees on business
+- Does NOT protect owner if victim under age 6
+- Does NOT apply if owner was negligent independent of sign (e.g., leash law violation)
+
+DEFENSE 3 — COMPARATIVE FAULT:
+Victim's percentage of fault reduces recovery. At 51%+ fault, recovery barred.
+
+HOMEOWNERS INSURANCE:
+Most dog bite claims paid through homeowner's or renter's liability coverage.
+Breed exclusions common: Pit Bull, Rottweiler, Doberman, Akita, Chow, wolf-hybrid.
+Some Florida insurers refuse coverage or cancel after bite claim.
+
+LANDLORD LIABILITY:
+Landlord may be liable if landlord knew or should have known tenant's dog was
+dangerous and failed to act — separate from 767.04 strict owner liability.
+
+LOCAL LEASH ORDINANCES:
+Violation of county leash law supports negligence per se argument but 767.04
+strict liability applies to owner regardless of prior knowledge.
+
+REPORTING:
+Report dog bite to county Animal Control immediately — creates official record,
+documents vaccination status, may trigger dangerous dog investigation.
+
+SETTLEMENT NOTE:
+Dog bite cases often involve facial scarring (permanent injury threshold for auto
+doesn't apply — this is premises/strict liability). Scarring on child or woman
+typically commands higher settlement/verdict ranges.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 9: WORKERS COMPENSATION IN FLORIDA
+═══════════════════════════════════════════════════════════════════════════════
+
+STATUTE: Fla. Stat. Ch. 440
+
+Workers compensation is the EXCLUSIVE REMEDY against your employer for workplace
+injuries in most cases — you cannot sue your employer for negligence if covered
+by comp (exceptions: intentional harm, no coverage when required).
+
+COVERAGE REQUIREMENTS:
+- Construction industry: employer with 1+ employee must carry workers comp
+- Non-construction: generally 4+ employees
+- Agricultural: 6+ regular employees, 12+ seasonal
+
+BENEFITS:
+- Medical benefits: all authorized reasonable and necessary treatment
+- Temporary total disability (TTD): ~66.67% of average weekly wage
+- Temporary partial disability (TPD)
+- Permanent impairment benefits based on Florida impairment rating schedule
+- Death benefits to dependents
+
+FILING DEADLINES:
+Report injury to employer within 30 days (sooner is critical — insurers deny late
+reporting). Petition for benefits with OWCP/JCC within 2 years of injury or 1 year
+after last indemnity payment — complex tolling rules apply.
+
+THIRD-PARTY CLAIMS:
+If defective equipment, negligent driver, or property owner (not employer) caused
+injury, you may have BOTH workers comp claim AND separate personal injury lawsuit
+against third party. Comp carrier may assert lien on third-party recovery.
+
+CONSTRUCTION / SUBCONTRACTOR ISSUES:
+Florida construction sites often involve multiple employers — proper defendant
+identification requires attorney analysis of who was statutory employer.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 10: GOVERNMENT / SOVEREIGN IMMUNITY CLAIMS — 3-YEAR FRAMEWORK
+═══════════════════════════════════════════════════════════════════════════════
+
+STATUTE: Fla. Stat. 768.28 — Waivers of sovereign immunity in tort actions;
+limitation on liability.
+
+Suing Florida state agencies, counties, cities, school boards, or other government
+entities requires navigating SOVEREIGN IMMUNITY — special rules beyond ordinary PI.
+
+NOTICE AND FILING REQUIREMENTS:
+Before filing lawsuit against state agency or instrumentality, claimant must
+PRESENT WRITTEN NOTICE OF CLAIM to the agency and Department of Financial Services.
+Agency has 6 months to investigate and respond (deny or offer settlement).
+Lawsuit generally cannot be filed until claim denied or 6 months expire without action.
+
+LIMITATION PERIOD — 3 YEARS:
+Action against state or agency for negligence must be commenced within THREE YEARS
+after the cause of action accrues (date of injury), subject to notice requirements.
+
+This 3-year period is LONGER than the general 2-year PI SOL but requires EARLIER
+administrative steps. Missing notice can bar claim even if within 3 years.
+
+DAMAGE CAPS (768.28):
+- $200,000 per person / $300,000 per incident against state or local government
+  (unless legislature passes claim bill for excess — rare, slow process)
+- No punitive damages against government entities
+- Interest limited
+
+LOCAL GOVERNMENT (cities, counties):
+Also governed by 768.28 with similar notice requirements. Some charter counties
+have additional pre-suit procedures. Always identify correct entity — suing wrong
+government unit wastes time and may blow deadlines.
+
+EXAMPLES OF GOVERNMENT DEFENDANTS:
+- City bus (transit authority) pedestrian strike
+- Slip on wet floor in county courthouse
+- School district playground injury
+- State highway maintenance pothole crash
+- Police vehicle accident (emergency vehicle rules may apply)
+
+PRACTICAL ADVICE:
+Government claims in Florida are procedurally unforgiving. Consult attorney within
+first 90 days of injury if any government entity may be liable. Do NOT wait until
+year 2 of general SOL thinking you have time — notice requirements may have already
+expired.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 11: SETTLEMENT RANGES AND VALUATION IN FLORIDA
+═══════════════════════════════════════════════════════════════════════════════
+
+Settlement values vary by county (Miami-Dade vs. rural Panhandle), injury severity,
+liability clarity, insurance limits, and post-2023 jury conservatism. Ranges below
+are illustrative pre-suit / mediation ranges, not guarantees.
+
+SLIP-AND-FALL (retail, clear liability, 768.0755 met):
+- Minor soft tissue, 6-8 weeks treatment: $5,000 – $25,000
+- Moderate injury, chiropractic + PT, 3-6 months: $25,000 – $75,000
+- MRI positive disc bulge, no surgery: $50,000 – $150,000
+- Surgery (lumbar fusion, rotator cuff): $100,000 – $350,000+
+- Hip fracture elderly with complications: $150,000 – $500,000+
+
+MOTOR VEHICLE (threshold met, clear liability):
+- Soft tissue only: $8,000 – $30,000
+- Herniated disc, injections: $40,000 – $120,000
+- Surgery with permanent impairment: $100,000 – $400,000+
+- Catastrophic TBI / spinal cord: policy limits pursuit ($100K-$1M+)
+
+DOG BITE:
+- Minor bite, no scar: $3,000 – $15,000
+- Significant scarring, single surgery: $25,000 – $100,000
+- Facial scar child, multiple procedures: $75,000 – $300,000+
+
+FACTORS REDUCING FLORIDA SETTLEMENTS POST-HB 837:
+- 51% comparative fault arguments
+- Shorter SOL pressure (insurers delay then offer low at deadline)
+- EMC/PIP disputes reducing documented medical specials
+- Conservative jury pools in certain circuits
+
+SETTLEMENT PROCESS:
+1. Complete treatment to MMI (maximum medical improvement)
+2. Demand letter with medical records, bills, lost wage proof
+3. Negotiation with adjuster (30-90 days typical)
+4. Mediation (court-ordered or voluntary)
+5. If no resolution — file before SOL and litigate
+
+Liens to resolve from settlement:
+- Health insurance subrogation (ERISA plans aggressive in Florida)
+- Medicare/Medicaid
+- PIP carrier subrogation in some scenarios
+- Workers comp lien on third-party recovery
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 12: TOP FLORIDA INSURERS AND ADJUSTER TACTICS
+═══════════════════════════════════════════════════════════════════════════════
+
+STATE FARM — Largest FL auto market share. Hurricane claims experience applied to
+injury documentation demands. Quick recorded statement. 51% bar arguments.
+
+GEICO — Aggressive 14-day PIP denial. Fast lowball before MRI. Mass-market adjusters
+with high caseloads.
+
+PROGRESSIVE — Snapshot telematics used to argue driving behavior. Quick settlement
+push before full diagnosis.
+
+ALLSTATE — Colossus software standardized low offers. Pre-existing condition focus.
+Independent Medical Exams early.
+
+CITIZENS PROPERTY — Primarily property but commercial lines touch injury claims.
+
+UNIVERSAL PROPERTY / FLORIDA PENINSULA — Property-focused; injury on insured premises.
+
+PIP-specific carriers (Direct General, etc.) — Strict fee schedule enforcement.
+
+TACTICS UNIVERSAL IN FLORIDA POST-2023:
+- Delay until SOL pressure
+- Recorded statement fishing for 51% fault
+- 14-day PIP technical denials
+- Full medical history HIPAA requests (10+ years)
+- Surveillance in moderate+ value claims
+- IME doctor selected by insurer disputing treatment necessity
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 13: FLORIDA-SPECIFIC PITFALLS — WHAT NOT TO DO
+═══════════════════════════════════════════════════════════════════════════════
+
+DO NOT miss the 14-day PIP medical treatment window — most catastrophic preventable
+loss in Florida auto claims.
+
+DO NOT assume 4-year statute of limitations — it is 2 years for negligence.
+
+DO NOT admit fault at scene, in incident report, or recorded statement — 51% bar.
+
+DO NOT give recorded statement to at-fault insurer without counsel in serious cases.
+
+DO NOT sign broad medical authorization or blanket release.
+
+DO NOT post injury activities on social media — surveillance and social media review
+standard in Florida.
+
+DO NOT skip reporting to store manager in writing for premises cases — creates
+documentation gap.
+
+DO NOT ignore government notice requirements — 3-year limit useless without proper claim
+presentation to agency.
+
+DO NOT treat with only non-physician providers for EMC determination if full PIP needed.
+
+DO NOT settle before MMI while still treating — forecloses future damages.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 14: IMMEDIATE ACTION CHECKLIST FOR FLORIDA CLAIMANTS
+═══════════════════════════════════════════════════════════════════════════════
+
+SAME DAY:
+□ Seek medical care (within 14 days mandatory for auto PIP)
+□ Photograph scene, hazard, injuries, footwear, warnings (or lack)
+□ Report incident to property manager / obtain incident report number
+□ Get witness names and phone numbers
+□ File police report if auto accident or dog bite with injury
+□ Notify YOUR auto insurer if MVA (PIP requirement)
+□ Do NOT give recorded statement to at-fault party's insurer
+
+WITHIN 7 DAYS:
+□ Follow up medical treatment, document all symptoms
+□ Send spoliation letter to store/property owner preserving video
+□ Consult personal injury attorney (free consultation standard)
+□ Document lost wages with employer letter
+□ Start journal of pain levels and daily limitations
+
+WITHIN 30 DAYS:
+□ Continue consistent medical treatment (gaps used against you)
+□ Report dog bite to Animal Control if applicable
+□ Identify all insurance policies (auto, homeowners, umbrella)
+□ If government property involved — begin notice of claim process IMMEDIATELY
+
+ONGOING:
+□ Attend all medical appointments
+□ Do not miss SOL — calendar 2-year deadline day one
+□ Preserve all bills, EOBs, receipts
+□ Avoid social media posts about case or physical activity
+
+
+═══════════════════════════════════════════════════════════════════════════════
+APPENDIX A: KEY FLORIDA STATUTE CITATIONS
+═══════════════════════════════════════════════════════════════════════════════
+
+Fla. Stat. 768.81 — Comparative fault (51% bar, HB 837)
+Fla. Stat. 95.11(3)(a) — 2-year negligence SOL
+Fla. Stat. 627.736 — PIP benefits, 14-day rule
+Fla. Stat. 627.737 — Tort threshold for auto pain/suffering
+Fla. Stat. 768.0755 — Transitory substance slip-and-fall
+Fla. Stat. 767.04 — Dog bite strict liability
+Fla. Stat. 768.28 — Sovereign immunity waiver, 3-year limit, caps
+Fla. Stat. Ch. 440 — Workers compensation
+
+
+═══════════════════════════════════════════════════════════════════════════════
+APPENDIX B: VOICE ASSISTANT QUICK-ANSWER SCRIPTS
+═══════════════════════════════════════════════════════════════════════════════
+
+Q: "How long do I have to sue in Florida?"
+A: "Florida now has a 2-year statute of limitations for personal injury negligence
+claims. That changed in March 2023 from 4 years. The clock usually starts on the
+date you were injured."
+
+Q: "What is the 51% bar?"
+A: "Since March 2023, if you are found more than 50% at fault for your injury in
+Florida, you recover nothing. At 50% or less, your award is reduced by your fault
+percentage."
+
+Q: "What is the Florida 14-day PIP rule?"
+A: "After a Florida car accident, you must receive initial medical treatment within
+14 days to get any PIP medical benefits from your auto insurance. Without an
+emergency medical condition certified by a physician, benefits cap at $2,500
+instead of $10,000."
+
+Q: "Is Florida a one-bite rule state for dogs?"
+A: "No. Florida has strict liability under Statute 767.04. The dog owner is liable
+for a bite if you were lawfully on the property, even if the dog never bit anyone
+before. A Bad Dog sign may protect the owner only against trespassers, not guests
+or children under six."
+
+Q: "How do I win a grocery store slip-and-fall in Florida?"
+A: "Under Statute 768.0755, you must prove the store had actual or constructive
+knowledge of the spill — either it existed long enough they should have found it,
+or spills like that happened regularly and were foreseeable. You must prove this
+before resting your case."
+
+END OF FLORIDA PERSONAL INJURY LAW KNOWLEDGE BASE

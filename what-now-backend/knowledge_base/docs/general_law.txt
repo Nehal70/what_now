@@ -1,0 +1,1225 @@
+═══════════════════════════════════════════════════════════════════════════════
+GENERAL UNITED STATES PERSONAL INJURY LAW — COMPLETE FIELD GUIDE
+WHAT NOW KNOWLEDGE BASE — VOICE ASSISTANT REFERENCE
+═══════════════════════════════════════════════════════════════════════════════
+
+Scope: Universal tort principles, negligence elements, comparative fault by state,
+statutes of limitation nationwide, post-injury checklists, attorney decision matrix,
+special doctrines (eggshell plaintiff, spoliation), government claims overview,
+mediation, and settlement fundamentals.
+Audience: Injured persons nationwide, advocates, legal assistants, voice-assistant KB.
+Disclaimer: Educational reference only — not legal advice. State laws vary and change.
+Always verify current statutes and consult a licensed attorney in your jurisdiction.
+
+Last updated: June 2026
+Coverage: All 50 U.S. states + District of Columbia where noted
+
+TABLE OF CONTENTS
+─────────────────
+SECTION 1:  What Is a Personal Injury Claim?
+SECTION 2:  The Four Elements of Negligence — Duty, Breach, Causation, Damages
+SECTION 3:  Comparative Fault Systems — Complete 50-State Classification
+SECTION 4:  Statute of Limitations — All 50 States Reference Table
+SECTION 5:  Universal Post-Injury Checklist — Immediately / Same Day / Week / Ongoing
+SECTION 6:  When You Need a Lawyer vs. When You May Handle It Yourself
+SECTION 7:  Contingency Fees and Legal Costs Explained
+SECTION 8:  The Eggshell Plaintiff Rule
+SECTION 9:  Spoliation of Evidence — Preservation and Consequences
+SECTION 10: Government Claims Overview — Federal, State, Local
+SECTION 11: Mediation in Personal Injury Cases
+SECTION 12: Types of Damages — Economic and Non-Economic
+SECTION 13: Common Defenses Insurers Raise
+SECTION 14: Settlement Fundamentals and Timeline
+APPENDIX A: Voice Assistant Quick-Answer Scripts
+APPENDIX B: Glossary of Key Terms
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 1: WHAT IS A PERSONAL INJURY CLAIM?
+═══════════════════════════════════════════════════════════════════════════════
+
+A personal injury claim is a legal demand for monetary compensation from a person,
+business, or entity whose wrongful conduct caused physical, emotional, or financial
+harm to another. Most personal injury cases are civil tort actions based on
+NEGLIGENCE — failure to exercise reasonable care.
+
+COMMON PERSONAL INJURY CASE TYPES:
+- Motor vehicle accidents (car, truck, motorcycle, pedestrian, bicycle)
+- Slip-and-fall / trip-and-fall (premises liability)
+- Dog bites and animal attacks
+- Workplace injuries (workers compensation — separate system — plus third-party tort)
+- Medical malpractice
+- Product liability (defective products)
+- Nursing home abuse and neglect
+- Wrongful death (survival and wrongful death statutes)
+- Assault and battery (when insurance coverage available)
+- Negligent security (inadequate property security leading to assault)
+
+TWO PATHS TO RESOLUTION:
+1. INSURANCE CLAIM / PRE-SUIT NEGOTIATION — demand letter, adjuster negotiation,
+   mediation, settlement agreement
+2. LAWSUIT — complaint filed in civil court, discovery, trial or settlement during litigation
+
+Most cases settle without trial. Trial is backup when insurer denies liability or
+lowballs damages beyond reasonable negotiation range.
+
+KEY DISTINCTION — INSURANCE CLAIM vs. LAWSUIT:
+Reporting claim to insurer starts administrative process. Filing lawsuit is legal
+action subject to statute of limitations. Negotiating with adjuster does NOT stop
+SOL clock in any state unless rare written tolling agreement.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 2: THE FOUR ELEMENTS OF NEGLIGENCE — DUTY, BREACH, CAUSATION, DAMAGES
+═══════════════════════════════════════════════════════════════════════════════
+
+To win a negligence personal injury case, plaintiff must prove ALL FOUR elements
+by a preponderance of the evidence (more likely true than not — 51%+ certainty).
+
+───────────────────────────────────────────────────────────────────────────────
+ELEMENT 1: DUTY OF CARE
+───────────────────────────────────────────────────────────────────────────────
+
+DEFINITION:
+Legal obligation to conform to a standard of reasonable conduct to avoid foreseeable
+harm to others.
+
+WHO OWES DUTY TO WHOM — EXAMPLES:
+
+DRIVER TO OTHER ROAD USERS:
+Every motorist owes duty to drive reasonably — obey traffic laws, maintain attention,
+control vehicle. Extends to pedestrians, cyclists, passengers.
+
+STORE OWNER TO CUSTOMERS (INVITEES):
+Business open to public owes duty to maintain safe premises, inspect for hazards,
+warn of or fix dangerous conditions. Applies to Walmart, restaurants, hotels, offices.
+
+HOMEOWNER TO SOCIAL GUESTS:
+Homeowner owes duty of reasonable care to invited guests — fix known hazards or warn.
+Lesser duty to undiscovered trespassers; higher in some states for child trespassers
+(attractive nuisance doctrine).
+
+LANDLORD TO TENANT:
+Landlord owes duty to maintain common areas, respond to habitability hazards, secure
+known security risks in many jurisdictions.
+
+DOCTOR TO PATIENT:
+Healthcare provider owes professional standard of care — same as reasonably prudent
+physician in same specialty under similar circumstances.
+
+MANUFACTURER TO CONSUMER:
+Product maker owes duty to design and manufacture safe products with adequate warnings.
+
+NO DUTY SITUATIONS (examples):
+- No general duty to rescue strangers (with exceptions)
+- No duty to protect against open and obvious hazards in many states
+- No duty to control third persons except special relationships (landlord-tenant,
+  employer-employee in limited contexts)
+
+───────────────────────────────────────────────────────────────────────────────
+ELEMENT 2: BREACH OF DUTY
+───────────────────────────────────────────────────────────────────────────────
+
+DEFINITION:
+Defendant failed to meet the standard of care — acted unreasonably or failed to act
+when reasonable person would have acted.
+
+BREACH = UNREASONABLE CONDUCT under the circumstances.
+
+EXAMPLES BY CASE TYPE:
+
+AUTO ACCIDENT BREACH:
+- Running red light
+- Texting while driving (negligence per se if statute violated)
+- Following too closely, rear-end collision
+- Driving under influence
+- Failing to yield at crosswalk
+
+SLIP-AND-FALL BREACH:
+- Employee mopped floor, no warning cone placed
+- Known broken step not repaired for months
+- Inadequate lighting in stairwell where fall occurred
+- Failure to inspect premises on reasonable schedule
+- Ice accumulation from owner's drainage design (unnatural accumulation)
+
+DOG BITE BREACH (in non-strict-liability states):
+- Owner knew dog was aggressive, failed to restrain
+- Violation of leash ordinance (negligence per se)
+Note: Strict liability states (FL, IL, CA, etc.) may not require separate breach proof
+
+WORKPLACE THIRD-PARTY BREACH:
+- Equipment manufacturer failed to guard dangerous machinery
+- General contractor failed to enforce safety standards at construction site
+
+NEGLIGENCE PER SE:
+Violation of safety statute/regulation that causes the type of harm the law was
+designed to prevent = automatic breach (still must prove causation and damages).
+Example: Building code violation — missing handrail on stairs — tenant falls.
+
+───────────────────────────────────────────────────────────────────────────────
+ELEMENT 3: CAUSATION (Actual Cause + Proximate Cause)
+───────────────────────────────────────────────────────────────────────────────
+
+CAUSATION has two components in most jurisdictions:
+
+ACTUAL CAUSE (cause-in-fact):
+"But-for" test: But for defendant's breach, would injury have occurred?
+Example: But for store leaving spill unattended 45 minutes, customer would not
+have slipped and fractured wrist. Causation satisfied.
+
+Alternative tests in complex cases: substantial factor test when multiple causes.
+
+PROXIMATE CAUSE (legal cause):
+Was injury a foreseeable result of defendant's breach? Not too remote?
+Example: Driver runs red light, hits car, victim breaks leg — foreseeable.
+Example (often breaks proximate cause): Driver runs red light, victim in crash has
+heart attack from stress unrelated to physical trauma — disputed proximate cause.
+
+INTERVENING CAUSES:
+Subsequent events that break chain of causation may shield original wrongdoer.
+Superseding intervening cause (intentional criminal act of third party) may cut
+liability — unless defendant's negligence made harm foreseeable (negligent security).
+
+MEDICAL CAUSATION:
+Physician testimony often required linking accident to injury diagnosis.
+Pre-existing conditions complicate but do not eliminate causation (see eggshell
+plaintiff rule, Section 8).
+
+COMPARATIVE FAULT INTERACTION:
+If plaintiff also negligent, causation of damages apportioned by fault percentages.
+
+───────────────────────────────────────────────────────────────────────────────
+ELEMENT 4: DAMAGES
+───────────────────────────────────────────────────────────────────────────────
+
+DEFINITION:
+Quantifiable harm resulting from defendant's breach and causation.
+
+Without damages, no compensation — even if duty, breach, and causation proven.
+
+ECONOMIC (SPECIAL) DAMAGES — dollar amounts documented:
+- Past medical expenses (ER, surgery, PT, prescriptions, future medical if proven)
+- Lost wages (time missed from work)
+- Loss of earning capacity (future income reduction from permanent impairment)
+- Property damage (vehicle repair, destroyed personal property)
+- Out-of-pocket costs (medical equipment, transportation to treatment)
+
+NON-ECONOMIC (GENERAL) DAMAGES — pain and suffering:
+- Physical pain
+- Emotional distress, anxiety, PTSD
+- Loss of enjoyment of life
+- Disfigurement and scarring
+- Loss of consortium (spouse's claim for loss of companionship)
+- Permanent disability and impairment
+
+PUNITIVE DAMAGES (rare in negligence):
+Punish egregious conduct (drunk driving, intentional harm). Not available against
+government entities in most jurisdictions. Capped in many states.
+
+EXAMPLE — FULL ELEMENTS WALKTHROUGH (Grocery Store Fall):
+
+DUTY: Store owed customer reasonable care to maintain safe shopping floor.
+BREACH: Store employee created wet floor, failed to cone or clean for 40 minutes
+  (proven by video). Breached duty of reasonable care.
+CAUSATION: But-for wet floor, customer would not have fallen. Foreseeable that
+  unattended spill causes slip injury. Orthopedist links fall to fractured hip.
+DAMAGES: $85,000 medical (surgery, rehab), $12,000 lost wages, $150,000 pain/suffering
+  for permanent limp and reduced mobility. Total: $247,000.
+
+If jury finds customer 20% at fault (comparative fault state): net recovery $197,600.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 3: COMPARATIVE FAULT SYSTEMS — COMPLETE 50-STATE CLASSIFICATION
+═══════════════════════════════════════════════════════════════════════════════
+
+When more than one party contributes to an accident, fault is apportioned. Your
+state's fault rule determines whether you can recover at all and how much.
+
+───────────────────────────────────────────────────────────────────────────────
+CATEGORY A: PURE COMPARATIVE NEGLIGENCE
+───────────────────────────────────────────────────────────────────────────────
+
+RULE: Plaintiff can recover damages reduced by fault percentage EVEN IF plaintiff
+is 99% at fault. No complete bar for partial fault alone.
+
+FORMULA: Recovery = Total Damages × (100% − Plaintiff Fault %)
+
+STATES (13):
+1.  Alaska
+2.  Arizona
+3.  California
+4.  Kentucky
+5.  Louisiana
+6.  Mississippi
+7.  Missouri
+8.  New Mexico
+9.  New York
+10. Rhode Island
+11. Washington
+12. South Dakota (pure comparative for personal injury — verify current statute)
+13. Florida — NOTE: Florida CHANGED to 51% bar effective March 24, 2023. Florida
+    is NO LONGER pure comparative. Listed here for historical context only.
+
+ACTIVE PURE COMPARATIVE STATES (12, excluding Florida):
+Alaska, Arizona, California, Kentucky, Louisiana, Mississippi, Missouri, New Mexico,
+New York, Rhode Island, Washington, South Dakota
+
+EXAMPLE (California):
+Damages $100,000. Plaintiff 80% at fault. Recovery: $20,000.
+
+───────────────────────────────────────────────────────────────────────────────
+CATEGORY B: MODIFIED COMPARATIVE NEGLIGENCE — 51% BAR (GREATER THAN 50%)
+───────────────────────────────────────────────────────────────────────────────
+
+RULE: Plaintiff recoverable ONLY IF fault is 50% OR LESS. If plaintiff fault is
+51% or greater → COMPLETE BAR — zero recovery.
+
+FORMULA: If fault ≤ 50%: Recovery = Total Damages × (100% − Fault %)
+         If fault > 50%: Recovery = $0
+
+STATES (22 + Florida = 23):
+1.  Connecticut
+2.  Delaware
+3.  Florida (since March 2023 — HB 837)
+4.  Hawaii
+5.  Illinois
+6.  Indiana
+7.  Iowa
+8.  Massachusetts
+9.  Michigan
+10. Minnesota
+11. Montana
+12. Nevada
+13. New Hampshire
+14. New Jersey
+15. Ohio
+16. Oklahoma
+17. Oregon
+18. Pennsylvania
+19. Texas
+20. Vermont
+21. Wisconsin
+22. Wyoming
+23. West Virginia — NOTE: West Virginia uses 51% bar per W.Va. Code 55-7-13d
+
+EXAMPLE (Texas / Illinois / Florida):
+Damages $500,000. Plaintiff 51% at fault. Recovery: $0.
+Damages $500,000. Plaintiff 50% at fault. Recovery: $250,000.
+
+───────────────────────────────────────────────────────────────────────────────
+CATEGORY C: MODIFIED COMPARATIVE NEGLIGENCE — 50% BAR (50% OR MORE)
+───────────────────────────────────────────────────────────────────────────────
+
+RULE: Plaintiff barred if fault is 50% OR GREATER. Must be 49% or less to recover.
+Stricter than 51% bar — being equally at fault bars recovery entirely.
+
+FORMULA: If fault < 50%: Recovery = Total Damages × (100% − Fault %)
+         If fault ≥ 50%: Recovery = $0
+
+STATES (12):
+1.  Arkansas
+2.  Colorado
+3.  Georgia
+4.  Idaho
+5.  Kansas
+6.  Maine
+7.  Nebraska
+8.  North Dakota
+9.  South Carolina
+10. Tennessee
+11. Utah
+12. West Virginia — classified above as 51%; verify: W.Va. uses "greater than"
+    in some readings — treat as 51% bar state
+
+CORRECTION — WEST VIRGINIA: 51% bar (greater than 50%). Remove from 50% list.
+
+REVISED 50% BAR STATES (11):
+Arkansas, Colorado, Georgia, Idaho, Kansas, Maine, Nebraska, North Dakota,
+South Carolina, Tennessee, Utah
+
+EXAMPLE (Colorado):
+Damages $200,000. Plaintiff 50% at fault. Recovery: $0 (50% bar).
+Damages $200,000. Plaintiff 49% at fault. Recovery: $102,000.
+
+───────────────────────────────────────────────────────────────────────────────
+CATEGORY D: PURE CONTRIBUTORY NEGLIGENCE (COMPLETE BAR FOR ANY FAULT)
+───────────────────────────────────────────────────────────────────────────────
+
+RULE: If plaintiff is even 1% at fault, plaintiff recovers NOTHING. Harshest system.
+Exceptions: "Last clear chance" doctrine may rescue claim if defendant had final
+opportunity to avoid harm. Some states apply modified contributory in specific contexts.
+
+STATES (5 + DC):
+1.  Alabama
+2.  District of Columbia
+3.  Maryland
+4.  North Carolina
+5.  Virginia
+
+EXAMPLE (Virginia):
+Damages $1,000,000 catastrophic injury. Plaintiff 5% at fault (slightly speeding).
+Recovery: $0 under pure contributory negligence.
+
+PRACTICAL IMPACT:
+Insurers in contributory negligence states aggressively argue ANY plaintiff fault.
+Recorded statements extraordinarily dangerous — "I should have been more careful"
+may destroy case entirely.
+
+───────────────────────────────────────────────────────────────────────────────
+SUMMARY TABLE — QUICK REFERENCE
+───────────────────────────────────────────────────────────────────────────────
+
+Pure Comparative (12): AK, AZ, CA, KY, LA, MS, MO, NM, NY, RI, SD, WA
+
+51% Bar (23): CT, DE, FL, HI, IL, IN, IA, MA, MI, MN, MT, NV, NH, NJ, OH, OK,
+              OR, PA, TX, VT, WI, WV, WY
+
+50% Bar (11): AR, CO, GA, ID, KS, ME, NE, ND, SC, TN, UT
+
+Contributory Negligence (5 + DC): AL, DC, MD, NC, VA
+
+VOICE ASSISTANT NOTE:
+When user asks "Can I recover if I was partially at fault?" — ALWAYS ask or look up
+their state. Answer varies from "yes, reduced" to "zero if 51%+" to "zero if any fault."
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 4: STATUTE OF LIMITATIONS — ALL 50 STATES REFERENCE TABLE
+═══════════════════════════════════════════════════════════════════════════════
+
+Missing the statute of limitations (SOL) = permanent bar to filing lawsuit.
+Insurance negotiation does NOT extend SOL unless rare written agreement.
+
+GENERAL RULE: SOL runs from DATE OF INJURY (accident date) for bodily injury.
+Exceptions: discovery rule (malpractice, latent injury), minor tolling, government
+notice requirements (MUCH shorter than SOL).
+
+GOVERNMENT CLAIMS: Separate and shorter NOTICE periods often required BEFORE lawsuit.
+See Section 10. Always check government rules independently of general SOL.
+
+───────────────────────────────────────────────────────────────────────────────
+PERSONAL INJURY / GENERAL NEGLIGENCE SOL BY STATE
+───────────────────────────────────────────────────────────────────────────────
+
+State                  | PI SOL    | Primary Statute / Notes
+───────────────────────|───────────|──────────────────────────────────────────
+Alabama                | 2 years   | Ala. Code 6-2-38
+Alaska                 | 2 years   | AS 09.10.070
+Arizona                | 2 years   | A.R.S. 12-542
+Arkansas               | 3 years   | Ark. Code Ann. 16-56-105
+California             | 2 years   | CCP 335.1
+Colorado               | 2 years   | Colo. Rev. Stat. 13-80-102 (3 yrs property)
+Connecticut            | 2 years   | Conn. Gen. Stat. 52-577
+Delaware               | 2 years   | 10 Del. C. 8119
+Florida                | 2 years   | Fla. Stat. 95.11(3)(a) — reduced from 4 in 2023
+Georgia                | 2 years   | O.C.G.A. 9-3-33
+Hawaii                 | 2 years   | Haw. Rev. Stat. 657-7
+Idaho                  | 2 years   | Idaho Code 5-219
+Illinois               | 2 years   | 735 ILCS 5/13-202
+Indiana                | 2 years   | IC 34-11-2-4
+Iowa                   | 2 years   | Iowa Code 614.1
+Kansas                 | 2 years   | Kan. Stat. 60-513
+Kentucky               | 1 year    | Ky. Rev. Stat. 413.140 — SHORT
+Louisiana              | 1 year    | La. Civ. Code art. 3492 — prescriptive period
+Maine                  | 6 years   | 14 M.R.S. 752 — LONG
+Maryland               | 3 years   | Md. Code Cts. & Jud. Proc. 5-101
+Massachusetts          | 3 years   | MGL c. 260 2A
+Michigan               | 3 years   | MCL 600.5805
+Minnesota              | 2 years   | Minn. Stat. 541.05 (6 yrs property damage)
+Mississippi            | 3 years   | Miss. Code 15-1-49
+Missouri               | 5 years   | Mo. Rev. Stat. 516.120 — LONG
+Montana                | 3 years   | Mont. Code 27-2-204
+Nebraska               | 4 years   | Neb. Rev. Stat. 25-207
+Nevada                 | 2 years   | NRS 11.190
+New Hampshire          | 3 years   | RSA 508:4
+New Jersey             | 2 years   | N.J.S.A. 2A:14-2
+New Mexico             | 3 years   | NMSA 37-1-8
+New York               | 3 years   | CPLR 214
+North Carolina         | 3 years   | N.C.G.S. 1-52
+North Dakota           | 6 years   | N.D.C.C. 28-01-16 — LONG
+Ohio                   | 2 years   | Ohio Rev. Code 2305.10
+Oklahoma               | 2 years   | 12 Okla. Stat. 95
+Oregon                 | 2 years   | ORS 12.110
+Pennsylvania           | 2 years   | 42 Pa.C.S. 5524
+Rhode Island           | 3 years   | R.I. Gen. Laws 9-1-14
+South Carolina         | 3 years   | S.C. Code 15-3-530
+South Dakota           | 3 years   | SDCL 15-2-14
+Tennessee              | 1 year    | Tenn. Code 28-3-104 — VERY SHORT
+Texas                  | 2 years   | Tex. Civ. Prac. & Rem. Code 16.003
+Utah                   | 4 years   | Utah Code 78B-2-307
+Vermont                | 3 years   | 12 V.S.A. 512
+Virginia               | 2 years   | Va. Code 8.01-243
+Washington             | 3 years   | RCW 4.16.080
+West Virginia          | 2 years   | W.Va. Code 55-2-12
+Wisconsin              | 3 years   | Wis. Stat. 893.54
+Wyoming                | 4 years   | Wyo. Stat. 1-3-105
+
+───────────────────────────────────────────────────────────────────────────────
+SHORTEST SOL STATES — HIGHEST URGENCY (1 YEAR)
+───────────────────────────────────────────────────────────────────────────────
+Kentucky — 1 year general PI
+Louisiana — 1 year prescriptive period
+Tennessee — 1 year general PI
+
+If injured in KY, LA, or TN — consult attorney within first WEEK if possible.
+
+───────────────────────────────────────────────────────────────────────────────
+LONGEST SOL STATES (4+ YEARS)
+───────────────────────────────────────────────────────────────────────────────
+Maine — 6 years
+North Dakota — 6 years
+Missouri — 5 years
+Nebraska — 4 years
+Utah — 4 years
+Wyoming — 4 years
+
+Long SOL does NOT mean delay treatment or documentation — evidence disappears fast.
+
+───────────────────────────────────────────────────────────────────────────────
+OTHER COMMON LIMITATIONS PERIODS (GENERAL GUIDANCE)
+───────────────────────────────────────────────────────────────────────────────
+Wrongful death: Often 2-3 years from death date (state-specific)
+Medical malpractice: Often 2-3 years with discovery rule and outer limits
+Property damage only: Often 2-5 years (may differ from bodily injury in same state)
+Intentional torts (assault): Sometimes longer than negligence SOL
+
+MINOR TOLLING:
+Most states toll SOL until injured child reaches age 18, then period runs.
+Do NOT rely on tolling without attorney — varies by claim type and state.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 5: UNIVERSAL POST-INJURY CHECKLIST
+═══════════════════════════════════════════════════════════════════════════════
+
+Organized by timeframe. Applies to virtually all personal injury scenarios nationwide.
+Adapt for specific state rules (PIP 14-day Florida, Illinois 45-day workers comp,
+government notice periods).
+
+═══════════════════════════════════════════════════════════════════════════════
+IMMEDIATELY — AT SCENE / FIRST HOUR
+═══════════════════════════════════════════════════════════════════════════════
+
+□ SAFETY FIRST — move to safe location if possible; do not leave scene of traffic
+  accident before police arrive (unless medical emergency requires transport)
+
+□ CALL 911 if injuries, significant property damage, hit-and-run, or hostile party
+
+□ EXCHANGE INFORMATION (auto accidents):
+  - Names, phone numbers, addresses
+  - Driver's license numbers
+  - Insurance company and policy numbers
+  - Vehicle make, model, license plate
+  - Do NOT discuss fault or apologize
+
+□ PHOTOGRAPH / VIDEO:
+  - All vehicles, damage angles, license plates
+  - Scene overview — intersection, traffic signals, road conditions
+  - Hazard causing fall (spill, broken step, ice patch, pothole)
+  - Lack of warning signs or cones
+  - Your visible injuries
+  - Footwear and clothing (premises cases — insurers attack shoe choice)
+
+□ WITNESSES:
+  - Full names and phone numbers of anyone who saw incident
+  - Brief statement on video if willing ("I saw the shelf collapse")
+
+□ REPORT TO AUTHORITY:
+  - Police report for auto accidents
+  - Store/property manager for premises — insist incident report be created
+  - Supervisor/HR for workplace — verbal then written immediately after
+
+□ DO NOT:
+  - Admit fault ("I'm sorry," "I wasn't looking")
+  - Sign anything from at-fault party or their insurer
+  - Give recorded statement to at-fault insurer at scene
+  - Post about accident on social media
+  - Leave without reporting to property manager (premises)
+
+═══════════════════════════════════════════════════════════════════════════════
+SAME DAY — WITHIN 24 HOURS
+═══════════════════════════════════════════════════════════════════════════════
+
+□ SEEK MEDICAL ATTENTION — even if feeling "okay"
+  Adrenaline masks pain. Delayed treatment = insurer reduces value.
+  Florida auto: MUST treat within 14 days for PIP — start day 1.
+
+□ NOTIFY YOUR INSURER (auto accidents) — UM/UIM, MedPay, PIP require prompt notice
+
+□ OBTAIN INCIDENT REPORT NUMBER from store, police, or employer
+
+□ SEND SPOLIATION / PRESERVATION LETTER to property owner demanding preservation of:
+  - Surveillance video (critical — many systems overwrite in 7-30 days)
+  - Incident reports and sweep logs
+  - Maintenance records
+  - Employee statements
+  Template: certified mail + email to store manager, corporate legal, insurer
+
+□ START INJURY JOURNAL — date, pain level 1-10, activities you couldn't do,
+  sleep disruption, medications taken
+
+□ DOCUMENT LOST WAGE impact — notify employer of injury-related absence
+
+□ CONSULT ATTORney (free consultation) if:
+  - Hospital visit required
+  - Broken bone, head injury, laceration needing stitches
+  - Government property involved
+  - Serious dog bite
+  - You were told incident was "your fault"
+
+□ DOG BITE: Report to Animal Control same day — rabies status, quarantine, record
+
+□ WORKPLACE: Complete employer accident report IN WRITING — Illinois 45-day rule,
+  most states require "prompt" reporting
+
+═══════════════════════════════════════════════════════════════════════════════
+WITHIN ONE WEEK (DAYS 2-7)
+═══════════════════════════════════════════════════════════════════════════════
+
+□ FOLLOW UP MEDICAL CARE — primary care, orthopedist, PT as directed
+  Gaps in treatment used to argue injury not serious or healed
+
+□ REQUEST POLICE REPORT COPY (usually available 3-7 business days)
+
+□ CONFIRM VIDEO PRESERVATION — call store legal/corporate confirming spoliation
+  letter received; document response
+
+□ GATHER DOCUMENTATION:
+  - All medical bills and explanation of benefits (EOBs)
+  - Prescription receipts
+  - Mileage log to medical appointments
+  - Pay stubs showing lost wages
+
+□ IDENTIFY ALL INSURANCE POLICIES that may apply:
+  - At-fault party auto/homeowners/commercial GL
+  - Your auto UM/UIM/MedPay
+  - Your homeowners/renters if relevant
+  - Umbrella policies
+
+□ GOVERNMENT ENTITY: If city bus, public sidewalk, school, transit — FILE NOTICE
+  immediately (many states: 6 months to 1 year, some shorter)
+
+□ AVOID INSURER RECORDED STATEMENT until consulting counsel (serious cases)
+
+□ SOCIAL MEDIA: Set profiles private; do not post physical activities inconsistent
+  with injury; do not accept unknown friend requests
+
+□ PHOTOS: Continue documenting bruising progression, swelling, scarring
+
+═══════════════════════════════════════════════════════════════════════════════
+ONGOING — WEEKS THROUGH RESOLUTION
+═══════════════════════════════════════════════════════════════════════════════
+
+□ ATTEND ALL MEDICAL APPOINTMENTS — rescheduled missed appointments documented
+
+□ TREAT TO MMI (Maximum Medical Improvement) before settling — settling early
+  forecloses future surgery, permanent impairment claims
+
+□ CALENDAR SOL DEADLINE on day one — set reminders at 18 months, 21 months, 23 months
+
+□ RESPOND TO INSURER DOCUMENT REQUESTS narrowly — not 10-year full medical history
+
+□ DO NOT SIGN:
+  - Broad HIPAA authorization (all providers all time)
+  - Release of all claims for partial payment
+  - Settlement without understanding lien obligations
+
+□ TRACK ALL EXPENSES in spreadsheet or app
+
+□ COMMUNICATE WITH ATTORNEY if represented before giving any statement
+
+□ INDEPENDENT MEDICAL EXAM (IME) by insurer doctor:
+  - Attend if required by policy/state law or court order
+  - Bring friend as witness; document length and thoroughness of exam
+  - Do not minimize symptoms; be honest and consistent with medical records
+
+□ MEDIATION: Prepare narrative, organize exhibits, know bottom-line settlement number
+
+□ LIENS: Resolve health insurance, Medicare, Medicaid, workers comp liens before
+  accepting net settlement figure
+
+□ SETTLEMENT: Ensure release scope limited to this incident only; confirm all parties
+  and insurers included; get payment timeline in writing (typically 14-30 days)
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 6: WHEN YOU NEED A LAWYER vs. WHEN YOU MAY HANDLE IT YOURSELF
+═══════════════════════════════════════════════════════════════════════════════
+
+Most personal injury attorneys offer FREE initial consultations and work on
+CONTINGENCY (no fee unless recovery — see Section 7). When in doubt, consult free.
+
+───────────────────────────────────────────────────────────────────────────────
+CASES YOU MAY HANDLE WITHOUT ATTORNEY (SMALL / CLEAR / LOW EXPOSURE)
+───────────────────────────────────────────────────────────────────────────────
+
+Characteristics:
+- Minor soft tissue injury ( soreness resolving in days)
+- Full recovery within 4-6 weeks, no MRI findings
+- Clear liability (rear-ended at stoplight, admitted fault)
+- Medical bills under $3,000-$5,000
+- No lost wages or minimal (1-2 days)
+- At-fault party has insurance with adequate limits
+- Insurer offering fair settlement covering all specials + modest pain/suffering
+- No dispute over fault percentage
+- No government entity involved
+- No workers comp overlap
+
+Process:
+Submit demand with bills and records → negotiate with adjuster → signed release → payment.
+Calculate pain/suffering multiplier (typically 1.5x-3x medical specials for minor cases).
+
+Risks of DIY:
+- Signing overbroad release or HIPAA authorization
+- Missing SOL or government notice deadline
+- Accepting lowball without knowing fair value
+- Overlooking UM/UIM claim on own policy
+- Unresolved liens taking entire settlement
+
+───────────────────────────────────────────────────────────────────────────────
+CASES WHERE YOU SHOULD HIRE AN ATTORNEY (STRONGLY RECOMMENDED)
+───────────────────────────────────────────────────────────────────────────────
+
+INJURY SEVERITY TRIGGERS:
+□ Broken bone or fracture
+□ Surgery recommended or performed
+□ Hospital admission or ER with significant treatment
+□ Head injury, concussion, TBI symptoms
+□ Permanent scarring or disfigurement
+□ Symptoms lasting 3+ months without resolution
+□ Permanent impairment rating from physician
+□ Wrongful death of family member
+
+LIABILITY TRIGGERS:
+□ Fault disputed — insurer blaming you
+□ Contributory negligence state (AL, DC, MD, NC, VA) — any fault argument dangerous
+□ 51% or 50% bar state with disputed facts
+□ Multiple at-fault parties (multi-car pileup, construction site)
+□ Hit-and-run with UM claim complexity
+□ Premises case requiring proof of notice (768.0755 Florida, etc.)
+
+INSURANCE TRIGGERS:
+□ At-fault party uninsured or underinsured
+□ Commercial policy / trucking company / rideshare
+□ Policy limits may not cover damages (catastrophic injury)
+□ Bad faith conduct by own insurer (UM denial)
+
+PROCEDURAL TRIGGERS:
+□ Government entity involved (city, county, state, school, transit)
+□ Workers comp + third-party overlap
+□ Medical malpractice
+□ Product liability
+□ Nursing home abuse
+□ SOL under 6 months remaining
+
+INSURER BEHAVIOR TRIGGERS:
+□ Recorded statement demanded before any offer
+□ Surveillance observed
+□ IME scheduled early
+□ Full medical history demanded going back 10+ years
+□ Denial letter received
+□ Offer before treatment complete
+
+───────────────────────────────────────────────────────────────────────────────
+DECISION MATRIX — QUICK SCORING
+───────────────────────────────────────────────────────────────────────────────
+
+Score 1 point for each YES:
+[ ] Medical bills exceed $5,000
+[ ] Lost wages exceed 1 week
+[ ] Injury still symptomatic after 30 days
+[ ] Fault disputed by any party
+[ ] Government property or vehicle involved
+[ ] Insurer has not accepted liability in writing
+[ ] You are in contributory negligence state
+[ ] Pre-existing condition being used against you
+[ ] Catastrophic or permanent injury suspected
+
+0-1 points: May self-handle with caution; free consult still wise
+2-4 points: Strongly recommend attorney
+5+ points: Hire attorney immediately — case too complex for DIY
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 7: CONTINGENCY FEES AND LEGAL COSTS EXPLAINED
+═══════════════════════════════════════════════════════════════════════════════
+
+STANDARD CONTINGENCY FEE STRUCTURE:
+Personal injury attorneys typically charge 33⅓% (one-third) of gross recovery if
+case settles before lawsuit filed, and 40% if lawsuit filed and resolved before trial.
+Trial or appeal may increase to 40-45% depending on contract and jurisdiction.
+
+NO RECOVERY = NO FEE:
+If case loses at trial or no settlement obtained, client owes NO attorney fee.
+Exception: Client may still owe case costs (see below) depending on fee agreement.
+
+WHAT CONTINGENCY FEE COVERS:
+- Attorney time (investigation, negotiation, litigation)
+- Paralegal and staff time
+- Legal strategy and valuation advice
+- Correspondence with insurer and opposing counsel
+
+CASE COSTS (separate from fee — may be deducted from recovery):
+- Court filing fees ($200-$500 typical)
+- Service of process on defendants
+- Medical record retrieval ($15-$100+ per provider)
+- Expert witness fees ($3,000-$15,000+ for orthopedist, economist, accident reconstruction)
+- Deposition court reporter costs
+- Mediation fees ($500-$1,500 split between parties)
+- Trial exhibits and technology
+
+COST REIMBURSEMENT CLAUSE:
+Most contingency contracts provide attorney advances costs during case. At settlement:
+Costs deducted from client's share AFTER or BEFORE fee calculation depending on contract.
+READ FEE AGREEMENT — "costs off the top" vs. "costs from client's share after fee"
+
+EXAMPLE SETTLEMENT MATH:
+Gross settlement: $100,000
+Case costs advanced: $5,000
+Attorney fee 33%: $33,000
+Client net: $100,000 - $5,000 costs - $33,000 fee = $62,000
+(Liens for health insurance subrogation may further reduce net)
+
+LIEN NEGOTIATION:
+Experienced PI attorneys negotiate health insurer liens down (often ERISA plans
+require negotiation expertise). Attorney value often exceeds fee through lien reduction alone.
+
+HOURLY vs. CONTINGENCY:
+Some attorneys offer hourly for small cases — rare in PI. Contingency aligns attorney
+incentive with client recovery.
+
+STATUTORY FEE CAPS:
+Some states cap attorney fees in specific case types (medical malpractice — Florida
+has sliding scale; some workers comp fee schedules). Standard negligence PI generally
+uncapped but must be reasonable.
+
+WHAT TO ASK AT FREE CONSULTATION:
+1. What percentage fee before and after filing suit?
+2. Who advances costs? What happens to costs if we lose?
+3. Will you negotiate health insurance liens?
+4. Who is my primary contact — attorney or paralegal?
+5. What is your experience with my injury/case type?
+6. What is realistic settlement range?
+7. Is lawsuit necessary or can this settle pre-suit?
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 8: THE EGGSHELL PLAINTIFF RULE
+═══════════════════════════════════════════════════════════════════════════════
+
+LEGAL DOCTRINE:
+Defendant takes plaintiff as they find them. If plaintiff has pre-existing physical
+condition, fragility, or susceptibility to injury, defendant is liable for ALL damages
+flowing from the accident — even if a healthy person would have suffered less harm.
+
+LATIN ROOT: "Eggshell skull" — person with fragile skull hit; minor blow causes
+severe injury. Defendant liable for full harm despite unforeseeable severity.
+
+APPLICATION:
+- Elderly plaintiff fractures hip in low-impact fall — full damages despite fragility
+- Plaintiff with degenerative disc disease suffers herniation from minor rear-end — liable
+  for exacerbation and full treatment
+- Osteoporosis victim suffers worse fracture — defendant pays full fracture damages
+- Mental health pre-existing condition worsened by trauma — damages for aggravation
+
+WHAT DEFENDANT CANNOT DO:
+- Escape liability because plaintiff was "already injured" or "already weak"
+- Reduce damages to what "average healthy person" would have suffered
+
+WHAT DEFENDANT CAN DO:
+- Argue accident did NOT cause new injury — only coincidental timing
+- Introduce pre-accident medical records to distinguish aggravation vs. new injury
+- Argue comparative fault if plaintiff's own negligence contributed
+- IME doctor opines injury unrelated to accident (counter with treating physician)
+
+PRACTICAL IMPACT ON CLAIMS:
+Insurers ALWAYS request full medical history searching for pre-existing conditions.
+Pre-existing condition on SAME body part does NOT kill case — eggshell rule protects
+aggravation damages. Different body part pre-existing generally irrelevant.
+
+DOCUMENTATION STRATEGY:
+- Treating physician letter distinguishing pre-accident baseline from post-accident change
+- MRI comparison if pre-accident imaging exists
+- Journal documenting functional decline after accident vs. before
+
+VOICE ASSISTANT SCRIPT:
+"They found a pre-existing condition in my records. Can I still recover?"
+"The eggshell plaintiff rule says the defendant is responsible for all harm they caused,
+even if you were more susceptible to injury because of a prior condition. You can recover
+for the worsening of a pre-existing injury if the accident aggravated it. You cannot recover
+for conditions unrelated to the accident."
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 9: SPOLIATION OF EVIDENCE — PRESERVATION AND CONSEQUENCES
+═══════════════════════════════════════════════════════════════════════════════
+
+DEFINITION:
+Spoliation is destruction, alteration, or failure to preserve evidence relevant to
+reasonably foreseeable litigation.
+
+WHY IT MATTERS IN PI:
+Surveillance video overwritten in 30 days. Sweep logs discarded. Defective product
+destroyed. Spoliation can destroy plaintiff's ability to prove notice or liability.
+
+TYPES OF EVIDENCE COMMONLY SPOILATED:
+- Store surveillance CCTV (7-30 day auto-delete common)
+- Body cam / dash cam footage
+- Vehicle black box (EDR) data after total loss
+- Defective staircase or product repaired before inspection
+- Employee statements not documented
+- Maintenance logs rotated out
+
+SPOLIATION LETTER (PRESERVATION DEMAND):
+Send within 24-48 hours of incident to:
+- Property owner / store manager
+- Corporate registered agent / legal department
+- Insurance company of at-fault party
+- Property management company
+
+Letter should demand preservation of:
+- All video from 2 hours before to 2 hours after incident
+- Incident reports, OSHA logs, sweep logs
+- Employee schedules and names of staff on duty
+- Maintenance and repair records for hazard area
+- Photographs taken by employees
+
+Send via certified mail AND email. Keep delivery confirmation.
+
+LEGAL CONSEQUENCES OF SPOLIATION (vary by state):
+- Adverse inference instruction: jury told destroyed evidence would have been unfavorable
+  to spoliator
+- Sanctions: monetary penalties, attorney fees
+- Dismissal of defendant's answer or default on liability (extreme cases)
+- Separate tort claim for spoliation in some states (Florida recognizes spoliation remedies)
+- Criminal obstruction charges (rare)
+
+DEFENDANT DEFENSES TO SPOLIATION CLAIMS:
+- No duty to preserve until litigation reasonably anticipated
+- Evidence destroyed in ordinary course of business before notice
+- Evidence not relevant
+- Plaintiff delayed unreasonably in sending preservation letter
+
+PLAINTIFF BEST PRACTICES:
+- Send spoliation letter same day or next day
+- Follow up confirming receipt
+- File lawsuit early if defendant unresponsive and SOL permits
+- Document your own evidence immediately (photos, witness info) — don't rely on defendant
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 10: GOVERNMENT CLAIMS OVERVIEW — FEDERAL, STATE, LOCAL
+═══════════════════════════════════════════════════════════════════════════════
+
+Suing government is harder than suing private parties. Sovereign immunity limits
+who can be sued, for how much, and on what timeline. MISSING ADMINISTRATIVE DEADLINES
+bars case even if general SOL has not expired.
+
+───────────────────────────────────────────────────────────────────────────────
+FEDERAL GOVERNMENT — FEDERAL TORT CLAIMS ACT (FTCA)
+───────────────────────────────────────────────────────────────────────────────
+
+STATUTE: 28 U.S.C. 1346(b), 28 U.S.C. 2671-2680
+
+PROCESS:
+1. File Standard Form 95 (SF-95) administrative claim with appropriate federal agency
+2. Agency has 6 months to respond (approve, deny, or let lapse)
+3. If denied or no response after 6 months, file lawsuit in U.S. District Court
+
+DEADLINE: SF-95 must be filed within 2 YEARS of accrual of claim.
+
+EXAMPLES:
+- Slip at U.S. Post Office
+- VA hospital medical malpractice (separate rules may apply)
+- National park trail injury
+- Federal vehicle accident
+
+EXCLUSIONS: Intentional torts by federal employees, combat activities, many discretionary
+function immunity issues.
+
+───────────────────────────────────────────────────────────────────────────────
+STATE GOVERNMENT — VARIES BY STATE
+───────────────────────────────────────────────────────────────────────────────
+
+Each state has own sovereign immunity waiver statute.
+
+Florida: Fla. Stat. 768.28 — notice to agency, 3-year limit, $200K/$300K caps
+California: Government Claims Act — 6-month claim to state/local before suit
+Texas: Texas Tort Claims Act — notice within 6 months for city claims in many cases
+New York: Notice of Claim within 90 days for municipal defendants
+Illinois: Court of Claims for state; 745 ILCS 10/ for local — 1-year notice
+
+COMMON THEMES:
+- Written notice required before lawsuit
+- Shorter notice period than general SOL (60 days to 1 year common)
+- Damage caps ($100K-$500K typical without legislative claim bill)
+- No punitive damages against government
+- Discretionary function immunity for policy decisions
+
+───────────────────────────────────────────────────────────────────────────────
+LOCAL GOVERNMENT — CITIES, COUNTIES, SCHOOL DISTRICTS, TRANSIT
+───────────────────────────────────────────────────────────────────────────────
+
+Most procedurally unforgiving category for pro se claimants.
+
+EXAMPLES OF SHORT DEADLINES:
+Illinois local: 1 year written notice (745 ILCS 10/8-101)
+California local: 6 months (Gov Code 911.2)
+New York municipal: 90 days Notice of Claim (General Municipal Law 50-e)
+CTA Chicago: 6 months for some claims (705 ILCS 25/)
+
+NOTICE CONTENT typically requires:
+- Date, time, exact location
+- Detailed factual narrative
+- Injury description and damages
+- Witness names
+
+FAILURE TO FILE NOTICE = case dismissed with prejudice in most jurisdictions.
+
+───────────────────────────────────────────────────────────────────────────────
+PRACTICAL GOVERNMENT CLAIMS CHECKLIST
+───────────────────────────────────────────────────────────────────────────────
+
+□ Identify EXACT entity (City of X vs. County of Y vs. State DOT — suing wrong
+  entity wastes critical time)
+□ Research notice deadline IMMEDIATELY — day one
+□ File notice via method statute requires (certified mail to clerk, specific form)
+□ Keep proof of delivery
+□ Wait for denial or statutory period before filing suit
+□ Respect damage caps in settlement expectations
+□ Hire attorney experienced in government tort claims — procedural traps abundant
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 11: MEDIATION IN PERSONAL INJURY CASES
+═══════════════════════════════════════════════════════════════════════════════
+
+DEFINITION:
+Mediation is voluntary (usually) confidential settlement conference facilitated by
+neutral third party — the mediator. Not binding unless agreement signed.
+
+WHEN MEDIATION OCCURS:
+- Pre-suit voluntary mediation (parties agree before filing)
+- Court-ordered mediation after lawsuit filed (mandatory in many jurisdictions before trial)
+- Workers comp mediation (separate administrative process)
+
+PARTICIPANTS:
+- Plaintiff and plaintiff's attorney
+- Defendant(s) and defense attorney
+- Insurance adjuster with authority to settle (or home office on phone for large cases)
+- Mediator (often retired judge or experienced PI attorney)
+
+PROCESS:
+1. Opening session — mediator explains rules; each side may give brief statement
+2. Caucus — mediator separates parties into rooms, shuttles offers/demands
+3. Negotiation rounds — demand starts high, offer starts low, converge
+4. Agreement or impasse — if agreement, signed memorandum of understanding same day;
+   formal settlement documents follow
+
+CONFIDENTIALITY:
+Statements in mediation generally inadmissible at trial if case doesn't settle.
+Allows frank discussion without prejudicing trial position.
+
+MEDIATOR ROLE:
+Facilitate negotiation, reality-check both sides, identify obstacles, suggest creative
+solutions (structured settlement, medical payment plan). Mediator does NOT decide case.
+
+PREPARATION FOR PLAINTIFF:
+- Organize demand packet: medical records, bills, photos, lost wage proof
+- Know bottom-line number (minimum acceptable settlement)
+- Understand lien impact on net recovery
+- Dress professionally — defense may observe you
+- Be patient — mediation can take 4-8 hours
+- Emotional preparation — first offer will feel insulting; normal
+
+TYPICAL MEDIATION OUTCOMES:
+- 70-80% of mediated PI cases settle at mediation
+- Impasse leads to continued litigation or later settlement closer to trial
+- Partial settlement possible in multi-defendant cases
+
+COSTS:
+Mediator fee $300-$1,500+ per session, often split 50/50 between parties
+Attorney time billed against recovery per contingency agreement
+
+ADVANTAGES:
+- Faster than trial (months vs. years)
+- Certainty vs. jury unpredictability
+- Privacy — no public trial record
+- Control over outcome — trial puts decision in jury hands
+
+DISADVANTAGES:
+- May settle for less than trial value if pressure to avoid trial risk
+- Bad faith low offers at mediation frustrate plaintiffs
+- Requires both sides willing to negotiate in good faith
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 12: TYPES OF DAMAGES — ECONOMIC AND NON-ECONOMIC
+═══════════════════════════════════════════════════════════════════════════════
+
+ECONOMIC DAMAGES (specials — documented with bills and records):
+- Past and future medical expenses
+- Past and future lost wages
+- Loss of earning capacity (vocational expert may prove)
+- Property damage
+- Household services ( hiring help for tasks you cannot perform)
+- Out-of-pocket expenses related to injury
+
+NON-ECONOMIC DAMAGES (general — no fixed price tag):
+- Pain and suffering (past and future)
+- Emotional distress
+- Loss of enjoyment of life
+- Disfigurement and humiliation from scarring
+- Loss of consortium (spouse's separate claim in most states)
+
+VALUATION METHODS:
+- Multiplier method: Economic specials × 1.5 to 5+ depending on severity
+- Per diem method: Daily pain value × days of suffering
+- Comparable verdict research in jurisdiction
+- Life care plan for catastrophic injury (future medical costing)
+
+DAMAGE CAPS BY STATE (selected):
+- Medical malpractice caps in many states (CA MICRA $250K non-economic pain/suffering)
+- Punitive damage caps widespread
+- General negligence PI: most states no cap (Texas non-economic cap only in medical malpractice)
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 13: COMMON DEFENSES INSURERS RAISE
+═══════════════════════════════════════════════════════════════════════════════
+
+1. COMPARATIVE / CONTRIBUTORY FAULT — you caused or contributed to accident
+2. PRE-EXISTING CONDITION — injury existed before accident (counter: eggshell rule)
+3. FAILURE TO MITIGATE — you didn't treat promptly or follow doctor orders
+4. LACK OF NOTICE (premises) — owner didn't know and couldn't know of hazard
+5. OPEN AND OBVIOUS — hazard was visible; no duty to protect
+6. ASSUMPTION OF RISK — you voluntarily accepted known danger
+7. INCONSISTENT STATEMENTS — recorded statement differs from medical records
+8. GAPS IN TREATMENT — weeks between appointments means not really injured
+9. IME DISPUTE — insurer doctor says no injury or unrelated to accident
+10. POLICY EXCLUSIONS — intentional acts, business use exclusion on auto, breed exclusion
+11. STATUTE OF LIMITATIONS — filed too late
+12. FAILURE TO PRESERVE EVIDENCE — no photos, no witnesses, no proof
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 14: SETTLEMENT FUNDAMENTALS AND TIMELINE
+═══════════════════════════════════════════════════════════════════════════════
+
+PHASE 1 — TREATMENT (weeks to 18+ months):
+Do not settle until MMI. Insurer pressure to settle early = undervaluation.
+
+PHASE 2 — DEMAND (after MMI):
+Attorney or claimant sends demand letter with records, bills, wage loss, narrative.
+
+PHASE 3 — NEGOTIATION (30-120 days):
+Adjuster responds with offer. Counteroffers exchanged. 3-5 rounds typical.
+
+PHASE 4 — LAWSUIT (if no resolution):
+Complaint filed before SOL. Discovery: interrogatories, depositions, document requests.
+6-18 months typical before trial setting.
+
+PHASE 5 — MEDIATION / TRIAL:
+Mediation often court-ordered. Trial if no settlement — jury verdict or bench decision.
+
+SETTLEMENT DOCUMENTS:
+- Release of all claims (read scope carefully)
+- Confidentiality clause (sometimes negotiable)
+- Lien resolution confirmation
+- Payment within 14-30 days typical
+
+AVERAGE TIMELINES (rough):
+Minor soft tissue pre-suit: 3-6 months from accident
+Moderate injury with PT: 6-12 months
+Surgery cases: 12-24 months
+Litigated cases: 18-36+ months
+Government claims: add administrative notice period at front
+
+
+═══════════════════════════════════════════════════════════════════════════════
+APPENDIX A: VOICE ASSISTANT QUICK-ANSWER SCRIPTS
+═══════════════════════════════════════════════════════════════════════════════
+
+Q: "What do I need to prove in a personal injury case?"
+A: "You need four things: duty of care, breach of that duty, causation linking the
+breach to your injury, and damages — medical bills, lost wages, pain and suffering.
+All four must be proven."
+
+Q: "Can I recover if I was partially at fault?"
+A: "It depends on your state. In pure comparative states like California and New York,
+you recover reduced by your fault percentage. In 51% bar states like Texas, Illinois,
+and Florida, you're barred if more than 50% at fault. In Alabama, Maryland, North
+Carolina, and Virginia, any fault at all can bar recovery completely."
+
+Q: "How long do I have to file a lawsuit?"
+A: "Every state is different — from 1 year in Tennessee, Kentucky, and Louisiana to
+6 years in Maine and North Dakota. Most states are 2 or 3 years. The clock usually
+starts on the date you were injured. Government claims often have much shorter notice
+requirements."
+
+Q: "What should I do right after an injury?"
+A: "Get medical care, photograph the scene and your injuries, report the incident,
+get witness names, don't admit fault, don't give a recorded statement to the at-fault
+insurer, and send a letter demanding preservation of surveillance video within 24 hours."
+
+Q: "Do I need a lawyer?"
+A: "For minor injuries with clear liability and low medical bills, you may handle it
+yourself. For broken bones, surgery, disputed fault, government involvement, or bills
+over five thousand dollars, get a free consultation with a personal injury attorney.
+They work on contingency — no fee unless you recover."
+
+Q: "What is the eggshell plaintiff rule?"
+A: "The defendant must take you as they find you. If you had a pre-existing condition
+or fragility that made your injuries worse, they're still liable for all the harm
+they caused — they can't escape by saying a healthier person would have been hurt less."
+
+Q: "What is spoliation?"
+A: "When someone destroys or fails to preserve evidence like surveillance video.
+Send a preservation letter immediately after your injury demanding they save all video
+and records. If they destroy evidence after your letter, courts can punish them with
+sanctions or tell the jury the evidence would have hurt their case."
+
+
+═══════════════════════════════════════════════════════════════════════════════
+APPENDIX B: GLOSSARY OF KEY TERMS
+═══════════════════════════════════════════════════════════════════════════════
+
+Adjuster — Insurance company representative who evaluates and negotiates claims
+Contingency fee — Attorney paid percentage of recovery only if case wins
+Demand letter — Written settlement request with supporting documentation
+Discovery — Pre-trial exchange of evidence in lawsuit
+Duty — Legal obligation to act reasonably
+Economic damages — Quantifiable financial losses (bills, wages)
+Eggshell plaintiff — Victim's pre-existing fragility doesn't reduce defendant liability
+General damages — Non-economic pain and suffering compensation
+IME — Independent Medical Exam by doctor chosen by insurer
+Liability — Legal responsibility for harm caused
+Lien — Third party's legal claim on settlement (health insurer, Medicare, Medicaid)
+MMI — Maximum Medical Improvement; treatment plateau
+Negligence — Failure to exercise reasonable care causing harm
+Negligence per se — Violation of safety law establishes breach
+Notice of claim — Required administrative filing before suing government
+Premises liability — Injury on another's property due to unsafe conditions
+Proximate cause — Legal causation; foreseeable harm from breach
+SOL — Statute of limitations; deadline to file lawsuit
+Spoliation — Destruction or failure to preserve relevant evidence
+Strict liability — Liability without proving negligence (dog bites in many states)
+Subrogation — Insurer's right to recover payments from at-fault party or settlement
+Tort — Civil wrong causing harm, remedied by damages
+UM/UIM — Uninsured/Underinsured motorist coverage on your auto policy
+Verdict — Jury or judge's decision at trial
+Wrongful death — Claim by survivors for death caused by negligence
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION: DEALING WITH THE OTHER DRIVER'S INSURER
+─────────────────────────────────
+When the other driver's insurer calls:
+- Do not give a recorded statement
+- Say: "Please communicate in writing"
+- Do not accept first offer
+- First offer is always 30-40% of actual value
+- Get a personal injury attorney before settling anything significant
+
+END OF GENERAL UNITED STATES PERSONAL INJURY LAW KNOWLEDGE BASE

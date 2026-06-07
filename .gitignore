@@ -17,7 +17,7 @@ venv/
 /moss-hacker-starter/
 /agent/
 
-# Node / Next.js (frontend)
+# Node / Next.js (frontend + frontend-vapi)
 frontend/node_modules/
 frontend/.next/
 frontend/out/
@@ -26,6 +26,26 @@ frontend/.pnp.*
 frontend/coverage/
 frontend/*.tsbuildinfo
 frontend/next-env.d.ts
+
+frontend-vapi/node_modules/
+frontend-vapi/.next/
+frontend-vapi/out/
+frontend-vapi/.pnp
+frontend-vapi/.pnp.*
+frontend-vapi/coverage/
+frontend-vapi/*.tsbuildinfo
+frontend-vapi/next-env.d.ts
+frontend-vapi/agent/venv/
+frontend-vapi/moss-hacker-starter/**/node_modules
+frontend-vapi/moss-hacker-starter/**/.next
+frontend-vapi/moss-hacker-starter/agent-py/.venv
+frontend-vapi/moss-hacker-starter/**/__pycache__
+
+# what-now-backend (Vapi demo brain)
+what-now-backend/venv/
+what-now-backend/.venv/
+what-now-backend/__pycache__/
+what-now-backend/**/__pycache__/
 
 # moss-hacker-starter generated artifacts
 frontend/moss-hacker-starter/**/node_modules
