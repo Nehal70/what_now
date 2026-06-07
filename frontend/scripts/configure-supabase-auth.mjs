@@ -63,7 +63,7 @@ if (resendKey) {
     external_email_enabled: true,
     smtp_admin_email: smtpFrom,
     smtp_host: "smtp.resend.com",
-    smtp_port: 465,
+    smtp_port: "465",
     smtp_user: "resend",
     smtp_pass: resendKey,
     smtp_sender_name: "What Now",

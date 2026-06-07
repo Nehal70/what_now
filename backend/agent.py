@@ -1615,8 +1615,9 @@ async def _run_agent_turn(
     history: list[dict],
     session_id: str,
     profiler: LatencyProfiler,
+    context: dict[str, Any] | None = None,
 ) -> dict:
-    stack = get_or_create_stack(session_id)
+    stack = get_or_create_stack(session_id, context)
     if transcript.strip() and transcript != "__START__":
         stack.update_from_transcript(transcript)
         profiler.mark("stack_update")
@@ -1642,8 +1643,9 @@ async def _run_agent_turn_stream(
     history: list[dict],
     session_id: str,
     profiler: LatencyProfiler,
+    context: dict[str, Any] | None = None,
 ) -> AsyncIterator[dict[str, Any]]:
-    stack = get_or_create_stack(session_id)
+    stack = get_or_create_stack(session_id, context)
     if transcript.strip() and transcript != "__START__":
         stack.update_from_transcript(transcript)
 
@@ -1875,12 +1877,15 @@ async def run_agent(
     conversation_history: list[dict],
     profiler: LatencyProfiler | None = None,
     session_id: str = "",
+    context: dict[str, Any] | None = None,
 ) -> dict:
     if profiler is None:
         profiler = LatencyProfiler()
         profiler.mark("request_received")
     profiler.mark("messages_built")
-    result = await _run_agent_turn(transcript, conversation_history, session_id, profiler)
+    result = await _run_agent_turn(
+        transcript, conversation_history, session_id, profiler, context
+    )
     profiler.report()
     return result
 
@@ -2026,10 +2031,11 @@ async def run_agent_stream(
     conversation_history: list[dict],
     profiler: LatencyProfiler,
     session_id: str = "",
+    context: dict[str, Any] | None = None,
 ) -> AsyncIterator[dict[str, Any]]:
     profiler.mark("messages_built")
     async for event in _run_agent_turn_stream(
-        transcript, conversation_history, session_id, profiler
+        transcript, conversation_history, session_id, profiler, context
     ):
         yield event
 

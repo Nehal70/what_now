@@ -178,6 +178,7 @@ async def chat(request: ChatRequest):
         _history_payload(request),
         profiler,
         session_id,
+        _merged_context(request),
     )
 
     _maybe_trigger_legal_nearby(request, result)
@@ -229,7 +230,11 @@ async def chat_stream(request: ChatRequest):
         bind_event_queue(queue)
         try:
             async for event in run_agent_stream(
-                request.transcript, history, profiler, session_id
+                request.transcript,
+                history,
+                profiler,
+                session_id,
+                _merged_context(request),
             ):
                 if event.get("type") == "done":
                     event["session_id"] = session_id

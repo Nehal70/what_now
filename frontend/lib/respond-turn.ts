@@ -1,3 +1,4 @@
+import { resolveCallContextForTurn } from "@/lib/call-context";
 import { emitEvent, emitSessionEvent } from "@/lib/events";
 import { fetchFromBackendChatStream, type BackendDone } from "@/lib/backend-chat";
 import { notifyAgentSpeak } from "@/lib/livekit-notify";
@@ -176,11 +177,12 @@ export async function executeRespondTurn(
   } = input;
 
   const session = sessionId ? await getSessionById(sessionId) : null;
+  const resolvedContext = await resolveCallContextForTurn(sessionId, context);
 
   const result = await fetchFromBackendChatStream({
     transcript,
     conversation_history,
-    context,
+    context: resolvedContext,
     location,
     images,
     sessionId,

@@ -26,12 +26,17 @@ function buildBackendBody(
   context: CallContext,
   location: UserLocation | null,
   images: SessionImagePayload[] | null,
+  sessionId: string | null,
 ): string {
   const payload: Record<string, unknown> = {
     transcript,
     conversation_history,
     context,
   };
+
+  if (sessionId) {
+    payload.session_id = sessionId;
+  }
 
   if (transcript === START_TOKEN && location) {
     payload.location = location;
@@ -92,6 +97,7 @@ export async function fetchFromBackendChatStream(input: {
       context,
       location,
       images,
+      sessionId,
     ),
   });
 

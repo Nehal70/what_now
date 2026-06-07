@@ -365,6 +365,29 @@ class IncidentStack:
                 self.data["tools_fired"].append(tool)
 
 
+def _copy_stack_value(key: str, value: Any) -> Any:
+    if key in ("questions_asked", "tools_fired") and isinstance(value, list):
+        return list(value)
+    return value
+
+
+def hydrate_from_context(stack: IncidentStack, context: dict[str, Any] | None) -> None:
+    """Restore stack.data from persisted call_context (Supabase source of truth)."""
+    if not context:
+        return
+
+    sources: list[dict[str, Any]] = []
+    nested = context.get("incident_stack")
+    if isinstance(nested, dict):
+        sources.append(nested)
+    sources.append(context)
+
+    for source in sources:
+        for key, value in source.items():
+            if key in stack.data and value is not None:
+                stack.data[key] = _copy_stack_value(key, value)
+
+
 def get_next_question(stack: IncidentStack) -> str | None:
     gaps = stack.gaps()
     if not gaps:
@@ -382,14 +405,21 @@ def get_next_question(stack: IncidentStack) -> str | None:
     return questions[0] if questions else None
 
 
-def get_or_create_stack(session_id: str) -> IncidentStack:
+def get_or_create_stack(
+    session_id: str,
+    context: dict[str, Any] | None = None,
+) -> IncidentStack:
     entry = sessions.get(session_id)
     if entry is None:
         stack = IncidentStack()
+        hydrate_from_context(stack, context)
         sessions[session_id] = {"stack": stack, "created_at": time.time()}
         return stack
     entry["created_at"] = time.time()
-    return entry["stack"]
+    stack = entry["stack"]
+    if context:
+        hydrate_from_context(stack, context)
+    return stack
 
 
 def cleanup_expired_sessions() -> int:

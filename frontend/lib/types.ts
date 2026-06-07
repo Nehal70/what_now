@@ -25,6 +25,27 @@ export type SessionMessage = {
   createdAt: string;
 };
 
+/** Mirrors backend IncidentStack.data persisted in sessions.call_context */
+export type IncidentStackData = {
+  incident_type?: string | null;
+  location?: string | null;
+  state?: string | null;
+  store_name?: string | null;
+  injuries?: string | null;
+  can_move?: boolean | null;
+  still_at_scene?: boolean | null;
+  witnesses?: boolean | null;
+  signed_anything?: boolean | null;
+  questions_asked?: string[];
+  phase?: string;
+  turns?: number;
+  has_guided?: boolean;
+  tools_fired?: string[];
+  other_carrier?: string | null;
+  nearby_legal_fired?: boolean;
+  disclaimer_given?: boolean;
+};
+
 export type CallContext = {
   state?: string;
   incident_type?: string;
@@ -36,6 +57,15 @@ export type CallContext = {
   awaiting_image?: boolean;
   image_prompt?: string | null;
   scene_description?: string;
+  incident_stack?: IncidentStackData;
+  other_carrier?: string | null;
+  nearby_legal_fired?: boolean;
+  stack_phase?: string;
+  has_guided?: boolean;
+  questions_asked?: string[];
+  turns?: number;
+  injuries?: string | null;
+  still_at_scene?: boolean | null;
 };
 
 export type SessionImagePayload = {
