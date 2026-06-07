@@ -15,6 +15,8 @@ from incident_stack import (
     get_next_question,
     get_or_create_stack,
 )
+from lib.dashboard_context import dashboard_context, jake_result_cache
+from lib.events import emit_event
 from tools.demo_guidance import (
     FINAL_DEMO_TURNS,
     apply_demo_context,
@@ -24,6 +26,19 @@ from tools.demo_guidance import (
     get_jake_first_guiding_response,
     get_jake_settlement_response,
     is_final_demo_scenario,
+)
+from tools.jake_demo import (
+    DEMO_RESPONSES,
+    IMAGE_UPLOAD_TOKEN as JAKE_IMAGE_UPLOAD_TOKEN,
+    START_TOKEN,
+    STAY_RESPONSE,
+    apply_jake_demo_turn,
+    build_jake_demo_turn,
+    ensure_jake_call_fresh,
+    is_jake_demo_mode,
+    jake_dedup_key,
+    jake_demo_stack_id,
+    resolve_jake_demo_turn,
 )
 from tools.insurance_tool import OWN_POLICY_TRIGGERS, run as insurance_tool_run
 from tools.legal_tool import run as legal_tool_run
@@ -1565,8 +1580,12 @@ async def _run_demo_tools(stack: IncidentStack, tools_fired: list[str]) -> None:
     args = {"incident_type": incident, "state": state}
     for tool_name in tools_fired:
         runner = TOOL_RUNNERS.get(tool_name)
-        if runner:
+        if not runner:
+            continue
+        try:
             await asyncio.to_thread(runner, args)
+        except Exception as exc:
+            print(f"[DEMO] Tool {tool_name} skipped: {exc}")
 
 
 def _apply_final_demo_turn(stack: IncidentStack, demo: dict[str, Any]) -> dict:
@@ -1603,6 +1622,173 @@ async def _apply_final_demo_turn_async(
     if tools_fired:
         await _run_demo_tools(stack, tools_fired)
     return result
+
+
+def _emit_jake_demo_side_events(stack: IncidentStack, demo: dict[str, Any]) -> None:
+    ts = int(time.time() * 1000)
+    if demo.get("emit_image_requested"):
+        emit_event(
+            {
+                "type": "image_requested",
+                "data": {
+                    "prompt": stack.data.get("image_prompt")
+                    or "Send photo of the damage to your car",
+                },
+                "timestamp": ts,
+            }
+        )
+    if demo.get("emit_image_processed"):
+        emit_event(
+            {
+                "type": "image_processed",
+                "data": {
+                    "summary": "Structural damage confirmed from photo",
+                    "image_count": stack.data.get("demo_images_received", 1),
+                },
+                "timestamp": ts,
+            }
+        )
+
+
+async def _deliver_pending_jake_turn(stack: IncidentStack) -> dict | None:
+    voice_key = stack.data.pop("jake_pending_voice", None)
+    if voice_key:
+        cached = stack.data.get("last_jake_demo_result")
+        if voice_key == "turn_4_7" and cached and stack.data.get("last_jake_demo_key") == "turn_4_7":
+            return {
+                **cached,
+                "context": dashboard_context(stack.data),
+                "skip_dashboard_push": True,
+            }
+        jake_turn = build_jake_demo_turn(voice_key)
+        jake_turn["advance_user_turn"] = False
+        jake_turn["commit"] = True
+        jake_turn["dedup_key"] = f"voice:{voice_key}"
+        result = await _commit_jake_demo_turn(stack, jake_turn, f"voice:{voice_key}")
+        result["skip_dashboard_push"] = voice_key in ("turn_4_5", "turn_4_7")
+        return result
+
+    pending = stack.data.pop("jake_pending_agent", None)
+    if not pending:
+        return None
+    jake_turn = build_jake_demo_turn(pending)
+    jake_turn["advance_user_turn"] = False
+    jake_turn["commit"] = True
+    jake_turn["dedup_key"] = f"pending:{pending}"
+    return await _commit_jake_demo_turn(stack, jake_turn, f"pending:{pending}")
+
+
+async def _commit_jake_demo_turn(
+    stack: IncidentStack,
+    jake_turn: dict[str, Any],
+    norm: str,
+) -> dict:
+    """Apply one scripted beat. T4.5 is a separate voice beat (not chained)."""
+    result = await _apply_jake_demo_turn_async(stack, jake_turn)
+    turn_key = jake_turn.get("key") or ""
+
+    if turn_key == "turn_4":
+        follow = build_jake_demo_turn("turn_4_5")
+        follow_result = await _apply_jake_demo_turn_async(stack, follow)
+        result["dashboard_splits"] = [
+            {
+                "response": result["response"],
+                "tool_called": result.get("tool_called"),
+                "reasoning": result.get("reasoning"),
+                "phase": result.get("phase"),
+                "context": dashboard_context(stack.data),
+                "dashboard_delay_s": result.get("dashboard_delay_s", 3),
+                "demo_turn": "turn_4",
+            },
+            {
+                "response": follow_result["response"],
+                "tool_called": follow_result.get("tool_called"),
+                "reasoning": follow_result.get("reasoning"),
+                "phase": follow_result.get("phase"),
+                "context": dashboard_context(stack.data),
+                "emit_image_requested": True,
+                "demo_turn": "turn_4_5",
+            },
+        ]
+        result["response"] = f'{result["response"]} {follow_result["response"]}'
+        result["tool_called"] = follow_result.get("tool_called")
+        result["reasoning"] = follow_result.get("reasoning")
+        result["phase"] = follow_result.get("phase", result.get("phase"))
+        result["emit_image_requested"] = True
+        result["demo_turn"] = "turn_4_5"
+        turn_key = "turn_4_5"
+
+    if jake_turn.get("advance_user_turn"):
+        user_turn = jake_turn.get("user_turn")
+        if user_turn:
+            stack.data["jake_user_turn_done"] = int(user_turn)
+
+    if turn_key == "turn_4_7" and norm == JAKE_IMAGE_UPLOAD_TOKEN:
+        stack.data["jake_pending_voice"] = "turn_4_7"
+
+    cached = jake_result_cache(result, stack.data)
+    dedup = jake_turn.get("dedup_key") or jake_dedup_key(norm)
+    stack.data["last_jake_dedup_key"] = dedup
+    stack.data["last_jake_committed_transcript"] = norm
+    stack.data["last_jake_demo_key"] = turn_key
+    stack.data["last_jake_demo_response"] = cached.get("response")
+    stack.data["last_jake_demo_result"] = cached
+    result["context"] = dashboard_context(stack.data)
+    return result
+
+
+def _jake_demo_cached_hit(stack_data: dict[str, Any], norm: str) -> dict | None:
+    cached = stack_data.get("last_jake_demo_result")
+    if not cached or not norm:
+        return None
+    if jake_dedup_key(norm) != stack_data.get("last_jake_dedup_key"):
+        return None
+    return cached
+
+
+def _jake_demo_stay_response(stack_data: dict[str, Any]) -> dict:
+    cached = stack_data.get("last_jake_demo_result")
+    if cached:
+        return {**cached, "context": dashboard_context(stack_data)}
+    return {
+        "response": STAY_RESPONSE,
+        "tool_called": None,
+        "reasoning": "Jake demo — holding",
+        "phase": stack_data.get("phase", "questioning"),
+        "context": dashboard_context(stack_data),
+    }
+
+
+async def _apply_jake_demo_turn_async(
+    stack: IncidentStack, demo: dict[str, Any]
+) -> dict:
+    apply_jake_demo_turn(stack.data, demo)
+    tools_fired = demo.get("tools_fired") or []
+    # Demo script only needs tool_called for dashboard — never block on Moss/Apify.
+    for tool in tools_fired:
+        if tool not in stack.data["tools_fired"]:
+            stack.data["tools_fired"].append(tool)
+
+    phase = demo.get("phase", "questioning")
+    stack.data["phase"] = phase
+    if phase == "guiding":
+        stack.data["has_guided"] = True
+
+    _emit_jake_demo_side_events(stack, demo)
+
+    return {
+        "response": demo["response"],
+        "tool_called": demo.get("tool_called"),
+        "reasoning": demo.get("reasoning", "Jake demo script"),
+        "phase": phase,
+        "context": stack.data,
+        "demo_turn": demo.get("key"),
+        "dashboard_delay_s": demo.get("dashboard_delay_s", 0),
+        "emit_nearby_medical": demo.get("emit_nearby_medical", False),
+        "emit_nearby_legal": demo.get("emit_nearby_legal", False),
+        "emit_image_requested": demo.get("emit_image_requested", False),
+        "emit_image_processed": demo.get("emit_image_processed", False),
+    }
 
 
 async def _questioning_turn(
@@ -1657,8 +1843,11 @@ async def _run_agent_turn(
     history: list[dict],
     session_id: str,
     profiler: LatencyProfiler,
+    images: list[dict] | None = None,
 ) -> dict:
-    stack = get_or_create_stack(session_id)
+    stack_id = jake_demo_stack_id(session_id)
+    stack = get_or_create_stack(stack_id)
+    ensure_jake_call_fresh(stack.data, session_id)
     for msg in history:
         if msg.get("role") == "user" and msg.get("text"):
             stack.absorb_user_text(msg["text"])
@@ -1666,10 +1855,54 @@ async def _run_agent_turn(
         stack.update_from_transcript(transcript)
         profiler.mark("stack_update")
 
+    if is_jake_demo_mode(session_id):
+        norm = transcript.strip()
+
+        pending = await _deliver_pending_jake_turn(stack)
+        if pending:
+            profiler.mark("first_token_streamed")
+            profiler.mark("last_token_streamed")
+            profiler.mark("response_complete")
+            pending["profile"] = profiler.checkpoints
+            return pending
+
+        cached = _jake_demo_cached_hit(stack.data, norm)
+        if cached:
+            profiler.mark("first_token_streamed")
+            profiler.mark("last_token_streamed")
+            profiler.mark("response_complete")
+            return {**cached, "profile": profiler.checkpoints}
+
+        jake_turn = resolve_jake_demo_turn(transcript, history, stack.data, images)
+        if jake_turn:
+            if jake_turn.get("key") == "__START__":
+                result = await _apply_jake_demo_turn_async(stack, jake_turn)
+                result["context"] = dashboard_context(stack.data)
+            elif jake_turn.get("key") == "stay":
+                result = _jake_demo_stay_response(stack.data)
+            else:
+                result = await _commit_jake_demo_turn(stack, jake_turn, norm)
+            profiler.mark("first_token_streamed")
+            profiler.mark("last_token_streamed")
+            profiler.mark("response_complete")
+            result["profile"] = profiler.checkpoints
+            return result
+
+        result = _jake_demo_stay_response(stack.data)
+        profiler.mark("first_token_streamed")
+        profiler.mark("last_token_streamed")
+        profiler.mark("response_complete")
+        result["profile"] = profiler.checkpoints
+        return result
+
     if is_final_demo_scenario(history, transcript, stack.data):
         stack.data["final_demo_active"] = True
 
-    demo_turn = get_final_demo_turn(transcript, history, stack.data)
+    demo_turn = (
+        None
+        if is_jake_demo_mode(session_id)
+        else get_final_demo_turn(transcript, history, stack.data)
+    )
     if demo_turn:
         if stack.data.get("last_demo_turn") == demo_turn.get("turn"):
             cached = stack.data.get("last_demo_response")
@@ -1697,7 +1930,7 @@ async def _run_agent_turn(
         result["profile"] = profiler.checkpoints
         return result
 
-    if stack.data.get("final_demo_active"):
+    if stack.data.get("final_demo_active") and not is_jake_demo_mode(session_id):
         fallback = FINAL_DEMO_TURNS.get(6)
         if fallback:
             demo_turn = {
@@ -1741,18 +1974,95 @@ async def _run_agent_turn_stream(
     history: list[dict],
     session_id: str,
     profiler: LatencyProfiler,
+    images: list[dict] | None = None,
 ) -> AsyncIterator[dict[str, Any]]:
-    stack = get_or_create_stack(session_id)
+    stack_id = jake_demo_stack_id(session_id)
+    stack = get_or_create_stack(stack_id)
+    ensure_jake_call_fresh(stack.data, session_id)
     for msg in history:
         if msg.get("role") == "user" and msg.get("text"):
             stack.absorb_user_text(msg["text"])
     if transcript.strip() and transcript != "__START__":
         stack.update_from_transcript(transcript)
 
+    if is_jake_demo_mode(session_id):
+        norm = transcript.strip()
+
+        pending = await _deliver_pending_jake_turn(stack)
+        if pending:
+            profiler.mark("first_token_streamed")
+            yield {"type": "token", "content": pending["response"]}
+            profiler.mark("last_token_streamed")
+            profiler.mark("response_complete")
+            profile = profiler.report()
+            yield {**pending, "type": "done", "latency_ms": profile[-1]["ms"] if profile else 0, "profile": profile}
+            return
+
+        cached = _jake_demo_cached_hit(stack.data, norm)
+        if cached:
+            profiler.mark("first_token_streamed")
+            yield {"type": "token", "content": cached["response"]}
+            profiler.mark("last_token_streamed")
+            profiler.mark("response_complete")
+            profile = profiler.report()
+            yield {**cached, "type": "done", "latency_ms": profile[-1]["ms"] if profile else 0, "profile": profile}
+            return
+
+        jake_turn = resolve_jake_demo_turn(transcript, history, stack.data, images)
+        if jake_turn:
+            if jake_turn.get("key") == "__START__":
+                result = await _apply_jake_demo_turn_async(stack, jake_turn)
+                result["context"] = dashboard_context(stack.data)
+            elif jake_turn.get("key") == "stay":
+                result = _jake_demo_stay_response(stack.data)
+            else:
+                result = await _commit_jake_demo_turn(stack, jake_turn, norm)
+            profiler.mark("first_token_streamed")
+            yield {"type": "token", "content": result["response"]}
+            profiler.mark("last_token_streamed")
+            profiler.mark("response_complete")
+            profile = profiler.report()
+            yield {
+                "type": "done",
+                "response": result["response"],
+                "tool_called": result.get("tool_called"),
+                "reasoning": result.get("reasoning"),
+                "phase": result.get("phase"),
+                "context": result.get("context"),
+                "demo_turn": result.get("demo_turn"),
+                "dashboard_delay_s": result.get("dashboard_delay_s", 0),
+                "emit_nearby_medical": result.get("emit_nearby_medical", False),
+                "emit_nearby_legal": result.get("emit_nearby_legal", False),
+                "emit_image_requested": result.get("emit_image_requested", False),
+                "emit_image_processed": result.get("emit_image_processed", False),
+                "dashboard_splits": result.get("dashboard_splits"),
+                "latency_ms": profile[-1]["ms"] if profile else 0,
+                "profile": profile,
+            }
+            return
+
+        result = _jake_demo_stay_response(stack.data)
+        profiler.mark("first_token_streamed")
+        yield {"type": "token", "content": result["response"]}
+        profiler.mark("last_token_streamed")
+        profiler.mark("response_complete")
+        profile = profiler.report()
+        yield {
+            **result,
+            "type": "done",
+            "latency_ms": profile[-1]["ms"] if profile else 0,
+            "profile": profile,
+        }
+        return
+
     if is_final_demo_scenario(history, transcript, stack.data):
         stack.data["final_demo_active"] = True
 
-    demo_turn = get_final_demo_turn(transcript, history, stack.data)
+    demo_turn = (
+        None
+        if is_jake_demo_mode(session_id)
+        else get_final_demo_turn(transcript, history, stack.data)
+    )
     if demo_turn:
         result = await _apply_final_demo_turn_async(stack, demo_turn)
         stack.data["last_demo_response"] = result["response"]
@@ -1777,7 +2087,7 @@ async def _run_agent_turn_stream(
         }
         return
 
-    if stack.data.get("final_demo_active"):
+    if stack.data.get("final_demo_active") and not is_jake_demo_mode(session_id):
         fallback = FINAL_DEMO_TURNS.get(6)
         if fallback:
             demo_turn = {
@@ -2026,6 +2336,7 @@ def run_agent_sync(
     conversation_history: list[dict],
     profiler: LatencyProfiler | None = None,
     session_id: str = "",
+    images: list[dict] | None = None,
 ) -> dict:
     """Sync wrapper for scripts; prefer async run_agent in FastAPI."""
     if profiler is None:
@@ -2033,7 +2344,9 @@ def run_agent_sync(
         profiler.mark("request_received")
     profiler.mark("messages_built")
     result = asyncio.run(
-        _run_agent_turn(transcript, conversation_history, session_id, profiler)
+        _run_agent_turn(
+            transcript, conversation_history, session_id, profiler, images=images
+        )
     )
     profiler.report()
     return result
@@ -2044,12 +2357,15 @@ async def run_agent(
     conversation_history: list[dict],
     profiler: LatencyProfiler | None = None,
     session_id: str = "",
+    images: list[dict] | None = None,
 ) -> dict:
     if profiler is None:
         profiler = LatencyProfiler()
         profiler.mark("request_received")
     profiler.mark("messages_built")
-    result = await _run_agent_turn(transcript, conversation_history, session_id, profiler)
+    result = await _run_agent_turn(
+        transcript, conversation_history, session_id, profiler, images=images
+    )
     profiler.report()
     return result
 
@@ -2196,10 +2512,11 @@ async def run_agent_stream(
     conversation_history: list[dict],
     profiler: LatencyProfiler,
     session_id: str = "",
+    images: list[dict] | None = None,
 ) -> AsyncIterator[dict[str, Any]]:
     profiler.mark("messages_built")
     async for event in _run_agent_turn_stream(
-        transcript, conversation_history, session_id, profiler
+        transcript, conversation_history, session_id, profiler, images=images
     ):
         yield event
 

@@ -27,6 +27,7 @@ function buildBackendBody(
   context: CallContext,
   location: UserLocation | null,
   images: SessionImagePayload[] | null,
+  sessionId: string | null = null,
 ): string {
   const payload: Record<string, unknown> = {
     transcript,
@@ -40,6 +41,10 @@ function buildBackendBody(
 
   if (transcript === IMAGE_UPLOAD_TOKEN && images && images.length > 0) {
     payload.images = images;
+  }
+
+  if (sessionId) {
+    payload.session_id = sessionId;
   }
 
   return JSON.stringify(payload);
@@ -150,7 +155,7 @@ export async function fetchFromBackendChatStream(input: {
   } = input;
 
   const onSideEffect: StreamSideEffect = (event) => {
-    if (sessionId) {
+    if (sessionId && sessionId !== "jake-demo") {
       emitSessionEvent(sessionId, event);
     }
     emitEvent(event);
@@ -168,6 +173,7 @@ export async function fetchFromBackendChatStream(input: {
       context,
       location,
       images,
+      sessionId,
     ),
   });
 

@@ -16,6 +16,7 @@ from pydantic import BaseModel
 
 from agent import LatencyProfiler, run_agent, run_agent_stream, warmup_llm
 from incident_stack import CLEANUP_INTERVAL_SECONDS, cleanup_expired_sessions, get_or_create_stack
+from lib.dashboard_context import dashboard_context
 from lib.call_location import (
     get_call_location,
     mark_nearby_medical_emitted,
@@ -27,6 +28,9 @@ from tools.demo_guidance import (
     AUSTIN_DEMO_MEDICAL,
     FINAL_DEMO_OPENING,
 )
+from tools.jake_demo import is_jake_demo_mode, jake_demo_stack_id
+
+DEMO_RESPONSE_DELAY_S = 0.55
 from tools.nearby_search import emit_nearby, nearby_search
 
 load_dotenv(override=True)
@@ -202,12 +206,20 @@ class VapiLocationRequest(BaseModel):
     call_id: Optional[str] = None
 
 
+class SessionImage(BaseModel):
+    id: str
+    url: str
+    mime_type: str
+    uploaded_at: int
+
+
 class ChatRequest(BaseModel):
     transcript: str
     conversation_history: list[HistoryMessage] = []
     context: dict = {}
     location: Optional[Location] = None
     session_id: Optional[str] = None
+    images: list[SessionImage] | None = None
 
 
 class ChatResponse(BaseModel):
@@ -225,6 +237,23 @@ def _history_payload(request: ChatRequest) -> list[dict]:
     return [msg.model_dump() for msg in request.conversation_history]
 
 
+def _images_payload(request: ChatRequest) -> list[dict] | None:
+    if not request.images:
+        return None
+    return [img.model_dump() for img in request.images]
+
+
+IMAGE_UPLOAD_TOKEN = "__IMAGE_UPLOAD__"
+
+
+def _user_transcript_label(transcript: str, image_count: int = 0) -> str:
+    if transcript == IMAGE_UPLOAD_TOKEN:
+        if image_count == 1:
+            return "📷 Sent 1 photo"
+        return f"📷 Sent {image_count or 1} photos"
+    return transcript
+
+
 def _merged_context(request: ChatRequest, result_context: dict | None = None) -> dict:
     merged = dict(request.context or {})
     if result_context:
@@ -238,13 +267,21 @@ async def _push_dashboard_events(events: list[dict]) -> None:
         return
     url = f"{NEXTJS_URL.rstrip('/')}/api/internal/events"
     last_error: Exception | None = None
+    try:
+        payload = json.dumps({"events": events})
+    except (TypeError, ValueError) as exc:
+        print(f"[VAPI] Dashboard push skipped — non-serializable events: {exc!r}")
+        return
     for attempt in range(3):
         try:
             async with httpx.AsyncClient(timeout=30.0) as client:
                 resp = await client.post(
                     url,
-                    json={"events": events},
-                    headers={"Authorization": f"Bearer {INTERNAL_API_SECRET}"},
+                    content=payload,
+                    headers={
+                        "Authorization": f"Bearer {INTERNAL_API_SECRET}",
+                        "Content-Type": "application/json",
+                    },
                 )
                 if resp.status_code >= 400:
                     print(
@@ -422,12 +459,13 @@ def _vapi_dashboard_events(
     transcript: str,
     result: dict,
     call_id: str | None = None,
+    image_count: int = 0,
 ) -> list[dict]:
     ts = int(time.time() * 1000)
     live_payload: dict = {"state": "live"}
     if call_id:
         live_payload["call_id"] = call_id
-    return [
+    events = [
         {
             "type": "call_state",
             "data": live_payload,
@@ -435,7 +473,10 @@ def _vapi_dashboard_events(
         },
         {
             "type": "transcript",
-            "data": {"role": "user", "text": transcript},
+            "data": {
+                "role": "user",
+                "text": _user_transcript_label(transcript, image_count),
+            },
             "timestamp": ts,
         },
         {
@@ -465,7 +506,7 @@ def _vapi_dashboard_events(
         },
         {
             "type": "context",
-            "data": result.get("context") or {},
+            "data": dashboard_context(result.get("context") or {}),
             "timestamp": ts,
         },
         {
@@ -483,6 +524,30 @@ def _vapi_dashboard_events(
             "timestamp": ts,
         },
     ]
+    ctx = result.get("context") or {}
+    if ctx.get("awaiting_image") or result.get("emit_image_requested"):
+        events.append(
+            {
+                "type": "image_requested",
+                "data": {
+                    "prompt": ctx.get("image_prompt")
+                    or "Send photo of the damage to your car",
+                },
+                "timestamp": ts,
+            }
+        )
+    if result.get("emit_image_processed"):
+        events.append(
+            {
+                "type": "image_processed",
+                "data": {
+                    "summary": "Structural damage confirmed from photo",
+                    "image_count": ctx.get("demo_images_received", image_count or 1),
+                },
+                "timestamp": ts,
+            }
+        )
+    return events
 
 
 def _message_content(msg: dict) -> str:
@@ -572,14 +637,32 @@ async def _schedule_dashboard_events(
     result: dict,
     call_id: str,
     coords: tuple[float, float] | None,
+    image_count: int = 0,
 ) -> None:
-    delay = float(result.get("dashboard_delay_s") or 0)
-    if delay > 0:
-        await asyncio.sleep(delay)
-
-    await _push_dashboard_events(
-        _vapi_dashboard_events(transcript, result, call_id or None)
-    )
+    splits = result.get("dashboard_splits")
+    if splits:
+        for idx, part in enumerate(splits):
+            delay = float(part.get("dashboard_delay_s") or 0)
+            if delay > 0:
+                await asyncio.sleep(delay)
+            part_result = {**result, **part}
+            await _push_dashboard_events(
+                _vapi_dashboard_events(
+                    transcript if idx == 0 else "",
+                    part_result,
+                    call_id or None,
+                    image_count=image_count if idx == 0 else 0,
+                )
+            )
+    else:
+        delay = float(result.get("dashboard_delay_s") or 0)
+        if delay > 0:
+            await asyncio.sleep(delay)
+        await _push_dashboard_events(
+            _vapi_dashboard_events(
+                transcript, result, call_id or None, image_count=image_count
+            )
+        )
 
     if coords and result.get("emit_nearby_medical"):
         await _emit_demo_nearby("nearby_medical", coords[0], coords[1])
@@ -594,6 +677,18 @@ async def _run_vapi_turn(
     vapi_body: dict | None = None,
 ) -> dict:
     if not transcript.strip():
+        if is_jake_demo_mode(call_id):
+            stack = get_or_create_stack(jake_demo_stack_id(call_id))
+            if stack.data.get("jake_pending_agent") or stack.data.get("jake_pending_voice"):
+                profiler = LatencyProfiler()
+                profiler.mark("request_received")
+                result = await run_agent(" ", history, profiler, call_id)
+                profile = result.get("profile") or profiler.checkpoints
+                result["latency_ms"] = profile[-1]["ms"] if profile else 0
+                asyncio.create_task(
+                    _schedule_dashboard_events(" ", result, call_id, None, 0)
+                )
+                return result
         return {
             "response": FINAL_DEMO_OPENING,
             "tool_called": None,
@@ -609,9 +704,15 @@ async def _run_vapi_turn(
     ):
         _trigger_vapi_medical_nearby(call_id, coords[0], coords[1])
 
+    if transcript.strip() and is_jake_demo_mode(call_id):
+        stack = get_or_create_stack(jake_demo_stack_id(call_id))
+        if transcript.strip() != stack.data.get("last_jake_committed_transcript"):
+            await asyncio.sleep(DEMO_RESPONSE_DELAY_S)
+
     profiler = LatencyProfiler()
     profiler.mark("request_received")
-    result = await run_agent(transcript, history, profiler, call_id)
+    images = vapi_body.get("images") if vapi_body else None
+    result = await run_agent(transcript, history, profiler, call_id, images=images)
 
     if coords and result.get("tool_called") == "legal_tool":
         _maybe_trigger_vapi_legal_nearby(call_id, coords[0], coords[1], result)
@@ -620,9 +721,13 @@ async def _run_vapi_turn(
     latency_ms = profile[-1]["ms"] if profile else 0
     result["latency_ms"] = latency_ms
 
-    asyncio.create_task(
-        _schedule_dashboard_events(transcript, result, call_id, coords)
-    )
+    image_count = len(images) if images else 0
+    if not result.get("skip_dashboard_push"):
+        asyncio.create_task(
+            _schedule_dashboard_events(
+                transcript, result, call_id, coords, image_count=image_count
+            )
+        )
     return result
 
 
@@ -726,6 +831,7 @@ async def chat(request: ChatRequest):
         _history_payload(request),
         profiler,
         session_id,
+        images=_images_payload(request),
     )
 
     _maybe_trigger_legal_nearby(request, result)
@@ -778,7 +884,11 @@ async def chat_stream(request: ChatRequest):
         bind_event_queue(queue)
         try:
             async for event in run_agent_stream(
-                request.transcript, history, profiler, session_id
+                request.transcript,
+                history,
+                profiler,
+                session_id,
+                images=_images_payload(request),
             ):
                 if event.get("type") == "done":
                     event["session_id"] = session_id
@@ -806,7 +916,18 @@ def _wants_openai_response(body: dict) -> bool:
 async def _vapi_chat_response(body: dict, request: Request | None = None):
     transcript, history, call_id = _parse_vapi_messages(body, request)
     model = body.get("model") or "what-now"
-    result = await _run_vapi_turn(transcript, history, call_id, body)
+    try:
+        result = await _run_vapi_turn(transcript, history, call_id, body)
+    except Exception as exc:
+        print(f"[VAPI] Turn failed for call {call_id}: {exc!r}")
+        result = {
+            "response": "I'm still here — tell me a bit more about what happened.",
+            "tool_called": None,
+            "reasoning": f"Vapi fallback after error: {exc}",
+            "phase": "questioning",
+            "context": {},
+            "latency_ms": 0,
+        }
     content = result.get("response") or "I'm here. Are you hurt?"
 
     if _wants_openai_response(body):
@@ -825,7 +946,7 @@ def _build_transient_assistant() -> dict:
         raise ValueError("VAPI_CUSTOM_LLM_BASE is not configured")
     return {
         "name": "What Now",
-        "firstMessage": "I'm here. Are you hurt?",
+        "firstMessage": "I'm here. How can I help you?",
         "transcriber": {"provider": "deepgram", "model": "nova-2"},
         "voice": {"provider": "openai", "voiceId": "shimmer"},
         "model": {

@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 
 import CaseStrengthPanel from "@/components/CaseStrengthPanel";
+import DemoImageUploadBar from "@/components/DemoImageUploadBar";
 import IncidentProfilePanel from "@/components/IncidentProfilePanel";
 import LiveTranscript, {
   type TranscriptMessage,
@@ -57,6 +58,8 @@ export default function DashboardPage() {
   const [callDuration, setCallDuration] = useState(0);
   const [activeModel, setActiveModel] = useState("…");
   const [imagePrompt, setImagePrompt] = useState<string | null>(null);
+  const [showImageUpload, setShowImageUpload] = useState(false);
+  const [imageStatus, setImageStatus] = useState<string | null>(null);
   const [receivedImages, setReceivedImages] = useState<
     { id: string; preview_url: string }[]
   >([]);
@@ -163,6 +166,10 @@ export default function DashboardPage() {
               ]);
               if (role === "assistant") {
                 pendingToolRef.current = null;
+                if (/photo of the damage|send me a photo|send.*photo/i.test(text)) {
+                  setShowImageUpload(true);
+                  setImageStatus("📸 Waiting for damage photo...");
+                }
               }
             }
             break;
@@ -176,11 +183,14 @@ export default function DashboardPage() {
             }
             break;
           }
-          case "context":
-            setIncidentContext((prev) =>
-              mergeContext(prev, parsed.data as Record<string, unknown>),
-            );
+          case "context": {
+            const ctx = parsed.data as Record<string, unknown>;
+            if (ctx?.awaiting_image === true) {
+              setShowImageUpload(true);
+            }
+            setIncidentContext((prev) => mergeContext(prev, ctx));
             break;
+          }
           case "phase":
             setRawPhase((parsed.data?.phase as string) ?? "");
             break;
@@ -226,6 +236,8 @@ export default function DashboardPage() {
               setIncidentContext({});
               setNearbyMedical([]);
               setNearbyLegal([]);
+              setImageStatus(null);
+              setShowImageUpload(false);
               pendingToolRef.current = null;
               if (timerRef.current) {
                 clearInterval(timerRef.current);
@@ -239,6 +251,8 @@ export default function DashboardPage() {
             setImagePrompt(
               (parsed.data?.prompt as string) ?? "Upload photos in the app",
             );
+            setShowImageUpload(true);
+            setImageStatus("📸 Waiting for damage photo...");
             break;
           case "image_received": {
             const id = parsed.data?.id as string | undefined;
@@ -250,6 +264,9 @@ export default function DashboardPage() {
           }
           case "image_processed":
             setImagePrompt(null);
+            setShowImageUpload(false);
+            setImageStatus("✓ Damage photo reviewed");
+            window.setTimeout(() => setImageStatus(null), 4000);
             break;
           case "nearby_medical": {
             markNearbyShown("nearby_medical");
@@ -315,6 +332,16 @@ export default function DashboardPage() {
   }, []);
 
   return (
+    <>
+      <DemoImageUploadBar
+        visible={showImageUpload}
+        onSent={() => {
+          setShowImageUpload(false);
+          setImagePrompt(null);
+          setImageStatus("✓ Damage photo reviewed");
+          window.setTimeout(() => setImageStatus(null), 4000);
+        }}
+      />
     <main
       style={{
         height: "100vh",
@@ -325,7 +352,7 @@ export default function DashboardPage() {
         display: "flex",
         flexDirection: "column",
         fontFamily: "var(--font-instrument-sans), system-ui, sans-serif",
-        padding: "20px 24px 24px",
+        padding: showImageUpload ? "120px 24px 24px" : "20px 24px 24px",
         boxSizing: "border-box",
       }}
     >
@@ -545,6 +572,22 @@ export default function DashboardPage() {
           >
             Transcript
           </p>
+          {imageStatus ? (
+            <p
+              style={{
+                margin: "0 0 12px",
+                fontFamily: "var(--font-ibm-plex-mono), monospace",
+                fontSize: 12,
+                color: imageStatus.startsWith("✓")
+                  ? "rgba(95,212,160,0.85)"
+                  : "rgba(255,180,80,0.55)",
+                fontStyle: imageStatus.startsWith("✓") ? "normal" : "italic",
+                flexShrink: 0,
+              }}
+            >
+              {imageStatus}
+            </p>
+          ) : null}
           <LiveTranscript messages={messages} />
         </section>
 
@@ -747,5 +790,6 @@ export default function DashboardPage() {
         </div>
       )}
     </main>
+    </>
   );
 }

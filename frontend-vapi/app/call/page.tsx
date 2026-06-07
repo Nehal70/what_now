@@ -1,10 +1,14 @@
 "use client";
 
 import Vapi from "@vapi-ai/web";
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 
+import DemoImageUploadBar from "@/components/DemoImageUploadBar";
 import VoiceOrb from "@/components/VoiceOrb";
-import type { ConversationMessage, OrbState } from "@/lib/types";
+import type { CallContext, ConversationMessage, OrbState } from "@/lib/types";
+
+const PHOTO_REQUEST_RE =
+  /photo of the damage|send me a photo|send.*photo|upload.*photo/i;
 
 type VapiConfig = {
   apiKey: string;
@@ -56,6 +60,10 @@ function pushDashboardEvents(
   });
 }
 
+function isPhotoRequest(text: string): boolean {
+  return PHOTO_REQUEST_RE.test(text);
+}
+
 function buildInlineAssistant(customLlmUrl: string) {
   return {
     name: "What Now",
@@ -82,11 +90,63 @@ export default function CallPage() {
   const [orbState, setOrbState] = useState<OrbState>("idle");
   const [isConnected, setIsConnected] = useState(false);
   const [transcript, setTranscript] = useState<ConversationMessage[]>([]);
+  const [callContext, setCallContext] = useState<CallContext>({});
   const [configError, setConfigError] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
   const [starting, setStarting] = useState(false);
   const [debugInfo, setDebugInfo] = useState<string | null>(null);
   const [llmUrl, setLlmUrl] = useState("");
+  const [awaitingImage, setAwaitingImage] = useState(false);
+
+  const markAwaitingImage = useCallback(() => {
+    setAwaitingImage(true);
+  }, []);
+
+  useEffect(() => {
+    const source = new EventSource("/api/events");
+
+    source.onmessage = (event) => {
+      try {
+        const parsed = JSON.parse(event.data) as {
+          type?: string;
+          data?: Record<string, unknown>;
+        };
+        if (parsed.type === "ping") return;
+
+        if (parsed.type === "image_requested") {
+          markAwaitingImage();
+        }
+
+        if (parsed.type === "image_processed") {
+          setAwaitingImage(false);
+        }
+
+        if (parsed.type === "transcript") {
+          const role = parsed.data?.role as string | undefined;
+          const text = parsed.data?.text as string | undefined;
+          if (role === "assistant" && text && isPhotoRequest(text)) {
+            markAwaitingImage();
+          }
+        }
+
+        if (parsed.type === "context") {
+          const ctx = parsed.data as CallContext;
+          if (ctx?.awaiting_image) {
+            markAwaitingImage();
+          } else if (ctx && "awaiting_image" in ctx && ctx.awaiting_image === false) {
+            setAwaitingImage(false);
+          }
+          setCallContext((prev) => ({ ...prev, ...ctx }));
+        }
+      } catch {
+        // ignore malformed SSE
+      }
+    };
+
+    return () => {
+      source.close();
+    };
+  }, [markAwaitingImage]);
 
   useEffect(() => {
     let cancelled = false;
@@ -184,6 +244,10 @@ export default function CallPage() {
           }
 
           setTranscript((prev) => [...prev, { role, text }]);
+
+          if (role === "assistant" && isPhotoRequest(text)) {
+            markAwaitingImage();
+          }
         });
 
         vapi.on("error", (error: unknown) => {
@@ -218,7 +282,7 @@ export default function CallPage() {
       vapiRef.current?.removeAllListeners();
       vapiRef.current = null;
     };
-  }, []);
+  }, [markAwaitingImage]);
 
   const startCall = async () => {
     const vapi = vapiRef.current;
@@ -254,7 +318,6 @@ export default function CallPage() {
       : undefined;
 
     try {
-      // Always use inline assistant so custom-llm URL matches ngrok backend.
       if (config.assistantId && !config.useInlineAssistant) {
         await vapi.start(config.assistantId, {
           model: assistant.model,
@@ -278,62 +341,72 @@ export default function CallPage() {
   };
 
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center gap-8 bg-black p-6 text-white">
-      <h1
-        className="text-4xl font-bold text-[#ff6b4a]"
-        style={{ fontFamily: "Libre Baskerville, serif" }}
+    <>
+      <DemoImageUploadBar
+        visible={awaitingImage}
+        onSent={() => setAwaitingImage(false)}
+      />
+
+      <div
+        className="flex min-h-screen flex-col items-center justify-center gap-8 bg-black p-6 text-white"
+        style={{ paddingTop: awaitingImage ? 140 : 24 }}
       >
-        What Now?
-      </h1>
+        <h1
+          className="text-4xl font-bold text-[#ff6b4a]"
+          style={{ fontFamily: "Libre Baskerville, serif" }}
+        >
+          What Now?
+        </h1>
 
-      {loading ? (
-        <p className="text-sm text-white/50">Loading…</p>
-      ) : !isConnected ? (
-        <>
-          {configError ? (
-            <p className="max-w-md text-center text-sm text-red-400">{configError}</p>
-          ) : null}
-          <button
-            type="button"
-            onClick={() => void startCall()}
-            disabled={Boolean(configError && !starting) || starting}
-            className="h-48 w-48 rounded-full bg-[#ff6b4a] text-xl font-semibold text-white shadow-2xl transition-all hover:bg-[#ff5530] active:scale-95 disabled:cursor-not-allowed disabled:opacity-40"
-          >
-            {starting ? "Connecting…" : "Call Now"}
-          </button>
-          <p className="max-w-sm text-center text-xs text-white/40">
-            Vapi = voice only. LLM: {llmUrl || "…"}/chat/completions
-          </p>
-          {debugInfo ? (
-            <p className="max-w-md text-center font-mono text-[10px] text-white/30">
-              {debugInfo}
+        {loading ? (
+          <p className="text-sm text-white/50">Loading…</p>
+        ) : !isConnected ? (
+          <>
+            {configError ? (
+              <p className="max-w-md text-center text-sm text-red-400">{configError}</p>
+            ) : null}
+            <button
+              type="button"
+              onClick={() => void startCall()}
+              disabled={Boolean(configError && !starting) || starting}
+              className="h-48 w-48 rounded-full bg-[#ff6b4a] text-xl font-semibold text-white shadow-2xl transition-all hover:bg-[#ff5530] active:scale-95 disabled:cursor-not-allowed disabled:opacity-40"
+            >
+              {starting ? "Connecting…" : "Call Now"}
+            </button>
+            <p className="max-w-sm text-center text-xs text-white/40">
+              Vapi = voice only. LLM: {llmUrl || "…"}/chat/completions
             </p>
-          ) : null}
-        </>
-      ) : (
-        <>
-          <VoiceOrb state={orbState} />
+            {debugInfo ? (
+              <p className="max-w-md text-center font-mono text-[10px] text-white/30">
+                {debugInfo}
+              </p>
+            ) : null}
+          </>
+        ) : (
+          <>
+            <VoiceOrb state={orbState} />
 
-          {transcript.length > 0 && (
-            <div className="max-w-md space-y-2 text-sm text-white/70">
-              {transcript.slice(-4).map((line, index) => (
-                <p key={`${line.role}-${index}`}>
-                  <span className="uppercase text-white/40">{line.role}:</span>{" "}
-                  {line.text}
-                </p>
-              ))}
-            </div>
-          )}
+            {transcript.length > 0 && (
+              <div className="max-w-md space-y-2 text-sm text-white/70">
+                {transcript.slice(-4).map((line, index) => (
+                  <p key={`${line.role}-${index}`}>
+                    <span className="uppercase text-white/40">{line.role}:</span>{" "}
+                    {line.text}
+                  </p>
+                ))}
+              </div>
+            )}
 
-          <button
-            type="button"
-            onClick={endCall}
-            className="rounded-full border border-white/20 px-6 py-3 text-sm text-white/60"
-          >
-            End Call
-          </button>
-        </>
-      )}
-    </div>
+            <button
+              type="button"
+              onClick={endCall}
+              className="rounded-full border border-white/20 px-6 py-3 text-sm text-white/60"
+            >
+              End Call
+            </button>
+          </>
+        )}
+      </div>
+    </>
   );
 }

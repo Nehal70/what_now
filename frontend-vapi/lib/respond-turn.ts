@@ -72,6 +72,11 @@ function buildTurnEvents(
       timestamp: Date.now(),
     },
     {
+      type: "context",
+      data: result.context,
+      timestamp: Date.now(),
+    },
+    {
       type: "transcript",
       data: { role: "assistant", text: result.response },
       timestamp: Date.now(),
@@ -93,15 +98,28 @@ function buildTurnEvents(
     });
   }
 
+  if (transcript === IMAGE_UPLOAD_TOKEN) {
+    events.push({
+      type: "image_processed",
+      data: {
+        summary: "Structural damage confirmed from photo",
+        image_count: imageCount ?? 1,
+      },
+      timestamp: Date.now(),
+    });
+  }
+
   return events;
 }
+
+const DEMO_SESSION_ID = "jake-demo";
 
 function emitTurnEvents(
   sessionId: string | null,
   events: SSEEvent[],
 ): void {
   for (const event of events) {
-    if (sessionId) {
+    if (sessionId && sessionId !== DEMO_SESSION_ID) {
       emitSessionEvent(sessionId, event);
     } else {
       emitEvent(event);
@@ -182,7 +200,7 @@ export async function executeRespondTurn(
     sessionId,
   });
 
-  if (sessionId) {
+  if (sessionId && sessionId !== DEMO_SESSION_ID) {
     await persistTurn(sessionId, transcript, result, imageCount);
   }
 

@@ -7,8 +7,14 @@ import {
 import { getUserLocation } from "@/lib/location-store";
 import { executeRespondTurn } from "@/lib/respond-turn";
 import { getSessionById } from "@/lib/sessions";
-import type { CallContext, ConversationMessage } from "@/lib/types";
+import type {
+  CallContext,
+  ConversationMessage,
+  SessionImagePayload,
+} from "@/lib/types";
 import { START_TOKEN } from "@/lib/types";
+
+const DEMO_SESSION_ID = "jake-demo";
 
 export const dynamic = "force-dynamic";
 
@@ -19,15 +25,19 @@ export async function POST(request: Request) {
       transcript?: string;
       conversation_history?: ConversationMessage[];
       context?: CallContext;
+      images?: SessionImagePayload[];
     };
 
     const sessionId = body.session_id ?? null;
     const transcript = body.transcript ?? "";
     const conversation_history = body.conversation_history ?? [];
     const context = body.context ?? {};
+    const images = body.images ?? null;
+
+    const isDemoSession = sessionId === DEMO_SESSION_ID;
 
     let session = null;
-    if (sessionId) {
+    if (sessionId && !isDemoSession) {
       session = await getSessionById(sessionId);
       if (!session) {
         return NextResponse.json({ error: "Session not found" }, { status: 404 });
@@ -51,6 +61,8 @@ export async function POST(request: Request) {
       conversation_history,
       context,
       location,
+      images,
+      imageCount: images?.length,
     });
 
     return NextResponse.json({

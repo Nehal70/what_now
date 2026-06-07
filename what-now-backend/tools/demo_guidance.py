@@ -7,7 +7,7 @@ from typing import Any
 WHAT_ELSE = ("what else", "what now", "anything else", "what should i", "what do i do")
 FOOTAGE = ("footage", "video", "security camera", "cctv", "surveillance", "recording")
 
-FINAL_DEMO_OPENING = "I'm here. Are you hurt?"
+FINAL_DEMO_OPENING = "I'm here. How can I help you?"
 
 # ── Final demo script: Jake rear-end / Austin TX / State Farm / Progressive ──
 FINAL_DEMO_USER_TRIGGERS = (
