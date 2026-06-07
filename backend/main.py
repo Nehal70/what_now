@@ -19,10 +19,11 @@ from tools.nearby_search import emit_nearby
 load_dotenv(override=True)
 
 START_RESPONSE = {
-    "response": "I'm here. First — are you safe? Are you hurt?",
-    "tool_called": "safety_check",
+    "response": "I'm here. Are you hurt?",
+    "tool_called": None,
     "reasoning": "Initial greeting",
     "latency_ms": 0,
+    "phase": "questioning",
     "profile": [{"step": "request_received", "ms": 0}, {"step": "response_complete", "ms": 0}],
 }
 

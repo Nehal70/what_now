@@ -14,7 +14,8 @@ sessions: dict[str, dict[str, Any]] = {}
 
 INCIDENT_TYPE_MAP = {
     "slip_fall": "slip and fall",
-    "hit_run": "car accident",
+    "car_accident": "car accident",
+    "hit_run": "hit and run",
     "dog_bite": "dog bite",
     "workplace": "workplace injury",
     "assault": "assault",
@@ -24,37 +25,32 @@ INCIDENT_TYPE_MAP = {
 
 QUESTIONS: dict[str, list[str]] = {
     "injuries": [
+        "Are you hurt?",
         "Are you hurt anywhere?",
-        "How are you feeling physically right now?",
-    ],
-    "can_move": [
-        "Can you move safely without sharp pain?",
-    ],
-    "incident_type": [
-        "Can you tell me exactly what happened?",
-        "What were you doing when you got hurt?",
-    ],
-    "state": [
-        "Which city or state are you in?",
-        "Where did this happen?",
     ],
     "still_at_scene": [
         "Are you still at the scene right now?",
         "Are you still there?",
     ],
+    "incident_type": [
+        "What happened exactly?",
+        "Can you tell me exactly what happened?",
+    ],
+    "state": [
+        "Which state are you in?",
+        "Which city or state are you in?",
+    ],
     "signed_anything": [
         "Has anyone asked you to sign anything yet?",
     ],
     "witnesses": [
+        "Was anyone else there who saw what happened?",
         "Was anyone else around who saw what happened?",
-        "Any witnesses nearby?",
+    ],
+    "can_move": [
+        "Can you move safely without sharp pain?",
     ],
 }
-
-
-PRE_GUIDE_GAPS = frozenset(
-    {"injuries", "can_move", "incident_type", "state", "still_at_scene"}
-)
 
 
 class IncidentStack:
@@ -84,39 +80,25 @@ class IncidentStack:
             "questions_asked": [],
             "phase": "questioning",
             "turns": 0,
+            "has_guided": False,
         }
 
     def gaps(self) -> list[str]:
+        """Strict question order before any advice."""
         critical: list[str] = []
 
-        # PRIORITY 1 — Physical safety always first
         if self.data["injuries"] is None:
             critical.append("injuries")
-        if self.data["can_move"] is None:
-            critical.append("can_move")
-
-        # PRIORITY 2 — What happened
+        if self.data["still_at_scene"] is None:
+            critical.append("still_at_scene")
         if self.data["incident_type"] is None:
             critical.append("incident_type")
-
-        # PRIORITY 3 — Where
         if self.data["state"] is None:
             critical.append("state")
-
-        # PRIORITY 4 — Still at scene (skip if serious injury)
-        if (
-            self.data["still_at_scene"] is None
-            and self.data["incident_type"] is not None
-            and self.data["injuries"] != "serious"
-        ):
-            critical.append("still_at_scene")
-
-        # PRIORITY 5 — Scene-specific (only at scene, turn 3+)
-        if self.data["turns"] >= 3 and self.data["still_at_scene"] is True:
-            if self.data["witnesses"] is None:
-                critical.append("witnesses")
-            if self.data["signed_anything"] is None:
-                critical.append("signed_anything")
+        if self.data["signed_anything"] is None:
+            critical.append("signed_anything")
+        if self.data["witnesses"] is None:
+            critical.append("witnesses")
 
         return critical
 
@@ -133,7 +115,9 @@ class IncidentStack:
             and self.data["incident_type"] is not None
             and self.data["state"] is not None
             and self.data["still_at_scene"] is not None
-            and self.data["turns"] >= 3
+            and self.data["signed_anything"] is not None
+            and self.data["witnesses"] is not None
+            and self.data["turns"] >= 4
         )
 
     def update_from_transcript(self, transcript: str) -> None:
@@ -146,20 +130,32 @@ class IncidentStack:
             w in t
             for w in (
                 "hit and run",
-                "hit by a car",
-                "hit by car",
-                "hit me",
-                "rear ended",
-                "rear-ended",
+                "hit-and-run",
                 "fled",
                 "drove away",
                 "ran away",
-                "car accident",
-                "crashed",
-                "collision",
+                "driver left",
+                "ran off",
             )
         ):
             self.data["incident_type"] = "hit_run"
+        elif any(
+            w in t
+            for w in (
+                "hit by a car",
+                "hit by car",
+                "rear ended",
+                "rear-ended",
+                "car accident",
+                "crashed",
+                "collision",
+                "red light",
+                "other driver",
+                "skip police",
+                "swap info",
+            )
+        ) or ("hit me" in t and "work" not in t and "forklift" not in t):
+            self.data["incident_type"] = "car_accident"
         elif any(w in t for w in ("dog", "bit", "bite", "attacked")):
             self.data["incident_type"] = "dog_bite"
         elif any(w in t for w in ("work", "job", "employer", "warehouse", "construction")):
@@ -236,7 +232,18 @@ class IncidentStack:
             if self.data["injuries"] is None:
                 self.data["injuries"] = "moderate"
 
-        if any(w in t for w in ("still at", "still here", "i'm here", "at the scene", "at the store")):
+        if any(
+            w in t
+            for w in (
+                "still at",
+                "still here",
+                "i'm here",
+                "at the scene",
+                "at the store",
+                "yes, other driver",
+                "yes other driver",
+            )
+        ) or (t.strip().startswith("yes") and "driver" in t):
             self.data["still_at_scene"] = True
         if any(w in t for w in ("left", "went home", "i'm home", "i'm at home")):
             self.data["still_at_scene"] = False
@@ -248,9 +255,32 @@ class IncidentStack:
             self.data["photos_taken"] = True
         if any(w in t for w in ("signed", "i signed")):
             self.data["signed_anything"] = True
-        if any(w in t for w in ("didn't sign", "did not sign", "haven't signed", "won't sign")):
+        if any(
+            w in t
+            for w in (
+                "didn't sign",
+                "did not sign",
+                "haven't signed",
+                "won't sign",
+                "not yet",
+                "no one asked",
+                "nobody asked",
+            )
+        ):
             self.data["signed_anything"] = False
-        if any(w in t for w in ("witness", "someone saw", "person saw", "they saw")):
+        if any(
+            w in t
+            for w in (
+                "witness",
+                "someone saw",
+                "person saw",
+                "they saw",
+                "one person",
+                "someone nearby",
+                "person nearby",
+                "coworker saw",
+            )
+        ):
             self.data["witnesses"] = True
 
         stores = [

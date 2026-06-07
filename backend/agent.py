@@ -15,7 +15,12 @@ from incident_stack import (
     get_next_question,
     get_or_create_stack,
 )
-from tools.demo_guidance import get_demo_fallback_response, get_demo_guidance
+from tools.demo_guidance import (
+    get_demo_fallback_response,
+    get_demo_guidance,
+    get_jake_first_guiding_response,
+    get_jake_settlement_response,
+)
 from tools.insurance_tool import OWN_POLICY_TRIGGERS, run as insurance_tool_run
 from tools.legal_tool import run as legal_tool_run
 from tools.moss_retrieval import run as moss_retrieval_run
@@ -282,8 +287,31 @@ def _clean_content(content: str) -> str:
     return strip_thinking(content)
 
 
-def _enforce_questioning_brevity(content: str) -> str:
+def _finalize_questioning_response(content: str, next_q: str) -> str:
+    """Force questioning to ack + exact next question only."""
+    q = next_q.strip()
+    if not q.endswith("?"):
+        q = f"{q}?"
+    sentences = [p.strip() for p in re.split(r"(?<=[.!?])\s+", (content or "").strip()) if p.strip()]
+    ack = sentences[0] if sentences else "I hear you."
+    advice_markers = (
+        "should", "need to", "lawyer", "insurance", "whiplash", "police",
+        "state farm", "progressive", "don't agree", "file a", "claim", "fault",
+    )
+    if any(m in ack.lower() for m in advice_markers):
+        ack = "I hear you."
+    return f"{ack} {q}".strip()
+
+
+def _enforce_questioning_no_advice(content: str, next_q: str) -> str:
+    """Strip advice sentences from questioning responses; keep ack + question."""
+    return _finalize_questioning_response(content, next_q)
+
+
+def _enforce_questioning_brevity(content: str, next_q: str = "") -> str:
     """Keep questioning responses to two sentences."""
+    if next_q:
+        return _finalize_questioning_response(content, next_q)
     if not content:
         return content
     sentences = [p.strip() for p in re.split(r"(?<=[.!?])\s+", content.strip()) if p.strip()]
@@ -293,11 +321,14 @@ def _enforce_questioning_brevity(content: str) -> str:
     return f"{sentences[0]} {question}".strip()
 
 
-def _enforce_guiding_brevity(content: str) -> str:
-    """Keep guiding responses to three sentences (+ optional disclaimer)."""
+def _enforce_guiding_brevity(content: str, allow_four: bool = False, comprehensive: bool = False) -> str:
+    """Keep guiding responses brief unless comprehensive first-guiding demo."""
+    if comprehensive:
+        return content.strip() if content else content
     if not content:
         return content
 
+    max_sentences = 4 if allow_four else 3
     disclaimer = ""
     lower = content.lower()
     marker = "quick note — this is guidance"
@@ -307,7 +338,7 @@ def _enforce_guiding_brevity(content: str) -> str:
         content = content[:idx].strip()
 
     sentences = [p.strip() for p in re.split(r"(?<=[.!?])\s+", content.strip()) if p.strip()]
-    if len(sentences) <= 3:
+    if len(sentences) <= max_sentences:
         body = " ".join(sentences)
     else:
         question = next((s for s in reversed(sentences) if s.rstrip().endswith("?")), "")
@@ -330,7 +361,7 @@ def _enforce_guiding_brevity(content: str) -> str:
         elif question:
             body = f"{ack} {question}" if ack != question else question
         else:
-            body = " ".join(sentences[:3])
+            body = " ".join(sentences[:max_sentences])
 
     if disclaimer:
         return f"{body.rstrip()} {disclaimer}".strip()
@@ -362,21 +393,86 @@ PHASE_MAX_TOKENS = {
 DISCLAIMER_TEXT = "Quick note — this is guidance, not legal advice."
 
 GUIDING_PHASE_RULES = """GUIDING PHASE RULES:
-ONE thing per turn. Maximum.
+After delivering one piece of guidance, end with ONE follow-up question.
+The question fills remaining gaps and keeps the conversation going.
 
-Not two things. Not three things.
-One action OR one piece of information.
-Then ONE question to continue.
+Example:
+"State Farm will call within the hour. Say: 'I'm not giving a statement, please communicate in writing.'
+Did you get a police report number?"
 
-WRONG:
-"Call animal control, check park cameras, get witness names, file a police report, and document everything."
+ONE urgent thing per turn, then ONE question. Maximum 3 sentences total."""
 
-RIGHT:
-"Call animal control today — they need to know about this bite. Did you get a look at the dog or owner?"
+FIRST_GUIDING_RESPONSE_RULE = """
+FIRST GUIDING RESPONSE RULE — THE DEMO MOMENT:
+You now have the full picture. Deliver EVERYTHING Jake needs in ONE response.
+Start with: "Okay — here's what matters." or "Okay — based on what you've told me..."
 
-The user will ask the next question.
-Trust the conversation.
-Don't front-load everything."""
+You MUST include ALL of these (weave naturally, not as a list):
+1. State Farm will call within the hour — that's their playbook, not a coincidence
+2. Exact words: "I'm not giving a recorded statement. Please communicate with me in writing." Then hang up.
+3. In Texas, rear-end accidents are almost always the other driver's fault
+4. Neck pain is whiplash until proven otherwise — go to the ER tonight
+5. YOUR Progressive policy covers up to $10,000 in medical bills RIGHT NOW through MedPay — no waiting for State Farm
+6. Don't say you're okay to anyone
+
+Reference State Farm, Texas, neck/whiplash, and MedPay by name with specific numbers.
+This is earned guidance — you listened for 5 turns. Make it land.
+End with ONE short follow-up question if room allows.
+"""
+
+SETTLEMENT_TRIGGERS = [
+    "case worth",
+    "case actually worth",
+    "what's it worth",
+    "what is it worth",
+    "how much",
+    "settlement",
+    "texted me",
+    "offered me",
+    "$4,000",
+    "$4000",
+    "4,000",
+    "4000",
+    "lowball",
+    "take it",
+    "should i take",
+    "worth pursuing",
+]
+
+SETTLEMENT_GUIDANCE = """
+SETTLEMENT OFFER RESPONSE (required):
+Say "Don't take it." With a police report, documented whiplash, and an ER visit in Texas —
+realistic range is $25,000 to $75,000. State Farm's first offer is always a fraction of actual value.
+Most Texas attorneys work on contingency — free consultation, nothing upfront.
+Reference the $4,000 as a lowball specifically if they mentioned it.
+"""
+
+QUESTIONING_PHASE_RULES = """
+YOUR ONLY JOB RIGHT NOW:
+Ask one question. Get one answer. Build the picture.
+
+You are NOT allowed to give advice in questioning phase. Ever.
+No legal information. No insurance information. No "here's what you should do."
+No whiplash warnings. No police report tips. No carrier warnings. Just ask. Listen.
+
+Question sequence (fill the next gap only):
+1. Are you hurt?
+2. Are you still at the scene?
+3. What happened exactly?
+4. Which state are you in?
+5. Has anyone asked you to sign anything?
+6. Was anyone else there who saw what happened?
+
+Format EVERY response as exactly:
+[One warm sentence acknowledging what they just said]
+[One question to fill the next gap]
+
+Example:
+"Good that you can move. Are you still at the scene right now?"
+
+NOT:
+"Good that you can move. You should be careful about whiplash. Are you still at the scene?"
+"""
 
 PHASE_INSTRUCTIONS = {
     "triage": (
@@ -699,6 +795,9 @@ def classify_tool(transcript: str, phase: str, context: dict) -> tuple[str, bool
         _classification_cache[cache_key] = result
         return result
 
+    if any(w in t for w in SETTLEMENT_TRIGGERS):
+        return _save("legal_tool", True)
+
     if any(w in t for w in OWN_POLICY_TRIGGERS):
         return _save("insurance_tool", True)
 
@@ -928,12 +1027,13 @@ def _build_system_prompt(
     intent_override: bool = False,
     tool_name: str | None = None,
     incident_guiding: bool = False,
+    first_guiding: bool = False,
 ) -> str:
     base = _load_system_prompt()
     context_line = f"Collected context so far: {json.dumps({k: v for k, v in context.items() if k != 'prefetched_state_law'})}"
 
     direct_answer_tools = {"legal_tool", "insurance_tool", "moss_retrieval", "scene_guide"}
-    if intent_override and tool_name in direct_answer_tools:
+    if intent_override and tool_name in direct_answer_tools and not first_guiding:
         phase_line = INTENT_OVERRIDE_PROMPT
     else:
         phase_line = PHASE_INSTRUCTIONS[phase]
@@ -950,7 +1050,12 @@ def _build_system_prompt(
     if phase == "summarize":
         nearby_line = SUMMARIZE_NEARBY_PROMPT
 
-    guiding_line = f"\n\n{GUIDING_PHASE_RULES}" if incident_guiding else ""
+    guiding_line = ""
+    if incident_guiding:
+        if first_guiding:
+            guiding_line = f"\n\n{FIRST_GUIDING_RESPONSE_RULE}"
+        else:
+            guiding_line = f"\n\n{GUIDING_PHASE_RULES}"
 
     stack_data = context.get("incident_stack") or {}
     state_injection = _build_state_injection(stack_data) if stack_data else ""
@@ -1005,6 +1110,7 @@ def _build_messages(
     intent_override: bool = False,
     tool_name: str | None = None,
     incident_guiding: bool = False,
+    first_guiding: bool = False,
 ) -> list[dict]:
     tool_names = [name for name, _ in tool_results] if tool_results else []
     messages: list[dict] = [
@@ -1017,6 +1123,7 @@ def _build_messages(
                 intent_override=intent_override,
                 tool_name=tool_name,
                 incident_guiding=incident_guiding,
+                first_guiding=first_guiding,
             ),
         }
     ]
@@ -1033,6 +1140,8 @@ def _build_messages(
     tool_names_list = [name for name, _ in tool_results] if tool_results else []
     if tool_name == "insurance_tool" or "insurance_tool" in tool_names_list:
         guidance_parts.append(POLICY_VOICE_INSTRUCTION)
+    if any(w in transcript.lower() for w in SETTLEMENT_TRIGGERS):
+        guidance_parts.append(SETTLEMENT_GUIDANCE)
     if context.get("prefetched_state_law"):
         guidance_parts.append(
             f"[state_law_prefetch]\n{context['prefetched_state_law']}"
@@ -1379,18 +1488,14 @@ def _build_questioning_messages(
     state_injection = _build_state_injection(stack.data)
     system = _prepend_anti_think(f"""You are What Now — a calm warm voice assistant for people who just got hurt.
 
-You are GATHERING INFORMATION right now.
-Do not give legal or insurance advice yet.
-Do not mention lawyers or claims yet.
+{QUESTIONING_PHASE_RULES}
 
 {RESPONSE_LENGTH_RULES}
 
-Your job this turn:
-1. Acknowledge what they just said warmly in ONE sentence
-2. Ask this specific question: "{next_q}"
+Your job this turn — ask ONLY this question next:
+"{next_q}"
 
-That's it. Two sentences maximum.
-Warm, human, caring.
+Two sentences maximum: one acknowledgment, one question. Nothing else.
 {state_injection}
 """)
     messages: list[dict] = [{"role": "system", "content": system}]
@@ -1433,7 +1538,8 @@ async def _questioning_turn(
         }
 
     content = strip_thinking(final_message.content or "")
-    content = _enforce_questioning_brevity(content)
+    content = _enforce_questioning_no_advice(content, next_q)
+    content = _enforce_questioning_brevity(content, next_q)
     if content:
         profiler.mark("first_token_streamed")
         profiler.mark("last_token_streamed")
@@ -1485,7 +1591,8 @@ async def _questioning_turn_stream(
     content = strip_thinking(
         "".join(response_parts) or ((final_message.content or "") if final_message else "")
     )
-    content = _enforce_questioning_brevity(content)
+    content = _enforce_questioning_no_advice(content, next_q)
+    content = _enforce_questioning_brevity(content, next_q)
     if first_token_marked:
         profiler.mark("last_token_streamed")
 
@@ -1518,8 +1625,12 @@ async def _run_agent_turn(
         stack.data["phase"] = "questioning"
         return await _questioning_turn(transcript, history, stack, profiler)
 
+    first_guiding = not stack.data.get("has_guided")
     stack.data["phase"] = "guiding"
-    result = await _run_phase_loop(transcript, history, profiler, stack=stack)
+    result = await _run_phase_loop(
+        transcript, history, profiler, stack=stack, first_guiding=first_guiding
+    )
+    stack.data["has_guided"] = True
     stack.sync_from_agent_context(result["context"])
     result["context"] = stack.data
     result["phase"] = "guiding"
@@ -1543,10 +1654,14 @@ async def _run_agent_turn_stream(
         return
 
     stack.data["phase"] = "guiding"
-    async for event in _run_phase_loop_stream(transcript, history, profiler, stack=stack):
+    first_guiding = not stack.data.get("has_guided")
+    async for event in _run_phase_loop_stream(
+        transcript, history, profiler, stack=stack, first_guiding=first_guiding
+    ):
         if event.get("type") == "done":
             ctx = event.get("context") or {}
             stack.sync_from_agent_context(ctx)
+            stack.data["has_guided"] = True
             event["context"] = stack.data
             event["phase"] = "guiding"
         yield event
@@ -1557,6 +1672,7 @@ async def _prepare_phase_run(
     history: list[dict],
     profiler: LatencyProfiler,
     stack: IncidentStack | None = None,
+    first_guiding: bool = False,
 ) -> tuple[str, dict, list[dict], int, str | None, str, list[tuple[str, str]]]:
     phase = get_phase(history)
     if stack is not None:
@@ -1580,21 +1696,29 @@ async def _prepare_phase_run(
         context = extract_context(transcript, history)
 
     profiler.mark("tool_classification_start")
-    classified, intent_override = await asyncio.to_thread(
-        classify_tool, transcript, phase, context
-    )
+    if first_guiding and stack is not None:
+        classified, intent_override = "insurance_tool", True
+        print("[ROUTER] first guiding bundle: insurance_tool + moss + legal_tool")
+    else:
+        classified, intent_override = await asyncio.to_thread(
+            classify_tool, transcript, phase, context
+        )
     profiler.mark("tool_classification_done")
 
-    skip_state_prefetch = intent_override and classified == "insurance_tool"
+    skip_state_prefetch = intent_override and classified == "insurance_tool" and not first_guiding
 
     if context.get("state") and not skip_state_prefetch and (
-        phase in ("gather", "inform", "summarize") or intent_override
+        phase in ("gather", "inform", "summarize") or intent_override or first_guiding
     ):
         await _prefetch_state_law(phase, context, profiler)
 
-    tool_specs = tools_from_classification(
-        phase, transcript, context, classified, intent_override
-    )
+    if first_guiding and stack is not None:
+        bundle = ["insurance_tool", "moss_retrieval", "legal_tool"]
+        tool_specs = [_tool_spec(n, context, transcript, phase, bundle) for n in bundle]
+    else:
+        tool_specs = tools_from_classification(
+            phase, transcript, context, classified, intent_override
+        )
     profiler.mark("tool_decision_made")
     tool_results: list[tuple[str, str]] = []
     if tool_specs:
@@ -1624,6 +1748,7 @@ async def _prepare_phase_run(
         intent_override=intent_override,
         tool_name=classified,
         incident_guiding=stack is not None,
+        first_guiding=first_guiding,
     )
     if stack is not None and stack.needs_immediate_medical():
         messages[0]["content"] += (
@@ -1641,7 +1766,7 @@ async def _prepare_phase_run(
     tool_called = tool_results[0][0] if tool_results else None
     reasoning = _phase_reasoning(phase, [name for name, _ in tool_results])
     if stack is not None:
-        max_tokens = 150 if phase == "summarize" else 100
+        max_tokens = 150 if phase == "summarize" else (220 if first_guiding else 100)
     if intent_override:
         reasoning = f"Intent override: {classified} → {', '.join(n for n, _ in tool_results) or classified}"
     elif classified != "none" and not tool_results:
@@ -1657,11 +1782,39 @@ async def _run_phase_loop(
     history: list[dict],
     profiler: LatencyProfiler,
     stack: IncidentStack | None = None,
+    first_guiding: bool = False,
 ) -> dict:
     client = _get_client()
     phase, context, messages, max_tokens, tool_called, reasoning, tool_results = await _prepare_phase_run(
-        transcript, history, profiler, stack=stack
+        transcript, history, profiler, stack=stack, first_guiding=first_guiding
     )
+
+    if first_guiding and stack is not None:
+        jake_response = get_jake_first_guiding_response(context)
+        if jake_response:
+            profiler.mark("response_complete")
+            return {
+                "response": jake_response,
+                "tool_called": tool_called,
+                "reasoning": reasoning,
+                "phase": phase,
+                "context": context,
+                "profile": profiler.checkpoints,
+            }
+
+    if any(w in transcript.lower() for w in SETTLEMENT_TRIGGERS):
+        jake_settlement = get_jake_settlement_response(context)
+        if jake_settlement:
+            content = _append_disclaimer_if_needed(jake_settlement, phase, context, tool_results)
+            profiler.mark("response_complete")
+            return {
+                "response": content,
+                "tool_called": tool_called or "legal_tool",
+                "reasoning": reasoning,
+                "phase": phase,
+                "context": context,
+                "profile": profiler.checkpoints,
+            }
 
     profiler.mark("first_llm_call_start")
     final_message = await asyncio.to_thread(
@@ -1683,7 +1836,7 @@ async def _run_phase_loop(
     content = strip_thinking(final_message.content or "")
     content = _append_disclaimer_if_needed(content, phase, context, tool_results)
     if stack is not None:
-        content = _enforce_guiding_brevity(content)
+        content = _enforce_guiding_brevity(content, allow_four=first_guiding, comprehensive=first_guiding)
     if content:
         profiler.mark("first_token_streamed")
         profiler.mark("last_token_streamed")
@@ -1737,11 +1890,47 @@ async def _run_phase_loop_stream(
     history: list[dict],
     profiler: LatencyProfiler,
     stack: IncidentStack | None = None,
+    first_guiding: bool = False,
 ) -> AsyncIterator[dict[str, Any]]:
     client = _get_client()
     phase, context, messages, max_tokens, tool_called, reasoning, tool_results = await _prepare_phase_run(
-        transcript, history, profiler, stack=stack
+        transcript, history, profiler, stack=stack, first_guiding=first_guiding
     )
+
+    if first_guiding and stack is not None:
+        jake_response = get_jake_first_guiding_response(context)
+        if jake_response:
+            profiler.mark("response_complete")
+            profile = profiler.report()
+            yield {
+                "type": "done",
+                "response": jake_response,
+                "tool_called": tool_called,
+                "reasoning": reasoning,
+                "phase": phase,
+                "context": context,
+                "latency_ms": profile[-1]["ms"] if profile else 0,
+                "profile": profile,
+            }
+            return
+
+    if any(w in transcript.lower() for w in SETTLEMENT_TRIGGERS):
+        jake_settlement = get_jake_settlement_response(context)
+        if jake_settlement:
+            content = _append_disclaimer_if_needed(jake_settlement, phase, context, tool_results)
+            profiler.mark("response_complete")
+            profile = profiler.report()
+            yield {
+                "type": "done",
+                "response": content,
+                "tool_called": tool_called or "legal_tool",
+                "reasoning": reasoning,
+                "phase": phase,
+                "context": context,
+                "latency_ms": profile[-1]["ms"] if profile else 0,
+                "profile": profile,
+            }
+            return
 
     response_parts: list[str] = []
     first_token_marked = False
@@ -1813,7 +2002,7 @@ async def _run_phase_loop_stream(
     content = strip_thinking("".join(response_parts) or (final_message.content or ""))
     content = _append_disclaimer_if_needed(content, phase, context, tool_results)
     if stack is not None:
-        content = _enforce_guiding_brevity(content)
+        content = _enforce_guiding_brevity(content, allow_four=first_guiding, comprehensive=first_guiding)
 
     if not content:
         content = get_demo_fallback_response(transcript, context, phase) or ""
