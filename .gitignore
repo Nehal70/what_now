@@ -13,9 +13,9 @@ venv/
 .Python
 
 # Stray root artifacts (run npm from frontend/)
-node_modules/
-moss-hacker-starter/
-agent/
+/node_modules/
+/moss-hacker-starter/
+/agent/
 
 # Node / Next.js (frontend)
 frontend/node_modules/
