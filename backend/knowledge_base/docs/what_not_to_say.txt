@@ -1,0 +1,1463 @@
+═══════════════════════════════════════════════════════════════════════════════
+WHAT NOT TO SAY AFTER AN INJURY — COMPLETE GUIDE TO PROTECTING YOUR CLAIM
+═══════════════════════════════════════════════════════════════════════════════
+
+This document is the primary knowledge base reference when a user asks:
+  "The store's adjuster just called me — what do I say?"
+  "What should I NOT say after my accident?"
+  "Can I talk to the other party's insurance company?"
+
+Scope: United States personal injury claims — slip-and-fall, motor vehicle,
+dog bite, premises liability, product liability, and related third-party claims.
+Audience: Injured claimants, advocates, voice-assistant retrieval, legal assistants.
+Last updated: 2026
+
+CRITICAL RULE (READ FIRST):
+  After any injury caused by someone else's negligence, every word you speak —
+  to store managers, police, doctors, your own insurer, the OTHER party's
+  adjuster, witnesses, family, or social media — can be used to reduce or deny
+  your claim. This guide tells you exactly what NOT to say, what TO say instead,
+  and how adjusters weaponize your words.
+
+═══════════════════════════════════════════════════════════════════════════════
+TABLE OF CONTENTS
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 1:  The Most Dangerous Phrases — Complete Phrase-by-Phrase Guide
+SECTION 2:  What to Say to Each Party — Scripts by Audience
+SECTION 3:  Social Media Rules — Platforms, Surveillance, Family Tagging
+SECTION 4:  First 48-Hour Adjuster Call — Full Dialogue Scripts
+SECTION 5:  Documentation That Wins Cases — Ranked Evidence List
+APPENDIX A:  Adjuster Leading Questions and How to Deflect
+APPENDIX B:  Incident Report Field-by-Field Guide
+APPENDIX C:  HIPAA Release Traps
+APPENDIX D:  The "Eggshell Plaintiff" Rule Explained
+APPENDIX E:  Sample Written Letter Refusing Recorded Statement
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 1: THE MOST DANGEROUS PHRASES
+Complete Phrase-by-Phrase Guide with Adjuster Tactics and Safer Alternatives
+═══════════════════════════════════════════════════════════════════════════════
+
+Insurance adjusters are trained to extract damaging admissions from casual
+conversation. The phrases below are ranked by frequency of use AND severity of
+damage to your claim. Each entry includes: why it's dangerous, what the adjuster
+does with it, what to say instead, and state-specific impact (especially the
+51% comparative fault bar states).
+
+───────────────────────────────────────────────────────────────────────────────
+CATEGORY A: MINIMIZING YOUR INJURY
+───────────────────────────────────────────────────────────────────────────────
+
+PHRASE 1: "I'm fine."
+WHY DANGEROUS:
+  - Said at the scene, on an incident report, to a manager, or on a recorded
+    statement, "I'm fine" becomes a permanent record that you were uninjured.
+  - Adrenaline and shock mask pain for hours or days. Soft tissue injuries
+    (whiplash, sprains, concussions) often peak 24–72 hours AFTER the incident.
+  - Insurers use this phrase to argue ZERO damages or that later treatment is
+    unrelated / fraudulent / exaggerated.
+WHAT THE ADJUSTER DOES WITH IT:
+  - Quotes it in denial letters: "Claimant stated at scene she was 'fine.'"
+  - Compares to later medical bills and argues malingering or secondary gain.
+  - Reduces multiplier on pain-and-suffering from 3.0 to 1.0 or below.
+  - Uses it in deposition to impeach you: "You told the manager you were fine,
+    but now you claim severe pain — which is true?"
+WHAT TO SAY INSTEAD:
+  - At scene: "I'm shaken up. I need to get checked out by a doctor."
+  - To manager: "I'm not sure how badly I'm hurt yet. I want medical attention."
+  - To adjuster: "I'm still being evaluated by my doctors. I can't characterize
+    my condition until treatment is complete."
+STATE-SPECIFIC IMPACT (51% BAR STATES):
+  - Alabama, Arkansas, Delaware, District of Columbia, Georgia, Indiana, Iowa,
+    Kansas, Louisiana, Maryland, Mississippi, Nebraska, New Mexico, North Carolina,
+    North Dakota, Oklahoma, Rhode Island, South Carolina, South Dakota, Tennessee,
+    Texas, Utah, Virginia, West Virginia, Wisconsin, Wyoming.
+  - In these states, if insurer assigns you 51%+ fault AND you minimized injury,
+    they may deny entirely. "I'm fine" supports BOTH lower damages AND credibility
+    attacks that inflate your assigned fault ("wasn't paying attention, wasn't hurt").
+
+PHRASE 2: "It's just a little sore / It's not that bad / I'll be okay."
+WHY DANGEROUS:
+  - Same as "I'm fine" but sounds more sympathetic — adjusters love it because
+    claimants think they're being reasonable, not making a legal admission.
+  - Establishes a baseline that ALL later pain must exceed to be "credible."
+WHAT THE ADJUSTER DOES WITH IT:
+  - Caps medical necessity: "Treatment beyond two visits is inconsistent with
+    claimant's own description of minor soreness."
+  - Stops authorizing MRI, PT, or specialist referrals.
+  - Offers quick lowball ($500–$2,000) as "generous" given "minor" injury.
+WHAT TO SAY INSTEAD:
+  - "I have pain and symptoms that I'm having evaluated. I don't know the
+    full extent yet."
+  - Never characterize severity. Let medical records speak.
+
+PHRASE 3: "I don't need to see a doctor."
+WHY DANGEROUS:
+  - Delayed treatment is the #1 reason insurers reduce claim value.
+  - Creates gap between incident date and first medical record — insurer argues
+    injury happened elsewhere or is psychosomatic.
+WHAT THE ADJUSTER DOES WITH IT:
+  - Denies all treatment costs after "reasonable" gap (sometimes as short as 72 hours).
+  - Flags claim for SIU (Special Investigations Unit) fraud review.
+WHAT TO SAY INSTEAD:
+  - "I'm going to get medical attention today / tomorrow."
+  - Then actually go — ER, urgent care, or PCP within 24–48 hours.
+
+PHRASE 4: "I didn't hit my head" (when you might have)
+WHY DANGEROUS:
+  - Concussions often have delayed symptoms. Denying head impact forecloses
+    TBI claims entirely.
+WHAT THE ADJUSTER DOES WITH IT:
+  - Denies neurology, cognitive testing, concussion protocol treatment.
+  - Uses incident report + your statement to block brain injury damages.
+WHAT TO SAY INSTEAD:
+  - "I'm not sure what I hit during the fall/collision. I want to be checked
+    for head injury."
+  - If asked later: "I may have struck my head — I'm following my doctor's advice."
+
+PHRASE 5: "I'm feeling better now."
+WHY DANGEROUS:
+  - Recovery is not linear. Good days don't mean case is over.
+  - Adjuster closes file, makes final low offer, argues malingering if you
+    later report flare-ups.
+WHAT THE ADJUSTER DOES WITH IT:
+  - "Claimant stated on [date] she was feeling better — treatment from that
+    point forward is unnecessary."
+  - Triggers case closure and statute-running pressure tactics.
+WHAT TO SAY INSTEAD:
+  - "I have good days and bad days. My doctor is still treating me."
+  - "I'm not fully recovered. I follow my treatment plan."
+
+PHRASE 6: "I can still work / do everything I used to."
+WHY DANGEROUS:
+  - Directly undermines lost wages and loss of enjoyment claims.
+  - Surveillance team gets authorization to follow you; one video of you
+    carrying groceries ends the case.
+WHAT THE ADJUSTER DOES WITH IT:
+  - Denies wage loss despite doctor's work restrictions.
+  - Plays surveillance video in deposition or at trial.
+WHAT TO SAY INSTEAD:
+  - "I'm doing what I can. My employer/doctor has me on modified duty / restrictions."
+  - Describe limitations, not heroics.
+
+───────────────────────────────────────────────────────────────────────────────
+CATEGORY B: FAULT ADMISSIONS AND COMPARATIVE NEGLIGENCE
+───────────────────────────────────────────────────────────────────────────────
+
+PHRASE 7: "It was probably my fault."
+WHY DANGEROUS:
+  - Single most case-destroying sentence in personal injury law.
+  - You are doing the insurer's liability work for them — for free.
+WHAT THE ADJUSTER DOES WITH IT:
+  - Accepts "admission against interest" — may deny claim without investigation.
+  - In 51% bar states, assigns you 51%+ fault → ZERO recovery.
+  - In pure comparative states, still reduces recovery by your fault percentage.
+WHAT TO SAY INSTEAD:
+  - "I was [doing normal activity — shopping, walking, driving with care]."
+  - "There was a dangerous condition / the other driver ran the light."
+  - State FACTS only. Never speculate about fault.
+
+PHRASE 8: "I wasn't paying attention / I wasn't looking."
+WHY DANGEROUS:
+  - Classic comparative fault admission. Insurer assigns 30–70% fault to you.
+  - In slip-and-fall: "customer has duty to watch where they walk."
+WHAT THE ADJUSTER DOES WITH IT:
+  - Pairs with "open and obvious" defense — hazard was visible, you weren't looking.
+  - In Texas, Florida, and other 51% states, may bar recovery entirely.
+WHAT TO SAY INSTEAD:
+  - "I was walking normally through the store / driving in my lane."
+  - "I did not see any warning signs or cones before the hazard."
+
+PHRASE 9: "I should have been more careful."
+WHY DANGEROUS:
+  - Sounds humble. Legally it's negligence admission.
+WHAT THE ADJUSTER DOES WITH IT:
+  - Transcribed as voluntary assumption of risk or contributory negligence.
+WHAT TO SAY INSTEAD:
+  - "The property owner / other driver had a duty to keep the area safe."
+  - Redirect to THEIR failure, not your self-blame.
+
+PHRASE 10: "I was in a hurry / running / on my phone."
+WHY DANGEROUS:
+  - Distraction = fault. Phone use triggers subrogation from your cell carrier
+    in some auto cases.
+WHAT THE ADJUSTER DOES WITH IT:
+  - Requests cell records. Assigns significant fault percentage.
+  - In rear-end cases: "claimant stopped short because distracted."
+WHAT TO SAY INSTEAD:
+  - "I was moving at a normal pace for the environment."
+  - Do not mention phone, even if you weren't using it.
+
+PHRASE 11: "I knew that step was broken / the floor was wet."
+WHY DANGEROUS:
+  - Proves NOTICE to YOU — insurer argues you assumed the risk.
+WHAT THE ADJUSTER DOES WITH IT:
+  - "Open and obvious" + "knew of danger" = no duty to warn = no liability.
+WHAT TO SAY INSTEAD:
+  - "I did not notice any hazard before the incident."
+  - "There were no warning signs, cones, or barriers that I saw."
+
+PHRASE 12: "I had been drinking."
+WHY DANGEROUS:
+  - Even one drink. Insurer assigns fault, may invoke alcohol exclusion on
+    defendant's policy in some scenarios, destroys credibility.
+WHAT THE ADJUSTER DOES WITH IT:
+  - Subpoenas bar receipts, toxicology, assigns 50%+ fault.
+WHAT TO SAY INSTEAD:
+  - Do not volunteer alcohol consumption. If police asked and you answered
+    honestly, do not repeat to civil adjuster beyond confirming police report facts.
+
+PHRASE 13: "I'm sorry."
+WHY DANGEROUS:
+  - Apology = admission of fault in adjuster's playbook (even if you mean
+    "sorry this happened").
+WHAT THE ADJUSTER DOES WITH IT:
+  - "Claimant apologized at scene — accepted responsibility."
+WHAT TO SAY INSTEAD:
+  - Express concern without fault: "Are you okay?" or say nothing about blame.
+  - To adjuster: sympathy is not required. Stay factual.
+
+PHRASE 14: "The weather was bad / it was dark."
+WHY DANGEROUS:
+  - Sounds like excuse for defendant. Actually helps THEM — "conditions were
+    visible, claimant should have adjusted."
+WHAT THE ADJUSTER DOES WITH IT:
+  - Contributory negligence for failing to adapt to conditions.
+WHAT TO SAY INSTEAD:
+  - Focus on specific defect: unmarked step, no lighting, no salt on ice
+    AFTER owner knew of storm.
+
+───────────────────────────────────────────────────────────────────────────────
+CATEGORY C: PRE-EXISTING CONDITIONS AND MEDICAL HISTORY
+───────────────────────────────────────────────────────────────────────────────
+
+PHRASE 15: "I've had back problems before."
+WHY DANGEROUS:
+  - Opens entire medical history for subpoena. Insurer attributes ALL pain
+    to degeneration, prior injuries, aging.
+WHAT THE ADJUSTER DOES WITH IT:
+  - Sends broad HIPAA release (5–10 years). IME doctor writes "all findings
+    are pre-existing degenerative disease."
+  - Reduces damages to "aggravation only" — often 10–30% of full value.
+WHAT TO SAY INSTEAD:
+  - To adjuster: "My attorney / I will provide relevant medical records through
+    the proper process." (Do not discuss history on phone.)
+  - To YOUR doctor: be fully honest — clinical records are protected; phone
+    admissions to insurer are not.
+
+PHRASE 16: "I have arthritis / degenerative disc disease."
+WHY DANGEROUS:
+  - Even if MRI would show this anyway, YOU saying it gives them narrative
+    before records arrive.
+WHAT THE ADJUSTER DOES WITH IT:
+  - Pre-writes denial: "Claimant admitted chronic condition predating incident."
+WHAT TO SAY INSTEAD:
+  - "My doctor is evaluating what injuries resulted from this incident."
+  - Eggshell plaintiff rule: defendant takes victim as they find them (see Appendix D).
+
+PHRASE 17: "I see a chiropractor regularly."
+WHY DANGEROUS:
+  - Insurers bias against chiro care — label claim "soft tissue fraud."
+WHAT THE ADJUSTER DOES WITH IT:
+  - Limits treatment authorization. Uses "prior chiro" to deny all spinal claims.
+WHAT TO SAY INSTEAD:
+  - Do not volunteer treatment history to opposing adjuster.
+  - Medical records will show prior care if relevant — let attorney handle.
+
+PHRASE 18: "I was injured in a car accident a few years ago."
+WHY DANGEROUS:
+  - Invites full prior claim history search (ISO ClaimSearch database).
+  - Prior claims = "serial claimant" flag even if all legitimate.
+WHAT THE ADJUSTER DOES WITH IT:
+  - SIU investigation. Coordinates with prior insurers to find statements
+    contradicting current claim.
+WHAT TO SAY INSTEAD:
+  - Do not discuss prior accidents with opposing insurer.
+  - If directly asked: "I'd prefer to handle medical history through written discovery."
+
+PHRASE 19: "I have a prior workers comp claim."
+WHY DANGEROUS:
+  - Same body part + prior WC = massive pre-existing fight.
+WHAT THE ADJUSTER DOES WITH IT:
+  - Subpoenas WC board records, prior settlements, IME reports.
+WHAT TO SAY INSTEAD:
+  - Refer to attorney. Do not elaborate by phone.
+
+PHRASE 20: "I'm on medication for pain / anxiety / depression."
+WHY DANGEROUS:
+  - Mental health and pain meds used to argue symptom magnification, psychosomatic
+    injury, or drug-seeking behavior.
+WHAT THE ADJUSTER DOES WITH IT:
+  - Psychiatric IME. Denies emotional distress damages.
+WHAT TO SAY INSTEAD:
+  - Discuss only with treating physicians. Not with opposing adjuster.
+
+───────────────────────────────────────────────────────────────────────────────
+CATEGORY D: ACCEPTING OFFERS, SETTLEMENTS, AND RELEASES
+───────────────────────────────────────────────────────────────────────────────
+
+PHRASE 21: "That sounds fair."
+WHY DANGEROUS:
+  - Verbal acceptance may be used as meeting of the minds in some contexts.
+  - Locks you before knowing full medical bills, future treatment, wage loss.
+WHAT THE ADJUSTER DOES WITH IT:
+  - Sends release next day: "As we agreed on the phone..."
+  - Offer is 15–30% of true value if made in first 30 days.
+WHAT TO SAY INSTEAD:
+  - "I need to review that in writing and understand my full medical prognosis first."
+  - "I'm not prepared to discuss settlement at this time."
+
+PHRASE 22: "I'll take it."
+WHY DANGEROUS:
+  - Early offers come BEFORE complete diagnosis (MRI, ortho, PT course).
+  - Signing general release = forever waiver of ALL future claims for this incident.
+WHAT THE ADJUSTER DOES WITH IT:
+  - Rush release with broad language covering "known and unknown injuries."
+WHAT TO SAY INSTEAD:
+  - "Please send your offer in writing. I will respond after consulting with
+    my healthcare providers."
+
+PHRASE 23: "I just want this over with."
+WHY DANGEROUS:
+  - Signals desperation. Adjuster lowers offer.
+WHAT THE ADJUSTER DOES WITH IT:
+  - Final offer rhetoric: "This is the best we can do — you said you wanted
+    to move on."
+WHAT TO SAY INSTEAD:
+  - Never reveal emotional or financial pressure to opposing insurer.
+
+PHRASE 24: "I need money now."
+WHY DANGEROUS:
+  - Same as above. Invites predatory low offer and claims advance scams.
+WHAT THE ADJUSTER DOES WITH IT:
+  - Quick $1,000–$3,000 "humanitarian" offer with full release.
+WHAT TO SAY INSTEAD:
+  - Explore legitimate options (PIP, health insurance, disability) — not quick
+    settlement with at-fault carrier.
+
+PHRASE 25: "Okay, I won't get a lawyer."
+WHY DANGEROUS:
+  - Tells adjuster you are unrepresented and vulnerable to manipulation.
+WHAT THE ADJUSTER DOES WITH IT:
+  - Accelerates lowball timeline. Skips fair valuation protocols.
+WHAT TO SAY INSTEAD:
+  - "I'm considering my options."
+  - Never discuss legal representation plans with opposing adjuster.
+
+PHRASE 26: "I signed the check."
+WHY DANGEROUS:
+  - Cashing check may equal accepting settlement if check says "full and final"
+    or includes release language on back.
+WHAT THE ADJUSTER DOES WITH IT:
+  - Sends "partial payment" check with fine print release — deposit = done.
+WHAT TO SAY INSTEAD:
+  - Read EVERY check and envelope. Do not deposit without attorney review if
+    injury is not fully resolved.
+
+───────────────────────────────────────────────────────────────────────────────
+CATEGORY E: SPECULATION, GUESSING, AND INCONSISTENCY TRAPS
+───────────────────────────────────────────────────────────────────────────────
+
+PHRASE 27: "I think I was going about 30 mph."
+WHY DANGEROOUS:
+  - Guess becomes sworn estimate. Black box / skid marks prove 45 → credibility gone.
+WHAT THE ADJUSTER DOES WITH IT:
+  - Impeachment at deposition. "Inconsistent with physical evidence."
+WHAT TO SAY INSTEAD:
+  - "I don't know the exact speed. I was driving appropriately for conditions."
+
+PHRASE 28: "It happened around 2:30, I think."
+WHY DANGEROUS:
+  - Timestamp discrepancies vs. store video, receipt timestamps, cell tower data.
+WHAT THE ADJUSTER DOES WITH IT:
+  - "Claimant cannot reliably recall basic facts — not credible witness."
+WHAT TO SAY INSTEAD:
+  - "Approximately [timeframe]. I can confirm with my receipt / phone records."
+
+PHRASE 29: "Maybe I tripped on my own shoelaces."
+WHY DANGEROUS:
+  - Speculation = fault admission. You don't know — don't guess.
+WHAT THE ADJUSTER DOES WITH IT:
+  - Closes investigation: "Claimant unsure of cause — no defect established."
+WHAT TO SAY INSTEAD:
+  - "I fell because of [wet floor / uneven surface / obstacle]. I'm not sure
+    of every detail but the hazard was present."
+
+PHRASE 30: "I'm not sure what happened."
+WHY DANGEROUS:
+  - Blanket uncertainty invites denial for failure to prove causation.
+WHAT THE ADJUSTER DOES WITH IT:
+  - Denies for "lack of proof" while having store video they won't share.
+WHAT TO SAY INSTEAD:
+  - State what you DO know: location, hazard observed, immediate pain, witnesses.
+
+PHRASE 31: "The same thing happened to my friend here last month."
+WHY DANGEROUS:
+  - Sounds helpful but without proof sounds like exaggeration.
+  - IF TRUE with evidence = gold. As casual statement = "hearsay, embellishment."
+WHAT THE ADJUSTER DOES WITH IT:
+  - Dismisses unless you have report number. May trigger fraud flag if unfounded.
+WHAT TO SAY INSTEAD:
+  - Investigate first. Provide prior incident reports through attorney if they exist.
+
+PHRASE 32: "I told the manager [long detailed story with extras]."
+WHY DANGEROUS:
+  - Manager's report is sanitized. Your embellishments become "inconsistencies."
+WHAT THE ADJUSTER DOES WITH IT:
+  - Compares every version. Deposition impeachment on minor details.
+WHAT TO SAY INSTEAD:
+  - Short, consistent, factual account every time. Same core facts only.
+
+───────────────────────────────────────────────────────────────────────────────
+CATEGORY F: COOPERATION TRAPS AND PROCESS MISTAKES
+───────────────────────────────────────────────────────────────────────────────
+
+PHRASE 33: "Sure, I'll give a recorded statement."
+WHY DANGEROUS:
+  - THE biggest trap. See Section 4 and Appendix A/E.
+WHAT THE ADJUSTER DOES WITH IT:
+  - 45–90 minute fishing expedition. Permanent record.
+WHAT TO SAY INSTEAD:
+  - "I'm not comfortable with a recorded statement. Please communicate in writing."
+
+PHRASE 34: "You can have my full medical records."
+WHY DANGEROOUS:
+  - Broad HIPAA release lets them pull psych, substance abuse, sexual health,
+    unrelated conditions. See Appendix C.
+WHAT THE ADJUSTER DOES WITH IT:
+  - Finds any damaging history. IME confirms "pre-existing."
+WHAT TO SAY INSTEAD:
+  - "I'll provide records related to this incident through appropriate legal channels."
+
+PHRASE 35: "I don't have a lawyer and don't need one."
+WHY DANGEROUS:
+  - Green light for aggressive tactics.
+WHAT THE ADJUSTER DOES WITH IT:
+  - Lowball, pressure, recorded statement, surveillance — full playbook.
+WHAT TO SAY INSTEAD:
+  - "I'm handling this carefully and will respond in writing."
+
+PHRASE 36: "Feel free to call me anytime."
+WHY DANGEROUS:
+  - Unrecorded follow-up calls still get note-written. Casual comments captured.
+WHAT THE ADJUSTER DOES WITH IT:
+  - Frequent "check-in" calls to extract updates on activities, work, recovery.
+WHAT TO SAY INSTEAD:
+  - "Please email me. I'll respond when I can."
+
+PHRASE 37: "I posted about it on Facebook."
+WHY DANGEROUS:
+  - Confirms discoverable evidence exists. They will find it.
+WHAT THE ADJUSTER DOES WITH IT:
+  - Screenshots before you delete. Surveillance authorization.
+WHAT TO SAY INSTEAD:
+  - Say nothing about social media. Lock accounts (Section 3).
+
+PHRASE 38: "The pain is unbearable, I can't do anything ever."
+WHY DANGEROUS:
+  - Overstatement is as bad as minimization. One gym photo = case destroyed.
+WHAT THE ADJUSTER DOES WITH IT:
+  - Surveillance + IME + social media = fraud argument.
+WHAT TO SAY INSTEAD:
+  - Honest, measured: "I have significant pain that limits [specific activities].
+    I follow my doctor's restrictions."
+
+───────────────────────────────────────────────────────────────────────────────
+51% COMPARATIVE FAULT BAR STATES — CONSOLIDATED REFERENCE
+───────────────────────────────────────────────────────────────────────────────
+
+In these jurisdictions, if you are found MORE THAN 50% (or 51% depending on
+statute) at fault, you recover NOTHING:
+
+  Alabama, Arkansas, Delaware, District of Columbia, Georgia, Indiana, Iowa,
+  Kansas, Louisiana, Maryland, Mississippi, Nebraska, New Mexico, North Carolina,
+  North Dakota, Oklahoma, Rhode Island, South Carolina, South Dakota, Tennessee,
+  Texas, Utah, Virginia, West Virginia, Wisconsin, Wyoming.
+
+HOW PHRASES COMBINE TO BAR RECOVERY IN 51% STATES:
+  Example (Texas slip-and-fall):
+  - "I wasn't really looking" (30% fault assigned)
+  - "I knew the floor gets wet there" (20% fault)
+  - "I'm fine, just a little sore" (credibility attack → another 10% fault)
+  - Total: 60% fault → $0 recovery despite broken wrist.
+
+In PURE comparative states (California, New York, Florida, Illinois, etc.):
+  - You can recover even at 99% fault (reduced by percentage).
+  - BUT admissions still slash damages. 40% fault on $100,000 case = $60,000 loss.
+
+MODIFIED 50% BAR (different from 51%):
+  - Some states bar at 50% or greater (e.g., Colorado, Idaho in certain readings).
+  - Always assume fault admissions are catastrophic.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 2: WHAT TO SAY TO EACH PARTY
+Scripts, Boundaries, and Exact Language by Audience
+═══════════════════════════════════════════════════════════════════════════════
+
+Different audiences have different legal relationships to you. What helps with
+police may hurt with adjusters. This section provides party-by-party guidance.
+
+───────────────────────────────────────────────────────────────────────────────
+2A. STORE MANAGER / PROPERTY MANAGER (AT SCENE OR SAME DAY)
+───────────────────────────────────────────────────────────────────────────────
+
+YOUR GOAL: Report incident, get medical help, preserve evidence. NOT settle,
+NOT admit fault, NOT minimize injury.
+
+SAY:
+  - "I was injured on your property. I need medical attention."
+  - "Please document this incident. I'd like a copy of the report."
+  - "There was [wet floor / broken tile / missing handrail / ice] at [location]."
+  - "My name is [name]. My phone is [number]."
+  - "There were witnesses: [names if known]."
+  - "I am not signing any release or settlement document today."
+
+DO NOT SAY:
+  - "I'm fine." "It was my fault." "I wasn't watching."
+  - "I don't need an ambulance." (if you might)
+  - "Don't worry, I won't sue." / "I won't make a big deal of this."
+
+IF MANAGER PRESSURES YOU TO SIGN:
+  - "I'm willing to complete a factual incident report with date, time, and location.
+    I will not sign anything that releases your company from liability."
+
+IF MANAGER ASKS "WHAT WERE YOU DOING?"
+  - "Shopping / walking to my car / entering the building in the normal course."
+
+IF MANAGER SAYS "WE'LL TAKE CARE OF YOUR MEDICAL BILLS":
+  - "Thank you. I'll still need to seek treatment on my own and document everything."
+
+INCIDENT REPORT TIPS: See Appendix B for field-by-field guidance.
+
+───────────────────────────────────────────────────────────────────────────────
+2B. POLICE (MOTOR VEHICLE ACCIDENTS, SOME SERIOUS PREMISES CALLS)
+───────────────────────────────────────────────────────────────────────────────
+
+YOUR GOAL: Truthful factual report. Police report becomes official record.
+
+SAY:
+  - Facts: direction of travel, location, what you observed, witnesses, injuries.
+  - "I am injured and need medical evaluation."
+  - Point to physical evidence: skid marks, signals, store conditions.
+
+DO NOT SAY:
+  - "It was my fault" / apologies / speculation.
+  - Do not minimize injury to officer.
+
+NOTE: You must be truthful to police. Lying to police = criminal exposure.
+Civil adjuster is different — you are NOT obligated to elaborate beyond police report.
+
+IF OFFICER ASKS IF YOU'RE INJURED:
+  - "Yes" or "I believe so — I need to be checked out." NOT "I'm fine."
+
+REQUEST: Copy of police report number before scene clears.
+
+───────────────────────────────────────────────────────────────────────────────
+2C. DOCTORS, ER, URGENT CARE, PARAMEDICS
+───────────────────────────────────────────────────────────────────────────────
+
+YOUR GOAL: Accurate clinical history for treatment. Medical records support claim.
+
+SAY (FULL HONESTY HERE — records are for YOUR care):
+  - How injury occurred: "I slipped on unmarked wet floor at [store]."
+  - All symptoms: headache, nausea, numbness, anxiety — report everything.
+  - Prior conditions when asked clinically — doctors need truth.
+  - Pain level honestly. Functional limitations honestly.
+
+DO NOT SAY:
+  - Do not exaggerate (insurer sends IME; contradictions destroy credibility).
+  - Do not say "I'm fine" to minimize embarrassment.
+  - Do not blame yourself clinically: "I wasn't paying attention" — say what
+    happened: "Floor was wet, no signs."
+
+CRITICAL DISTINCTION:
+  - Honest with DOCTOR ≠ disclose full history to ADJUSTER.
+  - Doctor-patient privilege helps you. Adjuster fishing hurts you.
+
+ASK DOCTOR TO DOCUMENT:
+  - Causation language: "injury consistent with mechanism described."
+  - Work restrictions in writing.
+  - Follow-up plan.
+
+───────────────────────────────────────────────────────────────────────────────
+2D. YOUR OWN INSURER (AUTO PIP/MEDPAY, UM/UIM, HEALTH, HOMEOWNERS)
+───────────────────────────────────────────────────────────────────────────────
+
+YOUR GOAL: Trigger coverage you pay for. Different rules than opposing insurer.
+
+SAY:
+  - Prompt notice of claim with basic facts.
+  - Request PIP/medpay forms, UM claim forms if applicable.
+  - Ask about coverage limits, deductibles, coordination of benefits.
+
+CAUTION — YOUR POLICY MAY REQUIRE:
+  - Cooperation clause: recorded statement, EUO (Examination Under Oath).
+  - Failure to cooperate may DENY YOUR coverage (not just reduce third-party claim).
+  - Still: avoid fault admissions and minimization even with own insurer.
+
+DO NOT SAY:
+  - "I don't need to file" (missed deadlines bar coverage).
+  - False statements (fraud voids entire policy).
+
+SCRIPT — CALLING YOUR AUTO INSURER AFTER ACCIDENT:
+  "I'm calling to report an accident. Date: [date]. Location: [location].
+  I was [rear-ended / hit by driver who ran stop sign]. I am injured and
+  seeking treatment. Please open a PIP/medpay claim and send me forms.
+  What are my coverage limits for medical payments and UM?"
+
+If they request recorded statement for YOUR policy:
+  - You may be contractually obligated — consult policy language.
+  - Still: factual, no speculation, no fault admission, no minimization.
+  - Consider brief consultation with attorney before EUO.
+
+───────────────────────────────────────────────────────────────────────────────
+2E. THE OTHER PARTY'S ADJUSTER — CRITICAL SECTION
+───────────────────────────────────────────────────────────────────────────────
+
+THIS IS THE CALL USERS ASK ABOUT MOST:
+  "The store's adjuster just called. What do I say?"
+
+YOUR GOAL: Be polite, give NOTHING of value, refuse recorded statement,
+communicate in writing only, do not discuss injury severity, fault, history,
+settlement, or activities.
+
+GOLDEN RULES:
+  1. NO recorded statement — ever — without attorney (third-party claims).
+  2. Written communication only after initial call.
+  3. Confirm claim number and adjuster contact in writing.
+  4. Do not discuss: fault, injury detail, pre-existing, work, social media,
+     settlement, daily activities, witnesses beyond "they exist."
+  5. Short call. Polite exit.
+
+─── FIRST CONTACT SCRIPT (OPPOSING ADJUSTER) ───
+
+ADJUSTER: "Hi, this is Mike Torres with Acme Insurance. I'm handling the
+claim from the incident at Kroger on June 3rd. Is now a good time?"
+
+YOU: "I understand you're calling about the incident. I can confirm an incident
+occurred. I'm not able to discuss details over the phone right now."
+
+ADJUSTER: "I just need a few minutes to understand what happened so we can
+help you get this resolved."
+
+YOU: "I appreciate the call. I'm not comfortable discussing this by phone.
+Please communicate with me in writing. Can you email me your name, claim number,
+and mailing address for correspondence?"
+
+ADJUSTER: "We really need a recorded statement to process your claim."
+
+YOU: "I'm not willing to provide a recorded statement. If you need information,
+please send your request in writing."
+
+ADJUSTER: "Without a statement we may not be able to pay your claim."
+
+YOU: "I understand. Please put everything in writing. My address is [address].
+Goodbye."
+
+[END CALL — do not linger, argue, or explain]
+
+─── IF YOU MUST SAY SOMETHING FACTUAL (WRITTEN ONLY) ───
+
+Maximum safe written statement (email or letter):
+
+  "On [date] at approximately [time], I was on the premises at [address].
+  I sustained injuries when [one sentence: e.g., I slipped and fell on a wet
+  floor in the produce aisle near register 4]. I sought medical treatment.
+  I am continuing to follow up with healthcare providers. Please direct all
+  communications to me in writing at [address/email]."
+
+  DO NOT ADD: fault, prior injuries, pain level, activities, witnesses' stories,
+  settlement interest, or emotional narrative.
+
+─── EMAIL AUTO-REPLY TEMPLATE ───
+
+  Subject: Claim [number] — Written Communication Only
+
+  Thank you for your message regarding claim [number]. I am not available for
+  phone discussions or recorded statements. Please direct all correspondence
+  to this email address / [mailing address]. I will review written requests
+  and respond as appropriate.
+
+─── WHAT OPPOSING ADJUSTER WILL ASK (DO NOT ANSWER BY PHONE) ───
+
+  - "Walk me through what happened." → WRITTEN ONLY, minimal facts.
+  - "Were you on your phone?" → Decline phone discussion.
+  - "How fast were you going?" → Decline.
+  - "Have you had back problems?" → Decline.
+  - "What did the manager say?" → Decline.
+  - "Are you working?" → Decline until formal discovery.
+  - "What treatment are you getting?" → They can request records properly later.
+  - "What will you settle for?" → NEVER on phone.
+  - "Can we send you a check for $2,000?" → Written only after full treatment.
+
+─── IF ADJUSTER SHOWS UP IN PERSON (RARE) ───
+
+  - Do not let them in without appointment.
+  - Do not sign anything.
+  - "Please contact me in writing."
+  - They may be doing surveillance simultaneously — normal activity only.
+
+───────────────────────────────────────────────────────────────────────────────
+2F. WITNESSES (AND WHAT TO ASK THEM NOT TO SAY)
+───────────────────────────────────────────────────────────────────────────────
+
+YOUR GOAL: Preserve neutral, factual witness accounts before insurer shapes them.
+
+ASK WITNESS TO PROVIDE (TEXT OR EMAIL YOU WRITE DOWN):
+  - What they saw: hazard, fall/collision, lighting, warnings or lack thereof.
+  - Where they were standing. What they heard (splash, scream, tires).
+  - Your condition immediately after (holding arm, couldn't stand, etc.).
+
+ASK WITNESSES NOT TO:
+  - Guess your speed or fault.
+  - Say "she seemed fine" — they should say "she said she was hurt" or
+    "she was in pain."
+  - Give recorded statement to store's insurer without knowing they can decline.
+  - Discuss case on social media.
+
+SAY TO WITNESS:
+  "If the insurance company calls, you can tell them what you saw. You don't
+  have to give a recorded statement. Just the facts — the wet floor, no sign,
+  the fall. Don't guess about whose fault it was."
+
+NOTE: Insurer will call witnesses. You cannot control them — get written
+statement from friendly witnesses EARLY (same day if possible).
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 3: SOCIAL MEDIA RULES
+Platforms, Surveillance, Family Tagging, and Digital Hygiene
+═══════════════════════════════════════════════════════════════════════════════
+
+Insurers and defense firms routinely monitor social media within hours of claim
+report. Special Investigations Units (SIU) have social media analysts. Assume
+everything you post — and much that friends/family post — will be discovered.
+
+───────────────────────────────────────────────────────────────────────────────
+3A. PLATFORM-SPECIFIC RULES
+───────────────────────────────────────────────────────────────────────────────
+
+FACEBOOK:
+  - Highest surveillance value. Photos, check-ins, events, "feeling better" posts.
+  - Privacy settings DO NOT stop legal discovery or friend-of-friend screenshots.
+  - ACTION: Deactivate or stop posting entirely. Do not delete (spoliation argument)
+    without attorney advice — but stop new content.
+
+INSTAGRAM:
+  - Visual surveillance gold: gym, travel, hiking, lifting children, dancing.
+  - Stories disappear but are often captured first.
+  - ACTION: Private account, no new posts, no stories during claim.
+
+TIKTOK:
+  - Short videos destroy credibility instantly (dancing, workouts, pranks).
+  - ACTION: No posts. Assume insurer has screen recording tools.
+
+TWITTER / X:
+  - Casual complaints about injury ("I'm fine now") used against you.
+  - ACTION: No mention of accident, injury, lawsuit, or settlement.
+
+LINKEDIN:
+  - "Back to work full capacity!" posts vs. disability claim.
+  - ACTION: No work-status updates during treatment.
+
+YOUTUBE:
+  - Old athletic videos resurfaced as "prior ability" even if pre-accident.
+  - ACTION: Do not post; attorney may need to contextualize old content.
+
+SNAPCHAT:
+  - "Temporary" does not mean undiscoverable.
+  - ACTION: Same as Instagram — no activity posts.
+
+REDDIT / FORUMS:
+  - Anonymous posts are discoverable via subpoena to platform.
+  - ACTION: Do not discuss incident, injuries, insurers, or legal strategy online.
+
+STRAVA / FITBIT / APPLE HEALTH / GARMIN:
+  - Activity data subpoenaed: runs, bike rides, heart rate during "disability."
+  - ACTION: Understand data exists; do not increase activity beyond restrictions;
+    attorney may need to address in discovery.
+
+GOOGLE REVIEWS / YELP:
+  - Do not review the store where you fell during pending claim.
+
+DATING APPS:
+  - Profile photos and activity dates used in surveillance matrix.
+
+───────────────────────────────────────────────────────────────────────────────
+3B. SURVEILLANCE — PHYSICAL AND DIGITAL
+───────────────────────────────────────────────────────────────────────────────
+
+PHYSICAL SURVEILLANCE:
+  - Common in moderate-to-high value claims ($25,000+ potential).
+  - Private investigators park outside home, follow to grocery store, church, PT.
+  - LEGAL in most states if from public vantage point.
+  - Duration: days to weeks, often triggered after recorded statement or IME.
+
+DIGITAL SURVEILLANCE:
+  - Social media monitoring (in-house or contractors like Social Intelligence).
+  - Connected app data, public records, prior claim databases (ISO ClaimSearch).
+  - Fake friend requests — attractive profile sends request to monitor your feed.
+
+WHAT SURVEILLANCE LOOKS FOR:
+  - You carrying groceries, playing with kids, yard work, gym, social events.
+  - Inconsistency with reported restrictions — NOT proof you aren't injured,
+    but jury persuasion tool.
+
+HOW TO LIVE UNDER SURVEILLANCE:
+  - Follow doctor restrictions literally.
+  - If you can do light activity, ensure it's documented as approved.
+  - No heroics for social media OR for neighbors' eyes.
+
+───────────────────────────────────────────────────────────────────────────────
+3C. FAMILY TAGGING AND THIRD-PARTY POSTS
+───────────────────────────────────────────────────────────────────────────────
+
+YOUR POSTS ARE NOT THE ONLY RISK.
+
+FAMILY TAGGING:
+  - Spouse posts "Beach day! Kids and [injured parent] having a blast!"
+  - Photo shows you holding boogie board.
+  - Insurer introduces at trial. Caption is not your statement but hurts anyway.
+
+RULES FOR FAMILY (SHARE VERBALLY):
+  - Do not tag injured person in any activity photo during claim.
+  - Do not mention accident, injuries, settlement, or "suing the store."
+  - Set family posts to exclude injured person or delay posting until case resolves.
+  - Wedding, graduation, holidays — one photo can cost tens of thousands.
+
+FRIENDS AND COWORKERS:
+  - "Welcome back!" LinkedIn endorsements contradict disability.
+  - Ask close contacts not to post about your accident or recovery online.
+
+MESSAGING APPS (TEXT, WHATSAPP, FACEBOOK MESSENGER):
+  - Discoverable in litigation with subpoena.
+  - Do not joke: "I'm pretending to be hurt lol" — destroys case.
+
+EMAIL:
+  - Work emails about productivity used against wage loss claims.
+
+───────────────────────────────────────────────────────────────────────────────
+3D. SOCIAL MEDIA DO / DON'T CHECKLIST
+───────────────────────────────────────────────────────────────────────────────
+
+DO:
+  - Tell attorney about ALL platforms you use (including old accounts).
+  - Preserve existing posts (don't mass-delete after incident).
+  - Increase privacy settings as baseline hygiene.
+  - Ask family to stop tagging you.
+
+DON'T:
+  - Post photos of activities during treatment.
+  - Post about pain level (either direction — "fine" or "worst ever").
+  - Accept unknown friend requests post-accident.
+  - Join "injury support" groups with public posts about your case.
+  - Respond to insurer's "we saw your Facebook" with explanations by phone.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 4: FIRST 48-HOUR ADJUSTER CALL — FULL DIALOGUE SCRIPTS
+Multiple Scenarios with Word-for-Word Responses
+═══════════════════════════════════════════════════════════════════════════════
+
+Timeline: Store/property GL claims typically trigger adjuster contact within
+24–48 business hours. Auto claims often faster (same day). This section models
+real adjuster openings and pressure tactics with safe responses.
+
+───────────────────────────────────────────────────────────────────────────────
+SCENARIO 1: STANDARD OPENING — "FRIENDLY" ADJUSTER
+───────────────────────────────────────────────────────────────────────────────
+
+CONTEXT: Slip-and-fall at grocery store. 36 hours post-incident. You went to ER.
+Adjuster has incident report but no recorded statement.
+
+[RING]
+
+YOU: Hello?
+
+ADJUSTER: Hi, may I speak with [Your Name]?
+
+YOU: This is [Name].
+
+ADJUSTER: Hi [Name], my name is Jennifer Walsh. I'm a claims adjuster with
+Hartford Commercial Insurance. I'm calling about the incident at FreshMart on
+Oak Street this past Tuesday. First, I want to say I'm really sorry you were
+hurt. How are you feeling?
+
+YOU: [TRAP — do not answer how you're feeling] I understand you're calling
+about the incident. I can confirm something occurred. I'm not able to discuss
+details on the phone.
+
+ADJUSTER: I completely understand. I'm just trying to get your side of the story.
+The store reported that you slipped near the floral department. Can you tell me
+what happened from your perspective? It'll only take a few minutes.
+
+YOU: I'd prefer to handle this in writing. Can you send me your contact
+information and claim number by email?
+
+ADJUSTER: Sure, I can do that. Before I let you go — were there any wet floor
+signs out that you noticed?
+
+YOU: I'm not discussing details by phone. Please email me.
+
+ADJUSTER: Okay. Is [your address on file] still correct?
+
+YOU: Please send everything in writing and I'll confirm.
+
+ADJUSTER: We'll be in touch. Feel free to call me back anytime.
+
+YOU: Thank you. Goodbye.
+
+[Hang up. Do not call back.]
+
+POST-CALL:
+  - Document: date, time, adjuster name, insurer, phone number, what was said.
+  - If email arrives, reply with written-communication-only template (Section 2E).
+
+───────────────────────────────────────────────────────────────────────────────
+SCENARIO 2: RECORDED STATEMENT PRESSURE
+───────────────────────────────────────────────────────────────────────────────
+
+CONTEXT: Rear-end collision. At-fault driver's insurer. Adjuster insists
+recording is "required."
+
+ADJUSTER: This is David Chen with Progressive, claim number 24-8847291. I need
+to take your recorded statement to open the bodily injury portion of your claim.
+It's standard procedure — takes about 15 minutes. Is now okay?
+
+YOU: I'm not willing to give a recorded statement.
+
+ADJUSTER: I hear you, but we can't evaluate your claim without it. It's in your
+best interest to get this done quickly so we can get you a payment.
+
+YOU: Please put your requests in writing. I'm not providing a recorded statement.
+
+ADJUSTER: If you refuse, we may have to close your claim without payment. I don't
+want that to happen to you.
+
+YOU: I understand what you're saying. Communicate with me in writing at [email].
+Goodbye.
+
+ADJUSTER (if persists): Can I at least ask — were you injured?
+
+YOU: [Optional minimal response] I sought medical care. I won't discuss further
+by phone. Goodbye.
+
+KEY: Threat to deny is pressure tactic. Third-party claims proceed via records,
+demand letters, and litigation without your recorded statement.
+
+───────────────────────────────────────────────────────────────────────────────
+SCENARIO 3: "OFFER EXPIRES" / QUICK CASH PRESSURE
+───────────────────────────────────────────────────────────────────────────────
+
+CONTEXT: 48 hours post soft-tissue MVA. Adjuster offers $1,500, says must
+accept today.
+
+ADJUSTER: We've reviewed the police report. Liability is clear. I'd like to offer
+you $1,500 to cover your medical bills and close this out quickly. I can send
+the release today if you accept. This offer expires Friday.
+
+YOU: I'm not prepared to discuss settlement. I'm still treating. Send anything
+in writing and I'll review when my medical course is clearer.
+
+ADJUSTER: This is a fair offer given that you're probably just sore. These offers
+don't stay open — we'd have to re-evaluate if you hire a lawyer.
+
+YOU: I understand. Please email me your offer in writing. I won't accept anything
+by phone. Goodbye.
+
+DO NOT SAY: "That's too low" (reveals you're negotiating). "I might get a lawyer"
+(gives them strategy). "I need more" (engagement).
+
+───────────────────────────────────────────────────────────────────────────────
+SCENARIO 4: SYMPATHETIC ADJUSTER — EMOTIONAL RAPPORT BUILDING
+───────────────────────────────────────────────────────────────────────────────
+
+CONTEXT: Elderly claimant, fall at big-box store. Adjuster uses warmth and
+personal connection.
+
+ADJUSTER: Mrs. Johnson, I've been doing this job for twelve years and I hate
+seeing people hurt at stores. My mom had a fall last year — I know how scary
+it is. I want to make sure you're taken care of. Can you walk me through what
+happened? I promise I'm on your side.
+
+YOU: Thank you for calling. I'm not comfortable discussing the incident by phone.
+Please send me your information in writing.
+
+ADJUSTER: I understand you're cautious. That's smart. But if I can't get your
+story, the company might think you're hiding something. I'm trying to protect
+you here.
+
+YOU: I appreciate that. Written communication works best for me. What's your
+email address?
+
+ADJUSTER: Before we switch to email — you said you were fine when the manager
+helped you up, right?
+
+YOU: [TRAP — do not confirm or deny manager's version] I'm not discussing details
+by phone. Please email me. Goodbye.
+
+NOTE: Sympathy is trained Phase 1 of recorded statement playbook (see insurance_claims.txt).
+
+───────────────────────────────────────────────────────────────────────────────
+SCENARIO 5: ADJUSTER ALREADY HAS INCIDENT REPORT — CONTRADICTION FISHING
+───────────────────────────────────────────────────────────────────────────────
+
+ADJUSTER: I have the store report here. It says you were running through the
+aisle and declined medical help. Is that accurate?
+
+YOU: I haven't seen the store report. I'm not giving a statement by phone.
+
+ADJUSTER: So you dispute that you were running?
+
+YOU: I'm not discussing this by phone. Send your requests in writing.
+
+[Do not say "I wasn't running" — that's still a statement. Written only later.]
+
+───────────────────────────────────────────────────────────────────────────────
+SCENARIO 6: THEY SAY CALL IS NOT RECORDED (IT STILL COUNTS)
+───────────────────────────────────────────────────────────────────────────────
+
+ADJUSTER: This isn't a recorded statement — just a friendly conversation so I
+can note your account.
+
+YOU: I'd still prefer written communication only.
+
+NOTE: Adjuster notes are transcribed into claim file and used in deposition.
+"Not recorded" ≠ "not used against you."
+
+───────────────────────────────────────────────────────────────────────────────
+SCENARIO 7: VOICEMAIL — WHAT TO LEAVE IF YOU MUST CALL BACK
+───────────────────────────────────────────────────────────────────────────────
+
+If returning call only to get claim number:
+
+  "This is [Name], date of birth [DOB if needed for ID]. I'm returning your
+  call regarding an incident on [date]. Please email me at [email] with your
+  name, claim number, and mailing address. I am not providing a recorded
+  statement by phone. Thank you."
+
+───────────────────────────────────────────────────────────────────────────────
+48-HOUR MASTER CHECKLIST (ADJUSTER CONTACT PERIOD)
+───────────────────────────────────────────────────────────────────────────────
+
+□ Medical treatment initiated (ER/urgent care/PCP within 24–48 hours)
+□ Incident reported to property owner in writing if possible
+□ Photos of scene/hazard/injuries preserved
+□ Witness names and statements collected
+□ Pain journal started
+□ Social media locked down — no new posts
+□ Opposing adjuster: refused recorded statement, requested writing
+□ Own insurer notified if coverage applies
+□ Call documented: who, when, what they said
+□ No settlement discussion by phone
+□ No HIPAA release signed
+□ Shoes/clothing from incident preserved
+□ Attorney consultation scheduled if injury beyond minor bruise
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 5: DOCUMENTATION THAT WINS CASES
+Ranked Evidence List with How to Obtain Each Item
+═══════════════════════════════════════════════════════════════════════════════
+
+Strong documentation offsets bad luck with adjusters. Ranked by impact on
+settlement value and trial success.
+
+───────────────────────────────────────────────────────────────────────────────
+TIER 1 — CASE-MAKING EVIDENCE (HIGHEST IMPACT)
+───────────────────────────────────────────────────────────────────────────────
+
+RANK 1: PHOTOGRAPHS / VIDEO OF HAZARD AT SCENE (SAME DAY)
+  Why: Proves notice, dangerous condition, lack of warning.
+  How: Phone photos/video immediately. Wide shot + close-up. Multiple angles.
+  If missed same day: return ASAP; store may fix hazard — still photograph.
+  Subpoena store security video within days (attorney sends preservation letter).
+
+RANK 2: MEDICAL RECORDS FROM FIRST 24–48 HOURS
+  Why: Causation link, objective injury documentation.
+  How: ER discharge papers, urgent care summary, ambulance run sheet.
+  Request complete records 30 days later — early records may omit detail.
+
+RANK 3: INCIDENT REPORT (YOUR COPY OR YOUR WRITTEN ACCOUNT)
+  Why: Establishes date, time, location, notice to defendant.
+  How: Ask manager at scene. If refused, email store same day documenting report.
+  See Appendix B for fields to complete.
+
+RANK 4: WITNESS STATEMENTS (WRITTEN, SIGNED, DATED)
+  Why: Independent corroboration beats he-said-she-said.
+  How: Witness texts/email you facts same day. Notarized statement if possible.
+  Attorney affidavits later.
+
+RANK 5: SECURITY / SURVEILLANCE FOOTAGE
+  Why: Often shows hazard, fall mechanics, no warning signs, employee mopping.
+  How: Spoliation letter immediately (attorney). FOIA if public entity.
+  Store systems auto-delete 7–30 days — SPEED MATTERS.
+
+───────────────────────────────────────────────────────────────────────────────
+TIER 2 — DAMAGES AND CREDIBILITY EVIDENCE
+───────────────────────────────────────────────────────────────────────────────
+
+RANK 6: CONTINUOUS MEDICAL TREATMENT RECORDS (NO GAPS)
+  How: Treat consistently per doctor orders. Document why any gap (insurance delay).
+
+RANK 7: LOST WAGE DOCUMENTATION
+  How: Employer letter on letterhead: dates missed, rate, hours. Pay stubs,
+  tax returns if self-employed. FMLA paperwork.
+
+RANK 8: PAIN JOURNAL (DATED ENTRIES)
+  How: Daily or weekly: pain 1–10, sleep, activities missed, medications.
+  Authentic contemporaneous notes admissible in some jurisdictions.
+
+RANK 9: PHYSICAL EVIDENCE — FOOTWEAR, CLOTHING
+  How: Bag unwashed shoes/clothes worn at fall. Wet floor = wet shoes.
+
+RANK 10: PRIOR COMPLAINTS ABOUT SAME HAZARD
+  How: FOIA for public property. Discovery for commercial. OSHA records workplace.
+  Other victims — police reports, online reviews mentioning same defect.
+
+───────────────────────────────────────────────────────────────────────────────
+TIER 3 — SUPPORTING AND REBUTTAL EVIDENCE
+───────────────────────────────────────────────────────────────────────────────
+
+RANK 11: POLICE REPORT (MVA)
+  How: Request from department or DMV portal. 5–10 business days typical.
+
+RANK 12: WEATHER / LIGHTING DATA
+  How: NOAA historical weather, timestamped photos showing poor lighting.
+
+RANK 13: BUILDING CODE / OSHA VIOLATIONS
+  How: Inspector reports, code enforcement complaints, expert inspection.
+
+RANK 14: DEFECTIVE PRODUCT RECORDS
+  How: Preserve product, receipt, recall databases (CPSC.gov).
+
+RANK 15: COMMUNICATIONS LOG WITH INSURERS
+  How: Save all letters, emails. Note all calls (date, adjuster, summary).
+
+RANK 16: EXPERT REPORTS (BIOMECHANICAL, SAFETY, ECONOMIC)
+  How: Retained through attorney for larger cases.
+
+RANK 17: TAX RETURNS / FINANCIAL RECORDS (SELF-EMPLOYED WAGE LOSS)
+  How: 2–3 years pre-incident for baseline earnings.
+
+RANK 18: LIFE CARE PLAN (CATASTROPHIC INJURY)
+  How: Medical expert projection of future care costs.
+
+───────────────────────────────────────────────────────────────────────────────
+HOW TO OBTAIN RECORDS — PRACTICAL GUIDE
+───────────────────────────────────────────────────────────────────────────────
+
+MEDICAL RECORDS (YOUR PROVIDERS):
+  - HIPAA right of access: request in writing from each facility.
+  - Allow 30 days. May charge reasonable copying fee.
+  - Request: "Complete records including imaging, nursing notes, PT notes."
+
+OPPONENT'S INSURER RECORDS:
+  - They obtain via authorization or subpoena after lawsuit filed.
+  - Do NOT sign broad authorization voluntarily (Appendix C).
+
+EMPLOYMENT RECORDS:
+  - You: pay stubs, employer letter.
+  - Opponent subpoenas employer in litigation for full wage history.
+
+STORE VIDEO:
+  - Attorney spoliation letter to store and insurer within 72 hours.
+  - Letter demands preservation of all video, logs, incident reports, mop records.
+
+GOVERNMENT RECORDS:
+  - FOIA request to city/county for sidewalk, transit, school incidents.
+
+ISO CLAIMSEARCH:
+  - You cannot access directly. Attorney discovers prior claims in litigation.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+APPENDIX A: ADJUSTER LEADING QUESTIONS AND HOW TO DEFLECT
+═══════════════════════════════════════════════════════════════════════════════
+
+Leading questions are designed for "yes" answers that become admissions.
+If trapped on phone (shouldn't happen), use deflection — but BEST answer is
+"I don't discuss this by phone."
+
+───────────────────────────────────────────────────────────────────────────────
+FAULT / ATTENTION QUESTIONS
+───────────────────────────────────────────────────────────────────────────────
+
+Q: "You weren't looking where you were walking, correct?"
+DEFLECT: "I'm not giving a statement by phone."
+IF FORCED IN WRITING: "I was walking in the store in the normal course of shopping."
+
+Q: "You would agree the floor was wet because it had been raining, right?"
+DEFLECT: Written only. "There was water on the floor. I did not see warning signs."
+
+Q: "You could have gone around the spill, couldn't you?"
+DEFLECT: "I'm not admitting fault. The hazard was present without adequate warning."
+
+───────────────────────────────────────────────────────────────────────────────
+INJURY MINIMIZATION QUESTIONS
+───────────────────────────────────────────────────────────────────────────────
+
+Q: "When you left the store, you walked out on your own, didn't you?"
+DEFLECT: "I sought medical evaluation. I won't discuss details by phone."
+
+Q: "You're feeling a lot better now, aren't you?"
+DEFLECT: "I'm still under medical care."
+
+Q: "It was just a bruise, right?"
+DEFLECT: "My doctors are documenting my injuries."
+
+───────────────────────────────────────────────────────────────────────────────
+PRE-EXISTING QUESTIONS
+───────────────────────────────────────────────────────────────────────────────
+
+Q: "You've treated for back pain before this incident, haven't you?"
+DEFLECT: "Send written requests for any records you're entitled to through proper channels."
+
+Q: "Your MRI shows degenerative changes — that means old injury, correct?"
+DEFLECT: [Writing only, with attorney] Do not agree with medical conclusions from adjuster.
+
+───────────────────────────────────────────────────────────────────────────────
+ACTIVITY / SURVEILLANCE QUESTIONS
+───────────────────────────────────────────────────────────────────────────────
+
+Q: "You went to your kid's soccer game last Saturday?"
+DEFLECT: "I won't discuss my activities by phone."
+
+Q: "You haven't missed any work, have you?"
+DEFLECT: "Employment information will be provided through appropriate process."
+
+───────────────────────────────────────────────────────────────────────────────
+SETTLEMENT QUESTIONS
+───────────────────────────────────────────────────────────────────────────────
+
+Q: "What number would make this go away?"
+DEFLECT: "I'm not discussing settlement at this time."
+
+Q: "If we offered $5,000, would you take it?"
+DEFLECT: "Send any offer in writing."
+
+───────────────────────────────────────────────────────────────────────────────
+TRAP: TWO-CHOICE QUESTIONS
+───────────────────────────────────────────────────────────────────────────────
+
+Q: "Were you running or walking fast through the aisle?"
+DEFLECT: "I was shopping normally." (Reject the false binary.)
+Never pick one harmful option to be cooperative.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+APPENDIX B: INCIDENT REPORT — FIELD-BY-FIELD GUIDE
+═══════════════════════════════════════════════════════════════════════════════
+
+Store incident reports are written by employees for their insurer. If YOU complete
+fields or sign manager's version, every word matters.
+
+FIELD: DATE AND TIME
+  Enter: Exact from receipt, phone timestamp, or witness.
+  Why: Video preservation depends on correct timestamp.
+
+FIELD: LOCATION ON PREMISES
+  Enter: Specific: "Aisle 7 produce, between registers 3–4, near floral."
+  Why: Vague location loses video and witness correlation.
+
+FIELD: DESCRIPTION OF INCIDENT
+  SAFE: "I slipped and fell on wet floor" / "I tripped on uneven mat."
+  UNSAFE: "I wasn't paying attention" / "I should have seen it."
+  Keep one sentence. Factual mechanism only.
+
+FIELD: WITNESSES
+  Enter: Full names, phones if known. "Several customers observed — names unknown."
+  Why: Triggers insurer witness calls — also your future evidence.
+
+FIELD: INJURIES
+  SAFE: "Pain in wrist, hip, head — seeking medical evaluation."
+  UNSAFE: "None" / "Minor" / "Fine."
+
+FIELD: MEDICAL TREATMENT SOUGHT
+  SAFE: "Yes — going to ER / urgent care today."
+  UNSAFE: "No" / "Declined."
+
+FIELD: EMPLOYEE STATEMENTS
+  If manager writes "customer said she was fine" — DO NOT SIGN without correction.
+  Request amendment: "Customer reported pain and intent to seek medical care."
+
+FIELD: PHOTOS TAKEN BY STORE
+  Note: "I also took photos." Request copies (often refused — take your own).
+
+FIELD: RELEASE / LIABILITY WAIVER
+  NEVER SIGN at scene. If pressured: "I will not sign a release."
+
+FIELD: YOUR SIGNATURE
+  Signing factual incident report ≠ signing release. Read entire document.
+  If ANY release language: do not sign.
+
+AFTER INCIDENT REPORT:
+  Email yourself copy of what you submitted. Photo of form if allowed.
+  If store refuses copy: document refusal with witness name.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+APPENDIX C: HIPAA RELEASE TRAPS
+═══════════════════════════════════════════════════════════════════════════════
+
+Adjusters send HIPAA authorization forms early. Signing wrong form = case damage.
+
+THE TRAP:
+  Form authorizes ALL records from ALL providers for 5–10 years, including:
+  - Psychiatric treatment
+  - Substance abuse (42 CFR Part 2 may apply separately)
+  - HIV/status, reproductive health
+  - Unrelated ER visits
+  - Prior injuries to unrelated body parts
+
+WHY THEY WANT IT:
+  - Find any damaging history before offering money.
+  - IME doctor reviews full history, attributes pain to pre-existing.
+  - No litigation needed — you volunteered records.
+
+SAFE PRACTICES:
+  - Do not sign at scene, over phone, or with first adjuster letter.
+  - Narrow authorization (attorney-drafted): specific providers, date range
+    from incident forward, injury-related visits only.
+  - Psych records: highly protected — do not authorize unless litigation requires.
+
+IF ADJUSTER SAYS: "We can't pay without HIPAA release."
+  RESPONSE: "Send your request in writing. I will provide records related to
+  this incident through appropriate channels."
+
+POST-LITIGATION:
+  Discovery still gets relevant records — but scope is fought by your attorney,
+  not unlimited voluntary dump.
+
+WORKERS COMP CROSSOVER:
+  WC records especially toxic in third-party claims — prior same-body-part injury.
+  Attorney handles coordination.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+APPENDIX D: THE "EGGSHELL PLAINTIFF" RULE EXPLAINED
+═══════════════════════════════════════════════════════════════════════════════
+
+LEGAL PRINCIPLE:
+  Defendant takes the victim as they find them. If you have osteoporosis,
+  prior fusion, brittle bones, or chronic conditions, defendant is still liable
+  for ALL damages flowing from their negligence — including exaggerated harm
+  due to your vulnerability.
+
+PLAIN LANGUAGE:
+  Thin skull, eggshell spine, pre-existing degeneration — negligent party does
+  not get a discount because you were easier to hurt.
+
+EXAMPLE:
+  Minor rear-end impact causes herniation in claimant with prior asymptomatic
+  disc disease. Surgery required. Defendant pays full surgery damages despite
+  "pre-existing" MRI findings — because negligence caused symptomatic injury.
+
+WHY ADJUSTERS STILL USE PRE-EXISTING ARGUMENT:
+  - Most claimants don't know eggshell rule.
+  - Many settle cheap before attorney cites case law.
+  - IME doctors write "all symptoms pre-existing" knowing jury may disagree.
+
+WHAT YOU SHOULD DO:
+  - Be honest with YOUR doctors about prior conditions.
+  - Do NOT admit to adjuster that "it's all old injury."
+  - Let attorney argue eggshell / aggravation doctrine.
+
+KEY CASE NAMES (for attorney reference, varies by state):
+  - Eggshell skull doctrine
+  - Crumbling skull (defense variant — only liable for difference)
+  - Aggravation of pre-existing condition vs. new injury
+
+DO NOT SAY TO ADJUSTER:
+  "I already had a bad back so this isn't their fault."
+INSTEAD:
+  "My doctor is treating injuries from this incident."
+
+
+═══════════════════════════════════════════════════════════════════════════════
+APPENDIX E: SAMPLE WRITTEN LETTER REFUSING RECORDED STATEMENT
+═══════════════════════════════════════════════════════════════════════════════
+
+Send via email and certified mail. Keep copy.
+
+───────────────────────────────────────────────────────────────────────────────
+
+[Your Full Name]
+[Your Address]
+[City, State ZIP]
+[Email]
+[Phone — optional; written preferred]
+
+[Date]
+
+[Adjuster Name]
+[Insurance Company]
+[Company Address]
+
+RE: Claim No. [___________]
+    Incident Date: [___________]
+    Insured: [Store/Driver/Property Owner Name]
+    Location: [___________]
+
+Dear [Adjuster Name]:
+
+I am writing regarding your telephone call(s) and correspondence concerning
+the above-referenced claim.
+
+Please be advised that I am not willing to provide a recorded telephone
+statement. I am also not willing to discuss the facts of the incident, my
+injuries, my medical history, my employment, or settlement by telephone.
+
+Please direct all future communications to me in writing at the address and
+email above. If you require information, you may submit a written request
+specifying exactly what you seek. I will respond as appropriate after reviewing
+your request and consulting with my healthcare providers and advisors.
+
+For identification purposes only, I confirm that an incident occurred on
+[date] at [location] and that I have sought medical treatment. I make no
+admissions regarding fault, damages, or the extent of my injuries in this
+letter.
+
+Please provide your complete contact information, claim number, and the name
+and address of the insured party in your written response.
+
+Thank you for your cooperation.
+
+Sincerely,
+
+[Signature]
+[Printed Name]
+
+───────────────────────────────────────────────────────────────────────────────
+
+OPTIONAL EMAIL SUBJECT LINE:
+  Claim [#] — Written Communication Only — No Recorded Statement
+
+NOTE: Sending this letter does not make you "uncooperative" in bad faith.
+It establishes professional boundaries recognized in every jurisdiction for
+third-party liability claims.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+QUICK REFERENCE CARD — TOP 10 NEVER-SAY PHRASES
+═══════════════════════════════════════════════════════════════════════════════
+
+ 1. "I'm fine."
+ 2. "It was my fault."
+ 3. "I wasn't paying attention."
+ 4. "I've had back problems before."
+ 5. "Sure, record my statement."
+ 6. "That offer sounds fair."
+ 7. "I don't need a doctor."
+ 8. "I'm feeling better."
+ 9. "Here's my full medical history."
+10. "I posted about it online."
+
+INSTEAD SAY TO OPPOSING ADJUSTER:
+  "Please communicate with me in writing. I am not providing a recorded statement."
+
+═══════════════════════════════════════════════════════════════════════════════
+END OF DOCUMENT — WHAT NOT TO SAY AFTER AN INJURY
+═══════════════════════════════════════════════════════════════════════════════

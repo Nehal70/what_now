@@ -1,0 +1,402 @@
+MY INSURANCE POLICY — USER'S OWN POLICY DOCUMENT
+When retrieved, agent speaks as if reading from the user's actual policy.
+Use: "Based on your policy...", "Your coverage includes...", "According to your plan..."
+NOT: "typically insurance covers..." or "you might have..."
+
+═══════════════════════════════════════════
+MY INSURANCE POLICY
+Policy Holder: [User]
+Policy Number: TX-2847-JAK-2024
+Insurer: Progressive Insurance
+State: Texas
+Effective: January 1, 2024
+═══════════════════════════════════════════
+
+SECTION 1: YOUR COVERAGES AT A GLANCE
+──────────────────────────────────────
+✓ Liability Coverage         $100,000/$300,000
+✓ Collision Coverage         $500 deductible
+✓ Comprehensive Coverage     $500 deductible
+✓ Medical Payments (MedPay)  $10,000
+✓ Uninsured Motorist (UM)    $100,000/$300,000
+✓ Underinsured Motorist(UIM) $100,000/$300,000
+✓ Rental Reimbursement       $40/day, 30 days
+✓ Roadside Assistance        Included
+✗ Personal Injury Protection Not included
+  (PIP is optional in Texas —
+   you opted out at signup)
+
+═══════════════════════════════════════════
+SECTION 2: MEDPAY — YOUR MOST IMPORTANT
+COVERAGE RIGHT NOW
+═══════════════════════════════════════════
+
+What it covers:
+Your MedPay covers up to $10,000 in
+medical expenses for you and any
+passengers in your vehicle, regardless
+of who caused the accident.
+
+What MedPay pays for:
+- Emergency room visits
+- Ambulance fees
+- Hospital stays
+- Surgery
+- X-rays, MRIs, CT scans
+- Physical therapy
+- Dental treatment from accident
+- Prosthetic devices
+- Funeral expenses (up to policy limit)
+
+How to file your MedPay claim:
+1. Call Progressive: 1-800-776-4737
+2. Say: "I need to file a MedPay claim
+   under my policy number TX-2847-JAK-2024"
+3. Provide: date of accident,
+   description, police report number
+4. Submit medical bills directly to
+   Progressive as they arrive
+5. Progressive pays provider directly
+   OR reimburses you
+
+Critical MedPay rules:
+- File within 2 years of accident date
+- Does NOT increase your rates
+  (MedPay is no-fault coverage)
+- Does NOT require you to prove
+  other driver's fault
+- Pays FIRST — before health insurance,
+  before other driver's liability
+- If you recover from other driver later,
+  Progressive may seek subrogation
+  (reimbursement) for what they paid
+
+What to say when you call:
+"Hi, I was in an accident on [date]
+and I need to file a MedPay claim.
+My policy number is TX-2847-JAK-2024.
+I have medical bills I need covered
+while the liability claim is pending."
+
+═══════════════════════════════════════════
+SECTION 3: COLLISION COVERAGE —
+YOUR CAR GETS FIXED NOW
+═══════════════════════════════════════════
+
+What it covers:
+Damage to YOUR vehicle from the
+collision, regardless of fault.
+Your deductible: $500
+
+How it works:
+1. You pay $500 deductible
+2. Progressive pays repair costs above $500
+3. If other driver is at fault:
+   Progressive recovers your $500
+   deductible from their insurer
+   (called subrogation — you get it back)
+4. Your car is repaired now, not after
+   months of liability dispute
+
+When to use collision vs other driver's liability:
+USE YOUR COLLISION when:
+- You need car fixed immediately
+- Other driver's insurer is delaying
+- Liability is disputed
+- Other driver has no insurance
+
+USE OTHER DRIVER'S LIABILITY when:
+- Clear liability, cooperative insurer
+- You can wait 2-4 weeks
+- You want to avoid deductible
+
+For rear-end accidents in Texas:
+Use collision immediately —
+Progressive repairs your car within
+5-7 business days at a Progressive
+Direct Repair shop.
+Call: 1-800-776-4737
+Or file online: progressive.com/claims
+
+Total loss rules:
+If repair cost exceeds 75% of car value,
+Progressive declares total loss.
+Payment = Actual Cash Value (ACV)
+of vehicle at time of accident.
+ACV based on: year, make, model,
+mileage, condition, local market prices.
+
+What to say:
+"I need to file a collision claim.
+My vehicle was rear-ended on [date].
+I have a police report number [X].
+I'd like to take it to a Progressive
+Direct Repair shop."
+
+═══════════════════════════════════════════
+SECTION 4: UNINSURED/UNDERINSURED
+MOTORIST — YOUR SAFETY NET
+═══════════════════════════════════════════
+
+Your UM/UIM limits: $100,000 per person
+                    $300,000 per accident
+
+When UM applies (Uninsured Motorist):
+- Other driver has NO insurance
+- Hit and run — driver fled
+- Other driver's insurer denies claim
+- Stolen vehicle caused accident
+
+When UIM applies (Underinsured Motorist):
+- Other driver HAS insurance BUT
+- Their limits are too low for your damages
+- Example: They have $30K minimum Texas
+  but your medical bills are $80K
+- Your UIM covers the $50K gap
+
+How to file UM/UIM claim:
+1. Must have police report (required in TX)
+2. Call Progressive: 1-800-776-4737
+3. Say: "I need to file a UM claim —
+   the other driver had no insurance /
+   fled the scene"
+4. Progressive investigates and pays
+   up to your $100,000 limit
+
+UM stacking in Texas:
+Texas allows stacking UM coverage
+across multiple vehicles on same policy.
+If you have 2 cars insured:
+$100K × 2 = $200K effective UM coverage.
+Check your declarations page for
+stacking availability.
+
+Critical UM rules:
+- Must report hit and run to police
+  within 24 hours
+- Must file UM claim within 2 years
+- Cannot settle with other driver
+  without Progressive's consent
+- Progressive has right to subrogate
+  against other driver after paying you
+
+What to say for hit and run:
+"I need to file a UM claim. I was
+involved in a hit and run accident
+on [date] in [city]. I have a police
+report number [X]. The other driver
+fled and I was not able to get their
+information."
+
+═══════════════════════════════════════════
+SECTION 5: RENTAL REIMBURSEMENT
+═══════════════════════════════════════════
+
+Your coverage: $40/day up to 30 days
+Total maximum: $1,200
+
+When it applies:
+- Your car is in the shop for covered
+  collision or comprehensive claim
+- Rental begins day car enters shop
+- Ends when car is repaired OR
+  total loss settlement offered
+
+How to activate:
+Tell Progressive when filing collision claim:
+"I also need to activate my rental
+reimbursement coverage."
+Progressive arranges rental directly
+with Enterprise or National in most cases.
+
+Important limits:
+- $40/day covers economy to mid-size
+- Upgrades available at your expense
+- Does NOT apply if using other
+  driver's liability for repairs
+
+═══════════════════════════════════════════
+SECTION 6: ROADSIDE ASSISTANCE
+═══════════════════════════════════════════
+
+Included in your policy.
+Available 24/7: 1-800-776-4737
+
+Covers:
+- Towing to nearest qualified shop
+  (up to 15 miles included)
+- Jump start
+- Flat tire change
+- Lockout service (up to $75)
+- Fuel delivery (you pay for fuel)
+
+After accident use:
+If your car is undriveable after accident,
+call roadside immediately BEFORE
+calling a random tow truck.
+Random tow trucks often charge:
+$150-600 for tow + $75-100/day storage
+Your roadside covers the tow.
+
+What to say:
+"I need roadside assistance.
+My car was in an accident and
+is not driveable. I'm at [location]."
+
+═══════════════════════════════════════════
+SECTION 7: LIABILITY COVERAGE —
+PROTECTING YOURSELF
+═══════════════════════════════════════════
+
+Your limits: $100,000 per person
+             $300,000 per accident
+
+When it applies:
+- YOU are at fault for an accident
+- Covers OTHER party's:
+  - Medical bills
+  - Lost wages
+  - Pain and suffering
+  - Property damage (separate limit)
+
+Texas minimum required: $30,000/$60,000
+Your limits: $100,000/$300,000
+(significantly higher than minimum — good)
+
+What this means for rear-end accident
+where other driver is at fault:
+Their liability covers YOU.
+Your liability covers THEM if you
+were at fault.
+In a pure rear-end: their fault,
+their liability pays you.
+
+═══════════════════════════════════════════
+SECTION 8: WHAT TO DO IN FIRST
+24 HOURS — YOUR POLICY CHECKLIST
+═══════════════════════════════════════════
+
+□ IMMEDIATELY at scene:
+  - Call 911 (required for injury in TX)
+  - Get police report number
+  - Photograph all damage
+  - Get other driver: name, license,
+    plate, insurance card, phone
+  - Get witnesses: name and phone
+  - Do NOT say "I'm fine" or "my fault"
+
+□ WITHIN 2 HOURS:
+  - Call Progressive: 1-800-776-4737
+  - Report accident (required by policy)
+  - File MedPay claim if injured
+  - Request rental car activation
+
+□ WITHIN 24 HOURS:
+  - See doctor or urgent care
+    (MedPay covers it, no cost to you)
+  - File collision claim if car damaged
+  - Request roadside if car undriveable
+  - Send UM claim if hit and run
+
+□ WITHIN 1 WEEK:
+  - Follow up with doctor
+  - Keep ALL medical bills and receipts
+  - Document lost wages
+  - Do NOT give recorded statement
+    to other driver's insurer
+  - Consult personal injury attorney
+    if injuries are significant
+
+□ DO NOT:
+  - Accept any settlement before
+    completing medical treatment
+  - Give recorded statement to
+    other driver's insurer
+  - Post about accident on social media
+  - Sign any releases
+  - Dispose of damaged vehicle parts
+
+═══════════════════════════════════════════
+SECTION 9: PROGRESSIVE CONTACT
+AND CLAIMS INFORMATION
+═══════════════════════════════════════════
+
+Claims: 1-800-776-4737 (24/7)
+Online: progressive.com/claims
+App: Progressive mobile app
+  → File claim in 3 minutes
+  → Photo upload for damage estimate
+  → Track claim status
+
+Your claims rep will ask for:
+- Policy number: TX-2847-JAK-2024
+- Date, time, location of accident
+- Description of what happened
+- Police report number
+- Other driver's information
+- Names of any witnesses
+- Description of injuries
+- Photos of damage
+
+What NOT to say to Progressive:
+- Do not speculate about fault
+- Do not estimate your own injuries
+  ("it's probably just a bruise")
+- Do not agree to recorded statement
+  on first call — say you need time
+- Do not accept first settlement offer
+  without consulting attorney if injured
+
+═══════════════════════════════════════════
+SECTION 10: SUBROGATION —
+GETTING YOUR DEDUCTIBLE BACK
+═══════════════════════════════════════════
+
+What subrogation means:
+After Progressive pays your claim,
+they pursue the at-fault driver's
+insurer to recover what they paid.
+When they recover, they return
+YOUR deductible to you.
+
+Timeline:
+- Typically 3-6 months after claim
+- Automatic — you don't need to
+  do anything
+- Progressive sends you a check
+  for your $500 deductible when
+  subrogation is successful
+
+When subrogation may fail:
+- Other driver is uninsured
+  (your UM coverage handles this)
+- Disputed liability
+- Other driver has no assets
+
+═══════════════════════════════════════════
+SECTION 11: THINGS YOUR POLICY
+DOES NOT COVER
+═══════════════════════════════════════════
+
+✗ Pain and suffering
+  (your own policy doesn't cover this —
+   comes from other driver's liability
+   or your lawsuit)
+
+✗ Lost wages above PIP limit
+  (you opted out of PIP —
+   must recover from other driver
+   or through lawsuit)
+
+✗ Diminished value of vehicle
+  (must claim from other driver's insurer
+   or through lawsuit)
+
+✗ Accidents while driving for
+  rideshare (Uber/Lyft) without
+  rideshare endorsement
+
+✗ Intentional damage
+
+✗ Mechanical failure unrelated
+  to accident

@@ -1,0 +1,584 @@
+TEXAS PERSONAL INJURY LAW — COMPLETE FIELD GUIDE
+WHAT NOW KNOWLEDGE BASE — VOICE ASSISTANT REFERENCE
+Last updated: June 2026
+Scope: Texas negligence, premises liability, auto, dog bite, workers compensation, dram shop
+Audience: Injured parties, advocates, legal assistants, voice-assistant retrieval
+Disclaimer: Educational reference only — not legal advice. Laws change; consult licensed Texas counsel.
+
+================================================================================
+TABLE OF CONTENTS
+================================================================================
+SECTION 1:  Modified Comparative Fault — 51% Bar — CPRC Section 33.001
+SECTION 2:  Premises Liability — Invitee, Licensee, Trespasser, Open and Obvious
+SECTION 3:  Statute of Limitations — CPRC 16.003, Government Claims, Discovery
+SECTION 4:  Dog Bite Law — One-Bite Rule, Lillian's Law, Leash Ordinances
+SECTION 5:  Workers Compensation — Non-Subscriber Status (CRITICAL TEXAS UNIQUE)
+SECTION 6:  Motor Vehicle Accidents — 30/60/25 Minimums, PIP, UM/UIM, Reporting
+SECTION 7:  Dram Shop and Social Host Liability
+SECTION 8:  Average Settlements and Valuation in Texas
+SECTION 9:  Texas Department of Insurance Rules and Bad Faith
+SECTION 10: Finding a Texas Personal Injury Lawyer
+APPENDIX A:  Harris County vs. Rural Texas Jury Tendencies
+APPENDIX B:  Grocery Store Slip-and-Fall Playbook — Texas Edition
+APPENDIX C:  Spoliation and Evidence Preservation in Texas
+
+
+================================================================================
+SECTION 1: MODIFIED COMPARATIVE FAULT — 51% BAR — CPRC SECTION 33.001
+================================================================================
+
+OVERVIEW
+Texas follows modified comparative negligence with a 51% bar. An injured person can recover damages only if they are 50% or less at fault for the incident. If the plaintiff is found more than 50% responsible (51% or greater), recovery is ZERO — complete bar.
+
+This is fundamentally stricter than California and New York pure comparative fault systems. Insurance adjusters in Texas aggressively push fault above 50% because it eliminates payout entirely.
+
+STATUTORY FRAMEWORK
+Texas Civil Practice and Remedies Code Chapter 33 — Proportionate Responsibility.
+
+CPRC 33.001: "A claimant may not recover damages if his percentage of responsibility is greater than 50 percent."
+
+CPRC 33.012: Jury determines percentage of responsibility for each party including claimants, defendants, and settling persons.
+
+CPRC 33.013: Court reduces recovery in proportion to claimant's responsibility when 50% or less at fault.
+
+CPRC 33.015: Joint and several liability largely abolished for defendants 50% or less responsible — each pays only several share except for intentional torts and certain product liability.
+
+HOW THE 51% BAR WORKS — EXAMPLES
+Example 1: Total damages $200,000. Plaintiff 30% at fault. Recovery: $140,000 ($200,000 minus 30%).
+
+Example 2: Total damages $200,000. Plaintiff 50% at fault. Recovery: $100,000 — still allowed at exactly 50%.
+
+Example 3: Total damages $200,000. Plaintiff 51% at fault. Recovery: $0 — complete bar.
+
+Example 4: Total damages $1,000,000. Plaintiff 49% at fault. Recovery: $510,000.
+
+Example 5: Rear-end collision. Defendant 80%, plaintiff 20%. Specials $40,000, pain and suffering $60,000. Total $100,000. Recovery $80,000.
+
+The cliff at 51% makes Texas comparative fault battles existential for claim value.
+
+KEY CASE LAW
+Motiva Enterprises v. Schneider Electric (2020) — Texas Supreme Court reaffirmed proportionate responsibility framework.
+
+Federal Sign v. Texas Southern University (1995) — Comparative fault principles in premises cases.
+
+DEFENSE TACTICS — PUSHING PAST 51%
+Recorded statement within 24-48 hours hunting for admissions:
+  "I didn't see him."
+  "I should have been paying more attention."
+  "The floor looked wet but I walked anyway."
+  "I was in a hurry."
+  "My phone was in my hand."
+
+Surveillance video analysis for any moment of inattention.
+
+Biomechanical expert arguing plaintiff's body position caused fall.
+
+Seatbelt defense in auto cases — failure to wear seatbelt is comparative fault evidence (CPRC 33.001 allows consideration).
+
+Pre-existing condition arguments blurring causation to shift fault.
+
+Independent Medical Exam minimizing injury while arguing plaintiff exaggerated — affects credibility and fault allocation.
+
+PLAINTIFF COUNTER-TACTICS
+Never admit fault at scene or to adjuster.
+Decline recorded statement in serious cases until counsel review.
+Preserve video immediately — Texas spoliation remedies exist but prevention is critical.
+Retain credible witnesses early.
+Emphasize defendant's statutory violations (health codes, building codes, traffic laws).
+In close liability cases, consider early mediation before defense builds 51% narrative.
+Forum selection — Harris, Dallas, Travis counties vs. rural conservative venues.
+
+VOICE ASSISTANT QUICK ANSWERS
+Q: Can I sue if I was partly at fault in Texas?
+A: Yes, if you are 50% or less at fault. If you are 51% or more at fault, you recover nothing in Texas.
+
+Q: How is Texas different from California on fault?
+A: California allows recovery at any fault level (pure comparative). Texas bars recovery entirely if you are more than half at fault.
+
+
+================================================================================
+SECTION 2: PREMISES LIABILITY — INVITEE, LICENSEE, TRESPASSER, OPEN AND OBVIOUS
+================================================================================
+
+OVERVIEW
+Texas premises liability law distinguishes visitor status and applies different duties. Business invitees receive the highest protection. The open and obvious doctrine is a powerful defense in Texas — stronger application than in many California cases.
+
+INVITEE — HIGHEST DUTY
+Person entering property for mutual benefit of visitor and owner, often for business transaction.
+
+Examples: Grocery store customer, retail shopper, restaurant patron, hotel guest, hospital visitor in public areas, apartment complex guest in common areas.
+
+Duty: Property owner/possessor must use ordinary care to keep premises in reasonably safe condition. Must inspect, discover unreasonably dangerous conditions, and make safe or warn.
+
+Elements for invitee slip-and-fall (State Dept. of Highways v. Payne, 1993):
+1. Unreasonable risk of harm existed on premises.
+2. Owner/possessor knew or should have known of condition.
+3. Owner failed to exercise ordinary care to reduce or eliminate risk.
+4. Condition proximately caused injury.
+
+LICENSEE — INTERMEDIATE DUTY
+Social guest or person entering with permission but not for commercial benefit to owner.
+
+Examples: Friend visiting homeowner, party guest, door-to-door salesperson (sometimes classified as licensee).
+
+Duty: Warn of dangerous conditions owner knows about that are not obvious to licensee. No general duty to inspect for unknown hazards.
+
+TRESPASSER — MINIMAL DUTY
+Person on property without permission.
+
+Duty: No willful or wanton injury; no intentional traps. Attractive nuisance doctrine for child trespassers (Texas Civil Practice and Remedies Code 75.001-75.003 — limited application).
+
+KEY CASE — MOTEL 6 v. LOPEZ (2000)
+Texas Supreme Court clarified invitee status and duty to inspect commercial premises. Business operators must take reasonable steps to discover dangerous conditions through routine inspection.
+
+NOTICE — ACTUAL AND CONSTRUCTIVE
+Actual notice: Employee saw spill, created hazard, received complaint.
+
+Constructive notice: Hazard existed long enough that reasonable inspection would have discovered it. Plaintiff must prove duration — puddle with dried edges, track marks, surveillance timestamps.
+
+Unlike some California mode-of-operation arguments, Texas courts require stronger notice proof in transitory substance cases.
+
+OPEN AND OBVIOUS DOCTRINE — MAJOR TEXAS DEFENSE
+If hazard is open and obvious to a reasonable person, owner may owe no duty to warn or protect.
+
+Examples defense will argue:
+  Large yellow wet floor cone visible in photo
+  Bright red spilled salsa on white tile
+  Obvious 6-inch step up with contrasting paint
+  Parking lot pothole in daylight, clearly visible
+
+Texas courts more willing to grant summary judgment on open and obvious than California post-Rowland analysis.
+
+Plaintiff response: Distraction doctrine — customer looking at shelves, not floor. Unreasonable condition despite visibility. Owner created the condition.
+
+WEATHER AND NATURAL ACCUMULATIONS
+Texas ice storm cases (rare but catastrophic when they occur): Premises owner must take reasonable steps after known ice formation on walkways. "Act of God" defense if storm ongoing and remediation impossible.
+
+Rainwater tracked into store entrance — recurring issue at Texas retail. Constructive notice if no mats, no regular mopping schedule documented.
+
+DEFENSE FIRMS AND TACTICS
+Major retail defendants use national defense counsel: Kroger, Walmart, HEB (Texas-specific grocery giant), Target.
+
+Reservation of rights letters on commercial general liability policies.
+
+Early 51% fault argument combined with open and obvious motion to dismiss.
+
+Challenge medical causation with IME physicians common in Texas market.
+
+CITY-SPECIFIC NOTES
+Houston (Harris County): Massive retail footprint, humidity-related floor moisture, flooding history in parking areas. HEB dominant grocery — aggressive defense.
+
+Dallas (Dallas County): Similar retail density, ice storm premises cases in winter events.
+
+Austin (Travis County): Growing tech campus premises, mixed urban-rural jury pool, generally moderate plaintiff outcomes.
+
+San Antonio (Bexar County): Military population, tourist River Walk premises liability — uneven cobblestones, bar spill cases overlap dram shop.
+
+Rural West Texas: Conservative juries, lower verdicts, strong open and obvious sympathy for landowner defendants.
+
+
+================================================================================
+SECTION 3: STATUTE OF LIMITATIONS — CPRC 16.003, GOVERNMENT CLAIMS, DISCOVERY
+================================================================================
+
+PERSONAL INJURY — CPRC 16.003
+Two years from date injury occurred to file lawsuit for tort claims including negligence, premises liability, auto accidents, dog bites (negligence theories).
+
+Clock starts at injury date — not when treatment ends.
+
+PROPERTY DAMAGE — CPRC 16.003
+Two years for property damage claims.
+
+WRONGFUL DEATH — CPRC 16.003
+Two years from date of death.
+
+MEDICAL MALPRACTICE — CPRC 74.251
+Two years from occurrence or from date of discovery through reasonable diligence, with overall 10-year statute of repose in many scenarios. Complex — consult specialist.
+
+TEXAS TORT CLAIMS ACT — GOVERNMENT ENTITIES
+Before suing state or local government, notice requirements apply under Texas Civil Practice and Remedies Code Chapter 101.
+
+Cities: Written notice of claim generally required within six months of incident (verify specific city charter — some require shorter periods, e.g., 90 days for certain municipalities).
+
+State government: Notice under Chapter 101 — timing and content requirements specific.
+
+Missing government notice can bar claim — similar urgency to California 6-month claim but Texas city-specific rules vary. Always verify charter of specific city (Houston, Dallas, San Antonio each have nuances).
+
+MINORS
+Minor's claim generally tolled — limitations begin running at 18th birthday for two-year period in many negligence cases. Verify current CPRC 16.001 for disability tolling.
+
+DISCOVERY RULE
+Limited in Texas general negligence — accrual at injury. Medical malpractice and certain fraud cases have discovery provisions.
+
+DO NOT DELAY
+Two years passes quickly. Evidence (video, witnesses) disappears in weeks. Insurer builds 51% file from day one.
+
+
+================================================================================
+SECTION 4: DOG BITE LAW — ONE-BITE RULE, LILLIAN'S LAW, LEASH ORDINANCES
+================================================================================
+
+OVERVIEW
+Texas does NOT have statewide strict liability for dog bites like California Civil Code 3342. Texas follows the one-bite rule (common law) with statutory enhancements for serious attacks and local ordinance violations.
+
+ONE-BITE RULE — GENERAL PRINCIPLE
+Dog owner generally NOT liable for first bite unless owner knew or should have known dog had vicious propensities.
+
+Knowledge proven by:
+  Prior bites or attacks
+  Prior aggressive behavior (growling, lunging at people)
+  Complaints to owner about dog
+  Breed and training evidence (fact-specific, not automatic)
+  Owner statements acknowledging dog "doesn't like strangers"
+
+Marshall v. Ranne (1974) — Foundational Texas Supreme Court case on scienter (knowledge of viciousness).
+
+LILLIAN'S LAW — TEXAS HEALTH AND SAFETY CODE 822.005
+Criminal and civil enhanced penalties for attacks by dangerous dogs causing serious bodily injury.
+
+Owner may face felony charges if dog known dangerous and not secured.
+
+Civilly supports liability when dog previously adjudicated dangerous or owner acted with criminal negligence.
+
+LEASH LAW VIOLATIONS — STRICT LIABILITY PATH
+Many Texas cities (Houston, Dallas, Austin, San Antonio) require leash control.
+
+Violation of local leash ordinance can support negligence per se or strict liability theory depending on jurisdiction and ordinance language.
+
+If dog at large in violation of ordinance bites victim — strong liability case even without prior bite if ordinance imposes strict duty.
+
+LANDLORD LIABILITY
+Landlord generally not liable for tenant's dog unless landlord had control over premises and knew of vicious dog.
+
+Some apartment complexes have breed restrictions — violation of own rules may support negligence claim.
+
+PRACTICAL STEPS AFTER DOG BITE IN TEXAS
+Medical care immediately — rabies, infection.
+Identify owner — at-large dogs may require animal control search.
+Report to animal control — creates record of prior complaints if any.
+Photograph injuries, dog if safe, location (fence gaps, open gate).
+Witness statements.
+Check city ordinance on leash and dangerous dog registry.
+
+SETTLEMENT REALITY
+First-bite cases without ordinance violation — harder to win, insurers deny or lowball.
+Prior bite or at-large violation — homeowner/renter policy typically responds ($100,000-$300,000 common limits).
+Severe facial scarring on child — $75,000-$300,000+ depending on liability proof.
+
+
+================================================================================
+SECTION 5: WORKERS COMPENSATION — NON-SUBSCRIBER STATUS (CRITICAL TEXAS UNIQUE)
+================================================================================
+
+TEXAS IS THE ONLY STATE WHERE MOST PRIVATE EMPLOYERS CAN OPT OUT OF WORKERS COMP
+This is the single most important workers compensation fact for Texas personal injury voice assistant queries.
+
+SUBSCRIBER EMPLOYERS (Have Workers Comp)
+Exclusive remedy — employee cannot sue employer for negligence.
+Benefits through Division of Workers' Compensation system:
+  Medical benefits for work-related injury
+  Temporary Income Benefits (TIBs) — portion of lost wages
+  Impairment Income Benefits (IIBs)
+  Supplemental Income Benefits (SIBs) in qualifying cases
+  Lifetime Income Benefits (LIBs) for catastrophic injury
+  Death benefits
+
+Notice: Injury reported within 30 days to employer (Texas Labor Code 409.001).
+Claim filing deadlines apply — consult current DWC rules.
+
+NON-SUBSCRIBER EMPLOYERS (Opted Out — NO Workers Comp)
+Employee CAN sue employer directly in negligence lawsuit for full damages including pain and suffering.
+
+This is extraordinary compared to California mandatory comp system.
+
+Non-subscribers lose common-law defenses in many cases:
+  Cannot argue employee's negligence (comparative fault limitations under Labor Code 406.033 in employer suits)
+  Cannot argue co-worker negligence as defense
+  Known non-subscriber status creates jury sympathy — "they didn't even buy workers comp"
+
+Employers must file DWC Form-005 with state indicating non-subscriber status — publicly searchable.
+
+WHY IT MATTERS
+Walmart, Target, major chains — typically subscribers.
+Many Texas restaurants, small contractors, staffing companies — sometimes non-subscribers.
+Construction subcontractors frequently non-subscribers — direct suit against employer possible.
+
+PRACTICAL QUESTIONS FOR INJURED WORKER
+"Does my employer have workers compensation insurance?"
+Check pay stub, employee handbook, ask HR directly.
+Search Texas Department of Insurance non-subscriber list.
+If employer says "we have an injury benefit plan" — may be non-subscriber ERISA plan, NOT workers comp — lawsuit may still be available.
+
+THIRD-PARTY SUITS (Both Subscriber and Non-Subscriber)
+Even with workers comp, employee can sue third party who caused injury:
+  Negligent driver while on delivery
+  Equipment manufacturer defect
+  Property owner at job site
+  General contractor negligence (if employee of subcontractor)
+
+Comp insurer has subrogation lien on third-party recovery.
+
+RETALIATION
+Texas Labor Code 451 prohibits retaliation for filing workers comp claim (subscriber employers).
+Remedies include reinstatement and lost wages.
+Non-subscriber context — general wrongful termination claims may apply.
+
+VOICE ASSISTANT CRITICAL SCRIPT
+Q: Can I sue my employer if I got hurt at work in Texas?
+A: It depends. If your employer has workers compensation, you usually cannot sue them — you file a comp claim. But Texas allows employers to opt out of workers comp. If your employer is a non-subscriber, you may be able to sue them directly for full damages. Also, if someone other than your employer caused the injury — like another driver or a property owner — you may have a third-party lawsuit. Ask whether your employer has workers comp coverage and check the Texas non-subscriber list.
+
+
+================================================================================
+SECTION 6: MOTOR VEHICLE ACCIDENTS — 30/60/25 MINIMUMS, PIP, UM/UIM, REPORTING
+================================================================================
+
+MINIMUM LIABILITY INSURANCE — TEXAS TRANSPORTATION CODE 601.072
+Texas requires minimum auto liability limits:
+  $30,000 bodily injury per person
+  $60,000 bodily injury per accident
+  $25,000 property damage
+
+Written as 30/60/25. High percentage of Texas drivers carry only minimums — UM/UIM essential.
+
+PERSONAL INJURY PROTECTION (PIP)
+Texas PIP is optional — insurer must offer, can be rejected in writing.
+Typical PIP amounts: $2,500, $5,000, $10,000.
+Covers medical bills and lost wages regardless of fault up to limits.
+No mandatory no-fault system like New York — PIP is supplemental.
+
+MEDICAL PAYMENTS (Med Pay)
+Optional coverage for medical expenses — stacks with health insurance subject to coordination.
+
+UNINSURED/UNDERINSURED MOTORIST (UM/UIM)
+Optional but strongly recommended.
+UM: At-fault driver has no insurance.
+UIM: At-fault driver has insufficient limits (e.g., $30,000 BI but case worth $150,000).
+Must be offered — rejection must be signed (Texas Insurance Code Chapter 1952).
+
+CRASH REPORTING
+TxDOT CR-2 form (Blue Form) — driver must report crash to Texas Department of Transportation within 10 days if injury or death OR property damage appears to exceed $1,000.
+
+Police report — always call police for injury accidents. Texas Peace Officer's Crash Report (CR-3) critical for insurance.
+
+COMPARATIVE FAULT IN AUTO — 51% BAR CRITICAL
+Rear-end: Presumption against rear driver but "sudden stop" argument pushes plaintiff fault.
+Intersection: Red light runner primary fault but speed of other driver allocated.
+Multi-vehicle pileups: Complex fault percentages — plaintiff above 51% loses everything.
+
+HIT AND RUN
+Report immediately. UM claim with own insurer. Physical contact usually required — phantom driver claims need corroboration.
+
+RIDESHARE
+Uber/Lyft Texas operations — period-based coverage similar to other states, $1M policies during active ride.
+
+
+================================================================================
+SECTION 7: DRAM SHOP AND SOCIAL HOST LIABILITY
+================================================================================
+
+DRAM SHOP ACT — TEXAS ALCOHOLIC BEVERAGE CODE CHAPTER 2
+Bars, restaurants, liquor stores may be liable for serving alcohol to obviously intoxicated person who causes injury.
+
+Elements:
+  Provider sold or served alcohol
+  At time of service, person was obviously intoxicated to extent presenting clear danger
+  Intoxication proximately caused plaintiff's injuries
+
+Applies to licensed providers — not typical grocery store beer aisle unless improper service.
+
+Social host liability: Generally NO liability in Texas for serving alcohol to adult guests in private home (statutory limitation). Exception: serving minors — Texas Alcoholic Beverage Code 106.07 — adult providing alcohol to minor may face civil liability.
+
+COMMON SCENARIOS
+Drunk driver hits plaintiff after leaving Texas bar — dram shop claim against bar PLUS driver claim.
+Over-served patron fights in bar — premises liability overlap.
+Wrongful death highway collision — bar served visibly intoxicated patron who drove.
+
+EVIDENCE
+Bar tab records, surveillance, witness statements from bartenders and patrons.
+Blood alcohol content of driver.
+Police DWI investigation.
+Texas TABC violation history.
+
+Damages can exceed driver's policy — commercial liquor liability policies often $1M+.
+
+
+================================================================================
+SECTION 8: AVERAGE SETTLEMENTS AND VALUATION IN TEXAS
+================================================================================
+
+VALUATION FRAMEWORK
+Specials (medical + lost wages + property) plus pain-and-suffering multiplier.
+51% bar risk — insurers lowball knowing cliff effect.
+Policy limits — 30/60 auto minimums cap many recoveries at $30,000 per person from defendant.
+
+SLIP AND FALL — TYPICAL RANGES
+Minor soft tissue, full recovery: $3,000 - $20,000
+Moderate with PT/chiro, 6 months: $25,000 - $75,000
+MRI-documented disc, injections: $75,000 - $200,000
+Surgery (shoulder, back, knee): $150,000 - $400,000
+Permanent impairment: $250,000 - $800,000+
+Catastrophic: $500,000 - several million (excess policies rare in retail)
+
+AUTO ACCIDENT — TYPICAL RANGES
+Minor whiplash: $4,000 - $18,000
+Moderate treatment: $20,000 - $60,000
+Herniated disc: $60,000 - $180,000
+Surgery: $120,000 - $350,000
+Wrongful death: $500,000 - $3M+ depending on county
+
+DOG BITE — TYPICAL RANGES
+With prior knowledge or ordinance violation: $25,000 - $150,000 moderate
+Severe scarring child: $100,000 - $400,000
+First bite no knowledge — often $0 to $15,000 if any settlement
+
+NON-SUBSCRIBER EMPLOYER CASES
+Full tort damages — pain and suffering uncapped by comp system.
+Moderate back injury: $100,000 - $500,000
+Severe injury: $500,000 - $5M+ depending on employer assets and insurance
+
+REGIONAL VARIATION
+Harris County (Houston): Largest verdicts in state, diverse jury pool, plaintiff-friendly relative to Texas average.
+Dallas County: Strong commercial litigation bar, moderate to high awards.
+Travis County (Austin): Urban moderate awards.
+Rural counties: Conservative, low pain-and-suffering multipliers, strong 51% defense success.
+
+
+================================================================================
+SECTION 9: TEXAS DEPARTMENT OF INSURANCE RULES AND BAD FAITH
+================================================================================
+
+TDI REGULATES INSURANCE CLAIMS HANDLING
+28 Texas Administrative Code 21.203 — Prompt payment rules.
+Insurer must acknowledge claim within 15 days, begin investigation, accept or reject within 15 business days after receiving requested items OR notify why more time needed.
+
+Texas Insurance Code Chapter 541 — Unfair settlement practices prohibited:
+  Misrepresenting policy provisions
+  Failing to attempt good faith settlement when liability reasonably clear
+  Failing to promptly provide reasonable explanation for denial
+  Unreasonable delay
+
+Texas Insurance Code Chapter 542 — Prompt payment of claims; interest penalties for delayed payment in weather-related claims and certain other contexts — Chapter 542.060 interest on delayed claims (significant in hail cases, applies in some third-party contexts through case law).
+
+FILE COMPLAINT: tdi.texas.gov
+
+TOP INSURERS IN TEXAS — TACTICS
+State Farm — largest market share, recorded statement day 1, 51% fault push, Colossus lowball.
+Allstate — IME heavy, pre-existing degeneration arguments.
+USAA — military focus, generally professional handling, still minimizes first offer.
+Farmers — strong commercial premises defense.
+GEICO — fast lowball, arbitration clauses, delay MRI authorization.
+Progressive — Snapshot telematics for fault arguments.
+
+
+================================================================================
+SECTION 10: FINDING A TEXAS PERSONAL INJURY LAWYER
+================================================================================
+
+WHEN TO HIRE
+Injury requiring surgery or permanent impairment
+51% fault dispute — case value hinges on liability fight
+Non-subscriber employer case — full tort damages at stake
+Dram shop or commercial vehicle case
+Wrongful death
+Policy limits appear inadequate
+Government notice deadlines approaching
+
+CONTINGENCY FEE
+Standard 33.33% pre-suit, 40% litigation, sometimes 45% trial.
+Costs advanced — medical records, filing fees, experts.
+
+VERIFICATION
+State Bar of Texas — texasbar.com attorney lookup.
+Board certification in Personal Injury Trial Law (optional credential).
+
+QUESTIONS FOR CONSULTATION
+Experience in specific county (Harris vs. rural)?
+Non-subscriber employer case experience?
+Workers comp lien and third-party coordination?
+51% fault case strategy?
+Dram shop experience if applicable?
+
+REFERRAL
+Texas Trial Lawyers Association — ttlaw.org
+Local county bar referral services.
+
+
+================================================================================
+APPENDIX A: HARRIS COUNTY VS. RURAL TEXAS JURY TENDENCIES
+================================================================================
+
+HARRIS COUNTY (HOUSTON)
+Most populous county — diverse jury pool.
+Plaintiff-friendly relative to Texas — still more conservative than California.
+Strong oil, medical, construction injury dockets.
+Verdicts $1M+ occur in catastrophic cases.
+Corporate defendants (energy companies) sometimes draw skepticism.
+Flooding and hurricane property overlap — separate from PI but insurer relationships matter.
+
+DALLAS COUNTY
+Business-oriented jury pool, significant verdict history.
+Commercial litigation infrastructure — defense and plaintiff bars both sophisticated.
+
+RURAL TEXAS (EAST, WEST, PANHANDLE)
+Strong landowner sympathy.
+Open and obvious defense resonates.
+Low pain-and-suffering awards — $15,000 soft tissue verdicts common.
+51% bar frequently dispositive — jurors willing to assign majority fault to plaintiff.
+Forum non conveniens — defendants may seek to move case to rural county where accident occurred.
+
+
+================================================================================
+APPENDIX B: GROCERY STORE SLIP-AND-FALL PLAYBOOK — TEXAS EDITION
+================================================================================
+
+AT SCENE
+Report to manager — HEB, Kroger, Walmart, Fiesta Mart common in Texas.
+Photograph spill, lack of warning cone, footwear.
+Texas stores often have Spanish-speaking staff — request incident report in your language if needed.
+Humidity-related entrance moisture — document weather and lack of mats.
+
+WITHIN 24 HOURS
+Spoliation letter to corporate — HEB Grocery Company, Walmart Claims, etc.
+Medical care same day — Texas insurers exploit gaps aggressively.
+
+ADJUSTER PHASE
+Expect recorded statement request — 51% fault hunting.
+Decline until counsel if significant injury.
+Open and obvious defense preview: "Cone was right there in photo."
+
+LITIGATION TRIGGERS
+Denial based on no notice
+Fault allocation above 40% threatened
+Surgery required
+
+TEXAS-SPECIFIC DEFENSES TO ANTICIPATE
+No constructive notice — spill "just happened"
+Customer fault above 51% — looking at phone, running
+Open and obvious — bright floor defect
+Independent contractor cleaning company — liability shift arguments
+
+SETTLEMENT RANGE (MODERATE INJURY, CLEAR VIDEO)
+Harris County: $50,000 - $175,000 pre-suit
+Rural county: $20,000 - $75,000 same injury profile
+
+
+================================================================================
+APPENDIX C: SPOLIATION AND EVIDENCE PRESERVATION IN TEXAS
+================================================================================
+
+Texas spoliation law allows adverse inference when party destroys evidence with intent or negligence after duty to preserve arose.
+
+Send preservation letter immediately after incident to:
+  Store corporate legal department
+  Property management company
+  Any identified third party (cleaning contractor)
+
+Request: surveillance video, incident reports, cleaning logs, employee statements, maintenance records.
+
+Brother v. Westco Compressors (2014) — Texas Supreme Court spoliation framework.
+
+Failure to preserve video — jury instruction allowing inference that video would have been harmful to spoliator.
+
+Act within 24-48 hours — many retail systems overwrite in 7-14 days.
+
+END OF TEXAS PERSONAL INJURY LAW FIELD GUIDE

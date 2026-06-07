@@ -1,0 +1,629 @@
+CALIFORNIA PERSONAL INJURY LAW — COMPLETE FIELD GUIDE
+WHAT NOW KNOWLEDGE BASE — VOICE ASSISTANT REFERENCE
+Last updated: June 2026
+Scope: California negligence, premises liability, auto, dog bite, workers compensation
+Audience: Injured parties, advocates, legal assistants, voice-assistant retrieval
+Disclaimer: Educational reference only — not legal advice. Laws change; consult licensed CA counsel.
+
+================================================================================
+TABLE OF CONTENTS
+================================================================================
+SECTION 1:  Pure Comparative Fault — Civil Code Section 1431.2 and Proposition 51
+SECTION 2:  Premises Liability — Civil Code 1714, Status, Ortega v. Kmart, Constructive Notice
+SECTION 3:  Statute of Limitations — CCP 335.1, Government Claims, Minors, Discovery Rule
+SECTION 4:  Dog Bite Strict Liability — Civil Code Section 3342
+SECTION 5:  Workers Compensation — Mandatory Coverage, Benefits, Third-Party Suits, Retaliation
+SECTION 6:  Motor Vehicle Accidents — Minimum Insurance, DMV Reporting, Uninsured Motorist
+SECTION 7:  Average Settlements and Valuation in California
+SECTION 8:  Finding and Evaluating a California Personal Injury Lawyer
+APPENDIX A:  Proposition 213 — Uninsured Driver and DUI Limitations
+APPENDIX B:  MICRA Caps on Medical Malpractice Noneconomic Damages
+APPENDIX C:  San Francisco and Los Angeles Jury Tendencies
+APPENDIX D:  Grocery Store Slip-and-Fall Playbook — California Edition
+
+
+================================================================================
+SECTION 1: PURE COMPARATIVE FAULT — CIVIL CODE SECTION 1431.2 AND PROPOSITION 51
+================================================================================
+
+OVERVIEW
+California is a pure comparative negligence state. An injured person can recover damages even when they bear most of the fault for an accident — there is no 50% or 51% bar that eliminates recovery entirely. Recovery is reduced in proportion to the plaintiff's share of fault, but never barred solely because the plaintiff was primarily responsible.
+
+This system is codified primarily through California Code of Civil Procedure Section 1431.2, enacted by voter initiative as Proposition 51 (1986). Prop 51 also reformed joint and several liability for noneconomic damages, which dramatically affects how multi-defendant cases are litigated and settled.
+
+STATUTORY FRAMEWORK
+California Code of Civil Procedure Section 1431.2(a) provides that in actions for personal injury, property damage, or wrongful death, each defendant is liable only for the percentage of noneconomic damages (pain and suffering, emotional distress, loss of consortium) directly attributable to that defendant's fault. Joint and several liability for noneconomic damages was largely abolished except for intentional torts and certain other exceptions.
+
+California Civil Code Section 1714 establishes the general duty of care: everyone is responsible for injuries caused by their want of ordinary care. Comparative fault is applied under CCP 1431.2 and case law interpreting Li v. Yellow Cab Co. (1975), which abolished contributory negligence as a complete bar.
+
+HOW FAULT IS ALLOCATED
+In a jury trial, the jury assigns a percentage of fault to each party, including the plaintiff. The plaintiff's recovery is reduced by their percentage. Example: total damages of $500,000, plaintiff 30% at fault, defendant 70% at fault. Plaintiff recovers $350,000 ($500,000 minus 30%).
+
+Pure comparative fault means a plaintiff who is 90% at fault can still recover 10% of damages. Example: $100,000 verdict, plaintiff 90% at fault = $10,000 recovery. This differs sharply from Texas (51% bar) and pre-2023 Florida.
+
+Economic vs. Noneconomic Damages Under Prop 51
+Economic damages (medical bills, lost wages, property damage, future medical care) remain subject to joint and several liability in many multi-defendant scenarios — a deep-pocket defendant may be required to pay the plaintiff's full economic damages and then seek contribution from other at-fault parties.
+
+Noneconomic damages (pain and suffering) are several only — each defendant pays their proportionate share. If Defendant A is 10% at fault and Defendant B is 90% at fault, and Defendant A has minimal insurance, the plaintiff may collect only 10% of pain-and-suffering damages from Defendant A even if Defendant B is judgment-proof.
+
+KEY CASE LAW
+Li v. Yellow Cab Co. (1975) 13 Cal.3d 804 — California Supreme Court adopted pure comparative negligence, replacing contributory negligence bar.
+
+Prop 51 (1986) — Voter initiative codifying several liability for noneconomic damages; response to deep-pocket defendant paying entire pain-and-suffering award.
+
+Dafonte v. Up-Right, Inc. (1992) 2 Cal.4th 593 — Explains application of comparative fault to strict liability and negligence claims.
+
+DEFENSE TACTICS — COMPARATIVE FAULT
+Insurance adjusters and defense counsel aggressively allocate fault to the plaintiff because every percentage point reduces payout.
+
+Common comparative fault arguments in slip-and-fall cases:
+  "You weren't watching where you were walking."
+  "You were wearing inappropriate footwear (heels, flip-flops)."
+  "You were distracted by your phone."
+  "The hazard was open and obvious — you should have seen it."
+  "You had prior injuries to the same body part — this isn't from our incident."
+
+Common comparative fault arguments in auto accidents:
+  "You were speeding even if we ran the red light."
+  "You could have braked sooner."
+  "You weren't wearing a seatbelt — your injuries are your fault."
+  "Your brake lights weren't working."
+
+Common comparative fault arguments in dog bite cases:
+  "You provoked the dog."
+  "You trespassed onto the property."
+  "You assumed the risk by petting the dog."
+
+HOW PLAINTIFFS COUNTER COMPARATIVE FAULT
+Document the scene immediately with photos and video.
+Obtain witness statements before memories fade.
+Preserve surveillance footage with spoliation letter within 24 hours.
+Avoid giving recorded statements to adverse insurers without counsel.
+Emphasize defendant's superior knowledge — store employees knew of spill, driver ran stop sign.
+Use safety codes and ordinances to show defendant violated specific standards (building code, vehicle code).
+Retain accident reconstructionist for disputed auto liability.
+Highlight that California's pure system still allows recovery — adjuster's "you're mostly at fault" argument is pressure tactic, not automatic bar.
+
+PRACTICAL EXAMPLES
+Example 1 — Grocery store slip on spilled liquid:
+Plaintiff slips on unmarked wet floor in aisle 7. Store argues plaintiff was 40% at fault for not looking down. Damages: $200,000. Verdict or settlement allocation: 40% plaintiff, 60% store. Recovery: $120,000.
+
+Example 2 — Rear-end collision with minor plaintiff fault:
+Defendant rear-ends plaintiff at stoplight. Defendant argues plaintiff stopped short (20% fault). Specials: $50,000 medical, $20,000 lost wages. Pain and suffering: $80,000. Total $150,000. At 20% plaintiff fault: $120,000 recovery.
+
+Example 3 — Multi-defendant construction site:
+Plaintiff injured by falling debris. General contractor 50%, subcontractor 30%, plaintiff 20%. Noneconomic damages $400,000. Under Prop 51, each defendant pays several share of pain and suffering only. Economic damages may be collected fully from any solvent defendant.
+
+VOICE ASSISTANT QUICK ANSWERS — COMPARATIVE FAULT
+Q: Can I still sue if the accident was partly my fault in California?
+A: Yes. California uses pure comparative fault. Your recovery is reduced by your percentage of fault but not eliminated unless you have zero damages or settle for that reason.
+
+Q: What is Proposition 51?
+A: A 1986 California law limiting joint and several liability for pain-and-suffering damages. Each defendant pays only their share of noneconomic damages in most cases.
+
+
+================================================================================
+SECTION 2: PREMISES LIABILITY — CIVIL CODE 1714, STATUS, ORTEGA V. KMART, CONSTRUCTIVE NOTICE
+================================================================================
+
+GENERAL DUTY — CIVIL CODE 1714
+California Civil Code Section 1714(a): "Everyone is responsible, not only for the result of his or her willful acts, but also for an injury occasioned to another by his or her want of ordinary care or skill in the management of his or her property or person, except so far as the latter has, willfully or by want of ordinary care, brought the injury upon himself or herself."
+
+This is the foundational negligence statute for premises liability in California. Property owners, tenants, business operators, and managers can all owe duties depending on control of the premises.
+
+VISITOR STATUS — INVITEE, LICENSEE, TRESPASSER
+California has moved toward a general duty framework (Rowland v. Christian, 1968) but status still matters in practice.
+
+INVITEE (Business Customer — Highest Duty):
+Person invited onto property for business purposes benefiting the landowner. Examples: grocery store shopper, restaurant patron, hotel guest, mall visitor, apartment complex guest in common areas open to public.
+
+Duty owed: Reasonable care to keep premises in safe condition; inspect for dangerous conditions; repair or warn of hazards known or discoverable through reasonable inspection.
+
+LICENSEE (Social Guest — Intermediate Duty):
+Person enters with permission but not for commercial benefit to owner. Examples: party guest at private home, friend visiting renter.
+
+Duty owed: Warn of known dangerous conditions not obvious to the visitor; fix conditions if owner knows of them.
+
+TRESPASSER (Limited Duty):
+Person on property without permission.
+
+Duty owed: No willful injury; no traps; under Child Trespasser Doctrine (CC 3346), special duty if artificial condition attracts children (attractive nuisance).
+
+Rowland v. Christian (1968) 69 Cal.2d 108 — California Supreme Court moved toward general duty based on foreseeability rather than rigid categories, but business invitee cases still dominate personal injury volume.
+
+ELEMENTS OF PREMISES LIABILITY CLAIM
+Plaintiff must prove:
+1. Defendant owned, leased, occupied, or controlled the property.
+2. A dangerous condition existed on the property.
+3. Defendant knew or should have known of the condition (actual or constructive notice).
+4. Defendant failed to repair, remedy, or adequately warn.
+5. The condition caused plaintiff's injury.
+6. Plaintiff was harmed (damages).
+
+DANGEROUS CONDITION
+Not every uneven surface or minor defect qualifies. Condition must pose unreasonable risk of harm. Factors: severity of defect, likelihood someone would encounter it, whether owner knew or should have known.
+
+Examples of dangerous conditions:
+  Unmarked wet floor in store aisle
+  Broken staircase handrail
+  Inadequate lighting in parking garage
+  Unrepaired pothole in commercial parking lot
+  Merchandise stacked unsafely overhead
+  Failure to install slip-resistant flooring in known wet areas
+  Swimming pool without required fence (Health and Safety Code requirements)
+
+ORTEGA V. KMART CORP. (2001) 26 Cal.4th 1200
+Landmark California Supreme Court case on constructive notice in slip-and-fall cases involving transitory foreign substances (spills, liquids, debris).
+
+Holding: Plaintiff cannot rely solely on occurrence of fall to infer notice. Must show actual notice OR constructive notice through evidence such as:
+  Length of time the hazard existed (surveillance video showing spill on floor for 30+ minutes)
+  Recurring nature of the problem (repeated spills in same aisle — mode of operation)
+  Employee presence in area who should have discovered the hazard
+  Circumstantial evidence of duration (size of spill, track marks, dried edges)
+
+Ortega raised the bar for plaintiffs — "I fell on something wet" is insufficient without notice evidence.
+
+ACTUAL NOTICE
+Owner or employee knew of the specific dangerous condition before the fall.
+Examples:
+  Employee mopped floor and failed to post wet floor sign
+  Manager received prior complaint about broken step
+  Security guard observed spill and walked away
+  Written maintenance log showing unrepaired hazard
+
+CONSTRUCTIVE NOTICE
+Owner should have known through reasonable inspection and maintenance.
+Examples:
+  Spill visible on surveillance for 45 minutes before fall
+  Leaking refrigerator unit dripping for days (recurring condensation)
+  Pattern of prior falls in same location documented in incident reports
+  Inspection logs showing defendant failed to inspect at required intervals
+
+MODE OF OPERATION DOCTRINE
+Some California courts allow inference of notice when business operation creates foreseeable hazards — self-service soda fountains, salad bars, produce misters. Not automatic after Ortega but still argued: "Defendant's mode of operation makes spills foreseeable; reasonable inspection would have discovered this spill."
+
+OPEN AND OBvious DEFENSE
+Defendant argues hazard was so obvious that plaintiff should have avoided it. Not a complete bar in California — courts analyze whether owner still had duty to remedy. Large brightly colored spill may support defense; subtle clear liquid on polished floor may not.
+
+GOVERNMENT OWNED PREMISES
+Special rules apply — see Section 3. California Tort Claims Act requires administrative claim before lawsuit. Dangerous condition of public property under Government Code 835 requires proof property was in dangerous condition, plaintiff's injury was proximately caused, and condition created reasonably foreseeable risk — plus notice to public entity.
+
+CITY-SPECIFIC PREMISES NOTES
+Los Angeles: High volume of sidewalk trip-and-fall claims; city may dispute tree root uplift cases. LA City Administrative Code requirements for sidewalk maintenance. Many claims against private commercial landlords in DTLA, Hollywood, Valley strip malls.
+
+San Francisco: Dense pedestrian traffic, steep hills, older building stock. SF Public Works sidewalk defect claims require prior reporting in some scenarios. Commercial landlords in Union Square, Mission District face heavy foot traffic slip claims.
+
+San Diego: Tourist-heavy hospitality premises — hotel pool decks, Gaslamp Quarter bars (dram shop separate), beach area boardwalks.
+
+Sacramento: State government buildings trigger Tort Claims Act. Capitol area office building lobby falls involve state administrative claims.
+
+DEFENSE TACTICS — PREMISES
+"No dangerous condition — floor met industry standards."
+"No notice — spill just happened, employee would have cleaned in 2 minutes."
+"Plaintiff fabricating — no incident report."
+"Open and obvious — yellow caution cone was present."
+"Comparative fault — plaintiff running in store."
+"Surveillance shows plaintiff staged fall" (SIU fraud allegation).
+
+PLAINTIFF TACTICS — PREMISES
+File incident report with manager immediately; get copy or note refusal.
+Photograph hazard, footwear, lighting, warning signs (or absence).
+Identify witnesses; get contact information.
+Send spoliation letter to preserve video within 24 hours.
+Request inspection logs, prior incident reports, cleaning schedules via discovery.
+Subpoena surveillance before auto-delete (many systems overwrite in 7-30 days).
+Check health department or building inspection records for prior violations.
+
+
+================================================================================
+SECTION 3: STATUTE OF LIMITATIONS — CCP 335.1, GOVERNMENT CLAIMS, MINORS, DISCOVERY RULE
+================================================================================
+
+PERSONAL INJURY — CCP 335.1
+California Code of Civil Procedure Section 335.1: Two years from date of injury to file lawsuit for assault, battery, or injury to, or for death of, an individual caused by wrongful act or neglect.
+
+Applies to: slip and fall, car accidents, dog bites, general negligence, most premises liability.
+
+Clock starts: Generally date of accident/injury — not date of last treatment.
+
+PROPERTY DAMAGE — CCP 338
+Three years for property damage (vehicle damage, destruction of personal property).
+
+MEDICAL MALPRACTICE
+One year from discovery of injury OR three years from date of injury, whichever occurs first (CCP 340.5). Shorter and complex — MICRA also caps damages (Appendix B).
+
+WRONGFUL DEATH — CCP 335.1
+Two years from date of death (not date of accident if different).
+
+GOVERNMENT ENTITY CLAIMS — CRITICAL 6-MONTH DEADLINE
+Before suing a city, county, state agency, school district, or other public entity in California, you MUST file an administrative claim under the California Tort Claims Act (Government Code 910 et seq.).
+
+Government Code 911.2: Claim must be presented within six months after the incident (accrual of cause of action).
+
+If claim is rejected (explicitly or deemed rejected after 45 days without response), plaintiff has six months from rejection date to file lawsuit (Gov. Code 945.6).
+
+MISSING THE 6-MONTH ADMINISTRATIVE CLAIM DEADLINE CAN PERMANENTLY BAR THE ENTIRE CASE against the government entity — even if the regular 2-year CCP 335.1 period has not expired.
+
+Exceptions to late claim presentation (Gov. Code 911.4, 945.4):
+  Minor under 18 (see minors section)
+  Physical or mental incapacity
+  Some cases of excusable neglect with court petition — not guaranteed
+
+WHO IS A GOVERNMENT DEFENDANT
+City of Los Angeles sidewalk defect
+County hospital emergency room fall
+Caltrans highway design defect
+Public school playground injury
+City bus (municipal transit) collision
+State university campus premises
+
+PRACTICAL GOVERNMENT CLAIM STEPS
+Obtain claim form from entity's clerk or website (each agency has specific form).
+File within 6 months with required details: date, location, description, amount claimed.
+Keep proof of delivery — certified mail, hand delivery receipt.
+Wait for response or deemed rejection at 45 days.
+File lawsuit within 6 months of rejection if claim denied.
+
+MINORS — TOLLING
+CCP 352: Statute of limitations tolled while minor under 18 for most personal injury claims. Minor injured at age 16 has until age 20 to file (2 years after 18th birthday) for standard negligence — BUT government claim rules for minors have special provisions allowing presentation within 6 months after 18th birthday in some circumstances. Always verify current Gov. Code sections for minor vs. government claims.
+
+DISCOVERY RULE
+California applies discovery rule in limited contexts — primarily medical malpractice and some latent injury cases. General negligence (slip and fall, auto) typically accrues at time of injury, not when plaintiff "discovers" full extent. Exception: asbestos and toxic exposure cases have specialized statutes.
+
+Asbestos: CCP 340.2
+Delayed discovery for fraud: CCP 338(d)
+
+Do not assume discovery rule applies to standard slip-and-fall — two years from fall date is the safe assumption.
+
+TOLLING FOR DEFENDANT ABSENCE
+CCP 351: If defendant absent from state, period may be tolled — niche application.
+
+CONTRACTUAL STATUTE REDUCTION PROHIBITED
+CCP 3527: Cannot contractually shorten statute of limitations for personal injury in most consumer contexts.
+
+DEADLINE CALCULATION EXAMPLES
+Example 1: Fall at Target on March 15, 2024. Private defendant. Lawsuit deadline: March 15, 2026.
+
+Example 2: Fall on City of Oakland sidewalk on June 1, 2024. Administrative claim deadline: December 1, 2024. If claim rejected August 1, 2024, lawsuit deadline against city: February 1, 2025 (6 months after rejection) — AND still within broader tort claims framework. Consult attorney immediately for government cases.
+
+Example 3: Child injured at age 10 on January 1, 2024. Tolling applies. Typically may file until January 1, 2034 (2 years after 18th birthday) for private defendants — verify government involvement separately.
+
+
+================================================================================
+SECTION 4: DOG BITE STRICT LIABILITY — CIVIL CODE SECTION 3342
+================================================================================
+
+STATUTE
+California Civil Code Section 3342(a): "The owner of any dog is liable for the damages suffered by any person who is bitten by the dog while in a public place or lawfully upon private property of the owner, regardless of the former viciousness of the dog or the owner's knowledge of such viciousness."
+
+STRICT LIABILITY — NO ONE-BITE RULE
+Unlike Texas, California does not require proof that the owner knew the dog was dangerous. First bite creates liability. Owner cannot defend by saying "my dog never bit anyone before."
+
+ELEMENTS
+1. Defendant owned the dog (or harbored/kept — see landlord cases).
+2. Plaintiff was bitten (not just frightened or knocked down without bite — though related negligence claims may exist).
+3. Plaintiff was in a public place OR lawfully on private property.
+4. Damages resulted.
+
+LAWFULLY ON PRIVATE PROPERTY
+Includes invited guests, delivery drivers, mail carriers, utility workers, tenants on rental property (with limits), anyone performing lawful duty.
+
+DEFENSES
+Trespasser on private property — not lawfully present (CC 3342 does not apply; other claims may exist).
+Assumption of risk — veterinary assistant bitten while treating ( Drake v. White).
+Provocation — victim teased, hit, or provoked dog (fact-intensive).
+Comparative fault — victim's negligence reduces recovery.
+
+LANDLORD LIABILITY
+Portillo v. Aiassa (1994) 27 Cal.App.4th 1128 — Landlord may be liable if landlord knew of vicious dog and had ability to remove dog before bite.
+UCC 1941.1 implied warranty of habitability intersects with tenant dog cases.
+
+MULTIPLE DOG STATISTICS
+California leads nation in dog bite claims. Homeowners and renters insurance often cover dog bites — some breeds excluded (pit bulls, Rottweilers) on certain policies.
+
+PRACTICAL STEPS AFTER DOG BITE
+Seek immediate medical care — infection risk, rabies protocol.
+Identify dog and owner; get address and insurance information.
+Report to animal control — creates official record, quarantine check.
+Photograph injuries, scene, leash/signage.
+Obtain witness statements.
+Request animal control investigation report.
+Do not discuss fault at scene.
+
+SETTLEMENT FACTORS — DOG BITES
+Severity of scarring (facial bites higher value)
+Nerve damage, tendon injury
+Plastic surgery need
+Child victim (juries sympathetic)
+Policy limits on homeowner/renter insurance
+Prior complaints about same dog to animal control
+
+
+================================================================================
+SECTION 5: WORKERS COMPENSATION — MANDATORY COVERAGE, BENEFITS, THIRD-PARTY SUITS, RETALATION
+================================================================================
+
+MANDATORY COVERAGE
+California Labor Code Division 4 (beginning LC 3200): Nearly all employers must provide workers compensation insurance. Uninsured employer subject to penalties and direct liability.
+
+EXCLUSIVE REMEDY RULE
+In most cases, injured employee cannot sue employer for negligence. Workers comp is the exclusive remedy — trade-off for no-fault benefits.
+
+KEY BENEFITS
+Medical treatment: All reasonable and necessary medical care for work injury — no copays for approved treatment.
+Temporary Disability (TD): Approximately two-thirds of average weekly wages while unable to work (statutory min/max apply).
+Permanent Disability (PD): Compensation for permanent impairment after MMI (maximum medical improvement).
+Supplemental Job Displacement Benefit (voucher): For injuries after 2013 with permanent disability — training voucher.
+Death benefits: For dependents if worker killed on job.
+
+FILING DEADLINE
+Labor Code 5400: Employee must provide notice to employer within 30 days of injury. LC 5401: Claim must be filed within one year.
+
+THIRD-PARTY LAWSUITS — CRITICAL EXCEPTION
+Employee CAN sue a non-employer third party whose negligence caused injury while employee was working.
+
+Examples:
+  Delivery driver hit by negligent motorist while driving for employer — workers comp from employer AND auto lawsuit against at-fault driver.
+  Construction worker injured by defective equipment — workers comp plus products liability against manufacturer.
+  Worker falls at another company's job site due to that company's negligence — third-party premises claim.
+
+Workers comp insurer has lien on third-party recovery (Labor Code 3856) — must repay comp benefits from settlement, but employee keeps excess.
+
+RETALIATION PROHIBITED
+Labor Code 132a: Unlawful to discriminate or retaliate against employee for filing or pursuing workers comp claim.
+Remedies: Reinstatement, increased compensation (up to $10,000), back pay.
+Report retaliation to workers comp appeals board and consult employment attorney.
+
+INDEPENDENT CONTRACTOR MISCLASSIFICATION
+Many employers misclassify employees as independent contractors to avoid comp coverage. ABC test (Dynamex, AB 5) — if actually employee, comp coverage required and employer faces liability.
+
+VOICE ASSISTANT QUICK ANSWER
+Q: Can I sue my employer if I was hurt at work in California?
+A: Usually no — workers comp is exclusive remedy against employer. But if someone other than your employer caused the injury — another driver, property owner, equipment maker — you may have a separate third-party lawsuit while still receiving comp benefits.
+
+
+================================================================================
+SECTION 6: MOTOR VEHICLE ACCIDENTS — MINIMUM INSURANCE, DMV REPORTING, UNINSURED MOTORIST
+================================================================================
+
+MINIMUM LIABILITY INSURANCE — FINANCIAL RESPONSIBILITY LAW
+California Vehicle Code 16056 requires minimum liability insurance:
+  $30,000 bodily injury per person
+  $60,000 bodily injury per accident
+  $15,000 property damage
+
+Commonly written as 30/60/15. Many drivers carry only minimums — underinsured motorist coverage critical.
+
+UNINSURED/UNDERINSURED MOTORIST (UM/UIM)
+Not mandatory but insurers must offer — must sign written rejection to waive (VC 11580.2).
+UM covers when at-fault driver has no insurance.
+UIM covers when at-fault driver has insufficient limits.
+Stacking: Generally cannot stack multiple UM policies in CA unless specific policy language allows.
+
+PERSONAL INJURY PROTECTION
+California does NOT have mandatory no-fault PIP like New York. Medical payments coverage (Med Pay) optional — typically $1,000-$5,000 quick medical coverage regardless of fault.
+
+DMV REPORTING — SR-1 FORM
+Vehicle Code 16000: Accident must be reported to DMV within 10 days if anyone injured or killed OR property damage exceeds $1,000.
+Failure to report may suspend driving privilege.
+SR-1 form available at dmv.ca.gov.
+
+POLICE REPORT
+Always call police for injury accidents. CHP or local agency documents scene, parties, citations. Insurance adjusters rely heavily on traffic collision report (TCR).
+
+COMPARATIVE FAULT IN AUTO CASES
+Pure comparative fault applies. Rear-end collision: presumption rear driver at fault but lead driver stopping short may share fault. Left-turn cases: turning driver often primarily at fault but oncoming speed contributes.
+
+HIT AND RUN — UM CLAIM
+Report to police immediately. File UM claim with own insurer. California requires physical contact for UM hit-and-run in most policies — "phantom vehicle" claims require corroborating evidence.
+
+RIDESHARE (UBER/LYFT)
+Period 1 (app on, no ride): contingent coverage lower limits.
+Period 2 (matched/en route): $1M liability policy typically.
+Period 3 (passenger in car): $1M liability typically.
+Complex coverage stacking — identify which period applies.
+
+ELECTRIC SCOOTER / BIKE ACCIDENTS
+Growing litigation in SF, LA, San Diego. Liability depends on rider fault, motorist fault, scooter company maintenance, city pothole claims.
+
+
+================================================================================
+SECTION 7: AVERAGE SETTLEMENTS AND VALUATION IN CALIFORNIA
+================================================================================
+
+VALUATION FORMULA — GENERAL FRAMEWORK
+Special damages (economic): Medical bills past and future + lost wages past and future + property damage + out-of-pocket.
+General damages (noneconomic): Pain and suffering — often multiplier of specials (1.5x to 5x depending on severity, permanence, liability clarity).
+Comparative fault reduces total.
+Policy limits cap recovery — California minimum 30/60 auto limits mean many cases settle at $30,000 per person if defendant uninsured or minimum policy.
+
+SLIP AND FALL — TYPICAL RANGES (2024-2026 CALIFORNIA)
+Minor soft tissue, full recovery, 3-6 months treatment: $8,000 - $30,000
+Moderate injury, MRI positive disc bulge, injections, 6-12 months: $50,000 - $175,000
+Surgery case (rotator cuff, meniscus, lumbar): $150,000 - $500,000
+Permanent disability, ongoing pain: $300,000 - $1,500,000+
+Catastrophic (TBI, paralysis, amputation): $1M - tens of millions (often policy limits + excess judgment)
+
+Factors increasing value: clear surveillance video, no comparative fault, sympathetic plaintiff, visible scarring, defendant corporate (grocery chain), bad faith insurance conduct.
+
+Factors decreasing value: prior similar injuries, gaps in treatment, pre-existing degeneration on MRI, plaintiff on phone in video, Prop 213 uninsured plaintiff in auto case.
+
+AUTO ACCIDENT — TYPICAL RANGES
+Minor whiplash: $5,000 - $25,000
+Moderate with physical therapy: $25,000 - $75,000
+Herniated disc with treatment: $75,000 - $250,000
+Surgery required: $150,000 - $600,000
+Wrongful death: $500,000 - $5M+ depending on decedent age, income, dependents
+
+DOG BITE — TYPICAL RANGES
+Minor bite, no scar: $5,000 - $20,000
+Significant scarring: $50,000 - $200,000
+Facial scarring child: $100,000 - $500,000+
+Nerve damage, multiple surgeries: $200,000 - $1M+
+
+REGIONAL VARIATION
+Los Angeles County: Generally higher pain-and-suffering awards than rural Northern California.
+San Francisco: Plaintiff-friendly juries in many civil cases; high cost of living affects lost wage calculations.
+Central Valley, rural counties: More conservative juries — defense forum non conveniens motions sometimes filed.
+Orange County: Mixed — historically somewhat defense-oriented but large verdicts occur.
+
+INSURANCE CARRIER IMPACT ON SETTLEMENT
+State Farm, GEICO, Allstate, Progressive — standardized low initial offers (25-40% of reasonable value common pre-litigation).
+Commercial excess policies (Target, Walmart, major chains) — higher limits but aggressive defense firms.
+
+
+================================================================================
+SECTION 8: FINDING AND EVALUATING A CALIFORNIA PERSONAL INJURY LAWYER
+================================================================================
+
+WHEN TO HIRE
+Serious injury requiring surgery or permanent impairment
+Disputed liability — insurer denying fault
+Government entity involved — 6-month deadline
+Permanent scarring or disability
+Lost wages exceeding few weeks
+Policy limits appear insufficient
+Workers comp plus third-party case
+Medical malpractice (MICRA complexity)
+
+CONTINGENCY FEE STANDARD
+Typical: 33.33% pre-litigation, 40% after filing lawsuit, sometimes 45% after trial setting or appeal.
+No upfront fee — attorney paid from settlement/verdict.
+Client usually responsible for costs (filing fees, records, experts) — often advanced by firm.
+
+STATE BAR VERIFICATION
+Verify active license at calbar.ca.gov
+Check discipline history
+Confirm malpractice insurance
+
+QUESTIONS TO ASK IN CONSULTATION
+How many years handling PI in California?
+Experience with this case type (premises, auto, dog bite)?
+Expected timeline?
+Who handles day-to-day — partner or associate?
+Litigation vs. settlement track record?
+How are costs handled if no recovery?
+Can you handle workers comp lien and third-party coordination?
+
+RED FLAGS
+Guarantees specific dollar amount
+Pressure to sign immediately
+No clear explanation of Prop 51 or government claim deadlines
+Non-attorney "runners" soliciting at hospital
+Attorney not licensed in California
+
+REFERRAL SOURCES
+CAOC (Consumer Attorneys of California) — caoc.org
+County bar association referral panels
+Trusted medical providers (ethical referrals only)
+
+LEGAL AID / PRO BONO
+Legal Aid Foundation of Los Angeles, Bay Area legal aid for low-income qualifiers.
+Limited scope for document review in some clinics.
+
+
+================================================================================
+APPENDIX A: PROPOSITION 213 — UNINSURED DRIVER AND DUI LIMITATIONS
+================================================================================
+
+Proposition 213 (1996) limits recovery of noneconomic damages (pain and suffering) for:
+1. Uninsured motorists (with exceptions for passengers, parked vehicles, employer-provided vehicles)
+2. Drivers convicted of DUI at time of accident
+3. Felons fleeing scene
+4. Vehicle owner who permitted uninsured driver
+
+Uninsured plaintiff in auto accident may recover economic damages only — medical bills and lost wages — but NOT pain and suffering.
+
+Critical exception: If plaintiff was passenger, not owner, and didn't know vehicle uninsured — Prop 213 may not apply.
+
+Prop 213 does NOT apply to premises liability, dog bites, or non-auto negligence.
+
+Defense tactic: Insurer investigates plaintiff's insurance status aggressively in auto cases.
+
+
+================================================================================
+APPENDIX B: MICRA CAPS ON MEDICAL MALPRACTICE NONECONOMIC DAMAGES
+================================================================================
+
+Medical Injury Compensation Reform Act of 1975 (MICRA):
+Noneconomic damages capped at $250,000 in medical malpractice (adjusted for inflation — currently approximately $430,000-$750,000 range depending on updates and wrongful death context — verify current statutory adjustment under AB 35 and subsequent legislation).
+
+Applies to medical negligence only — NOT slip-and-fall or auto cases.
+
+Attorney fee sliding scale limits in med mal.
+Periodic payment rules for future damages.
+Mandatory 90-day notice before filing med mal suit.
+
+Voice assistant: If user asks about doctor botched surgery — MICRA cap applies. If user slipped in hospital lobby — general negligence, no MICRA cap.
+
+
+================================================================================
+APPENDIX C: SAN FRANCISCO AND LOS ANGELES JURY TENDENCIES
+================================================================================
+
+SAN FRANCISCO SUPERIOR COURT
+Demographically diverse, urban, generally more plaintiff-friendly than rural CA.
+Strong labor union history — sympathetic to injured workers.
+High cost of living increases lost wage and life care plan valuations.
+Judges vary — research department assignment.
+Corporate defendant (tech company premises) may draw skepticism.
+Conservative on fraud claims — SF juries scrutinize staged accidents.
+
+Verdict trends: Moderate to high pain-and-suffering awards when liability clear. Bias against insurance companies in some panels.
+
+LOS ANGELES SUPERIOR COURT
+Largest state court system — multiple courthouses (Central, Stanley Mosk, Van Nuys, Long Beach, etc.).
+Historically significant verdicts in catastrophic injury.
+Entertainment industry plaintiffs — lost income calculations can be substantial.
+Downtown LA: mix of plaintiff and defense lean depending on jury pool zip codes.
+San Fernando Valley: sometimes more conservative than downtown.
+Minority-majority jury pools — cultural competence matters for attorney presentation.
+
+Both counties: Delayed trial dates common (1-3 years from filing). Settlement pressure increases as trial approaches.
+
+
+================================================================================
+APPENDIX D: GROCERY STORE SLIP-AND-FALL PLAYBOOK — CALIFORNIA EDITION
+================================================================================
+
+HOUR 0 — AT SCENE
+Report to manager immediately — insist on incident report.
+Photograph: floor condition, product that caused spill, footwear, lighting, cart contents, warning signs absent.
+Note employee names and statements ("yeah we've had leaks from that freezer all week").
+Identify witnesses.
+Do not say "I'm fine" or "I wasn't looking."
+If injured severely, ambulance; if not, still ER or urgent care same day.
+
+HOUR 0-24
+Spoliation letter via attorney or certified mail to store corporate legal — preserve all surveillance from 2 hours before incident through 24 hours after.
+Continue medical treatment — gaps exploited by insurer.
+
+DAY 2-14
+Adjuster calls — decline recorded statement until counsel review.
+Request incident report copy in writing.
+Google reviews or social posts about same store hazard (not primary evidence but investigative lead).
+
+WEEK 2-8
+Attorney obtains surveillance via demand or subpoena.
+Discovery requests: cleaning logs, prior incident reports, employee training manuals, Ortega-related inspection policies.
+Depose store manager on notice and mode of operation.
+
+SETTLEMENT NEGOTIATION
+Clear video + no comparative fault + MRI positive = $75,000-$250,000 pre-suit range moderate injury.
+Ortega weak notice case — expect low offer or denial until expert on industry standards.
+
+LITIGATION TRIGGERS
+Denial of liability
+Low offer below medical bills
+Surgery required
+Permanent injury
+
+DEFENSE PLAYBOOK (KNOW YOUR OPPONENT)
+Corporate defense firms: Gordon Rees, Lewis Brisbois, Wilson Elser.
+Arguments: Ortega no notice, open and obvious, comparative fault, pre-existing degeneration.
+IME doctor will minimize injury — prepare treating physician rebuttal.
+
+MAJOR CALIFORNIA GROCERY DEFENDANTS
+Safeway/Albertsons, Kroger/Ralphs/Food 4 Less, Trader Joe's, Whole Foods, Costco (membership warehouse — different layout defenses), ethnic market chains.
+
+END OF CALIFORNIA PERSONAL INJURY LAW FIELD GUIDE

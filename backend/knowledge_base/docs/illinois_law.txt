@@ -1,0 +1,664 @@
+═══════════════════════════════════════════════════════════════════════════════
+ILLINOIS PERSONAL INJURY LAW — COMPLETE FIELD GUIDE
+WHAT NOW KNOWLEDGE BASE — VOICE ASSISTANT REFERENCE
+═══════════════════════════════════════════════════════════════════════════════
+
+Scope: Illinois tort law, Chicago-specific ordinances, workers compensation,
+premises liability, dog bites, government claims, settlement strategy.
+Audience: Injured Illinois residents, advocates, legal assistants, voice-assistant KB.
+Disclaimer: Educational reference only — not legal advice. Verify current statutes
+and consult an Illinois-licensed attorney for your specific situation.
+
+Last updated: June 2026
+Primary statutes: 735 ILCS 5/ (Code of Civil Procedure), 740 ILCS 130 (Premises
+Liability Act), 510 ILCS 5/16 (Animal Control Act), 820 ILCS 305 (Workers Comp),
+745 ILCS 10/ (Local Government Tort Immunity Act)
+
+TABLE OF CONTENTS
+─────────────────
+SECTION 1:  Overview — Illinois as a Plaintiff-Favorable State
+SECTION 2:  Comparative Fault — 735 ILCS 5/2-1116 (51% Bar)
+SECTION 3:  Statute of Limitations — 2 Years General, 1 Year Government
+SECTION 4:  Premises Liability Act — 740 ILCS 130 (Invitee/Licensee Abolished)
+SECTION 5:  Chicago Ordinance Negligence Per Se
+SECTION 6:  Dog Bite Law — 510 ILCS 5/16 Strict Liability
+SECTION 7:  Workers Compensation — Mandatory Coverage, 45-Day Report Rule
+SECTION 8:  Motor Vehicle and Other Common Injury Claims
+SECTION 9:  Government Entity Claims — Notice and Immunity
+SECTION 10: Settlement Ranges and Valuation in Illinois
+SECTION 11: Top Illinois Insurers and Adjuster Tactics
+SECTION 12: Illinois-Specific Pitfalls
+SECTION 13: Immediate Action Checklist
+APPENDIX A: Key Illinois Statute Citations
+APPENDIX B: Voice Assistant Quick-Answer Scripts
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 1: OVERVIEW — ILLINOIS AS A PLAINTIFF-FAVORABLE STATE
+═══════════════════════════════════════════════════════════════════════════════
+
+Illinois is consistently ranked among the most favorable states in America for
+injured workers and personal injury plaintiffs. Key reasons:
+
+1. Modified comparative fault with 51% bar (not as harsh as 50% bar states)
+2. Premises Liability Act simplified landowner duties (no invitee/licensee trap)
+3. Strict liability for dog bites without prior knowledge requirement
+4. Strong workers compensation benefits and broad coverage mandates
+5. Cook County (Chicago) juries historically award higher damages than national average
+6. No damage caps on most personal injury verdicts (medical malpractice has caps)
+
+Illinois is NOT a no-fault auto state — injured parties sue at-fault drivers directly
+for full damages without tort threshold (unlike Florida or New York serious injury
+threshold). PIP is not mandatory in Illinois; MedPay optional on auto policies.
+
+Countervailing factors:
+- 2-year SOL requires timely action
+- 1-year government notice period is extremely short
+- Insurance reform debates periodically threaten joint and several liability
+- Cook County court congestion can delay trials 2-4 years
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 2: COMPARATIVE FAULT — 735 ILCS 5/2-1116 (51% BAR)
+═══════════════════════════════════════════════════════════════════════════════
+
+STATUTE: 735 ILCS 5/2-1116 — Contribution among joint tortfeasors; recovery of
+damages for personal injury or property damage; affirmative defense of contributory
+negligence or assumption of risk.
+
+RULE:
+In all actions for damages arising from personal injury, property damage, or
+wrongful death, a plaintiff's recovery is barred ONLY if plaintiff's contributory
+negligence is MORE THAN 50% of the proximate cause of the injury or damage.
+
+If plaintiff's fault is 50% or less, recovery is reduced by plaintiff's fault
+percentage — but NOT barred.
+
+FORMULA:
+Net Recovery = Total Damages × (100% − Plaintiff Fault %)
+If Plaintiff Fault > 50% → Recovery = $0
+
+WORKED EXAMPLES:
+
+Example 1 — Chicago slip-and-fall, wet floor without cone:
+Total damages: $150,000
+Jury: plaintiff 20% at fault (should have seen some wetness)
+Recovery: $150,000 × 80% = $120,000
+
+Example 2 — Auto accident, disputed light:
+Total damages: $400,000
+Jury: plaintiff 50% at fault (exactly half)
+Recovery: $400,000 × 50% = $200,000 — still recoverable at exactly 50%
+
+Example 3 — 51% bar:
+Total damages: $800,000
+Jury: plaintiff 51% at fault
+Recovery: $0
+
+MULTIPLE DEFENDANTS — JOINT AND SEVERAL LIABILITY:
+735 ILCS 5/2-1117 and 2-1118 govern contribution among joint tortfeasors.
+Under 2-1117, defendants generally liable only for their proportionate share of
+noneconomic damages EXCEPT in specific circumstances (intentional harm, alcohol-
+related, etc.). Economic damages apportionment follows separate rules.
+This is complex litigation territory — attorney essential in multi-defendant cases.
+
+AFFIRMATIVE DEFENSE:
+Comparative fault is an AFFIRMATIVE DEFENSE — defendant must plead and prove it.
+Plaintiff not required to disprove their own fault in complaint.
+
+INSURER TACTICS IN ILLINOIS:
+- "You weren't watching where you walked" (premises)
+- "Sudden stop" in rear-end cases where plaintiff stopped short
+- Pre-existing degenerative disc arguments as "you were already injured"
+- Failure to mitigate (didn't treat consistently)
+- Phone use / distraction arguments
+
+Illinois juries in Cook County may be skeptical of aggressive fault arguments
+against clearly injured plaintiffs — but 51% bar remains real risk in close cases.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 3: STATUTE OF LIMITATIONS — 2 YEARS GENERAL, 1 YEAR GOVERNMENT
+═══════════════════════════════════════════════════════════════════════════════
+
+GENERAL PERSONAL INJURY — 2 YEARS:
+STATUTE: 735 ILCS 5/13-202
+Actions for damages for injury to person must be commenced within 2 years next
+after the cause of action accrued.
+
+Accrual: Generally date of injury (accident date). Discovery rule applies in limited
+circumstances (medical malpractice, some latent injury — different statutes).
+
+WRONGFUL DEATH — 2 YEARS:
+735 ILCS 5/13-209 — within 2 years after death (with exceptions for criminal
+proceedings tolling in some homicide cases).
+
+PROPERTY DAMAGE — 5 YEARS:
+735 ILCS 5/13-205 — 5 years for property damage (relevant in auto cases splitting
+injury and property claims).
+
+MEDICAL MALPRACTICE — COMPLEX:
+735 ILCS 5/13-212 — generally 2 years from when patient knew or should have known
+of injury, with 4-year outer limit from act/omission in most cases.
+
+MINOR TOLLING:
+735 ILCS 5/13-211 — disability tolling; minors under 18 may have SOL tolled until
+18th birthday, then 2 years runs — DO NOT assume unlimited time for child injuries.
+
+CONSEQUENCE OF MISSING SOL:
+Permanent bar. Dismissal with prejudice. Insurers track SOL and often delay offers
+until deadline pressure mounts.
+
+═══════════════════════════════════════════════════════════════════════════════
+GOVERNMENT CLAIMS — 1 YEAR NOTICE (CRITICAL)
+═══════════════════════════════════════════════════════════════════════════════
+
+STATUTE: 745 ILCS 10/8-101 (Local Governmental and Governmental Employees Tort
+Immunity Act)
+
+Before filing suit against a local public entity (city, village, county, park district,
+school district, transit authority, etc.), claimant must FILE WRITTEN NOTICE with
+the applicable local government or its attorney within ONE YEAR after the date of
+injury or when cause of action accrued.
+
+NOTICE MUST INCLUDE (745 ILCS 10/8-101(d)):
+- Name and address of claimant
+- Name and address of attorney if represented
+- Date, time, location of incident
+- Factual description of circumstances
+- Names of witnesses known to claimant
+- Nature of injury and damages claimed
+
+Failure to file timely notice = COMPLETE BAR to lawsuit against local government
+entity — even if general 2-year SOL has not expired.
+
+STATE GOVERNMENT:
+Court of Claims jurisdiction for state of Illinois — different procedures under
+705 ILCS 505. Notice and filing rules distinct from local government Act.
+
+EXAMPLES REQUIRING 1-YEAR NOTICE:
+- Slip on CTA (Chicago Transit Authority) platform
+- Pothole injury on City of Chicago street
+- Fall in Cook County courthouse
+- School district playground injury
+- Park district swimming pool accident
+- Hit by city snow plow or municipal vehicle
+
+PRACTICAL RULE:
+If ANY government entity might be liable, file notice within 6 months to be safe.
+Consult attorney immediately — 1 year passes quickly.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 4: PREMISES LIABILITY ACT — 740 ILCS 130
+═══════════════════════════════════════════════════════════════════════════════
+
+STATUTE: 740 ILCS 130/2 — Premises Liability Act
+
+HISTORICAL CHANGE:
+Before 1995, Illinois distinguished between INVITEES (business customers — highest
+duty), LICENSEES (social guests — warn of known dangers), and TRESPASSERS (minimal
+duty). This distinction confused juries and often defeated legitimate claims when
+plaintiff misclassified as licensee.
+
+CURRENT LAW — SINGLE STANDARD:
+740 ILCS 130/2 abolished the distinction between invitees and licensees as a
+matter of law. The duty owed to both is the same: reasonable care under the
+circumstances regarding the condition of the premises or in maintaining the
+premises to prevent unreasonable risk of harm.
+
+Translation: Whether you slipped at Walmart or at a neighbor's barbecue, the
+property possessor owes you reasonable care — not two different legal standards.
+
+WHAT PLAINTIFF MUST STILL PROVE (negligence elements):
+1. Defendant owed duty (owned, occupied, or controlled premises)
+2. Defendant breached duty by act or omission
+3. Breach caused injury
+4. Damages
+
+NOTICE remains essential in slip-and-fall cases:
+- Natural accumulation of ice/snow: Illinois follows "unnatural accumulation"
+  doctrine in many cases — property owner generally NOT liable for natural snow/ice
+  unless created unnatural condition (drainage, plowing pile, refreeze from owner act)
+- Defective stairs, broken handrails, inadequate lighting: defect-based theories
+- Negligent maintenance: failure to inspect and repair known hazards
+
+KEY ILLINOIS PREMISES CASES (background):
+- Post-Premises Liability Act cases focus on reasonable care, not status labels
+- Open and obvious doctrine: if hazard open and obvious, owner may owe no duty to
+  protect against it — unless owner should anticipate harm anyway (distraction,
+  necessity of encountering hazard)
+
+TYPES OF ILLINOIS PREMISES CASES:
+- Retail slip-and-fall (Target, Jewel-Osco, Mariano's, Costco)
+- Apartment complex negligent maintenance (landlord liability)
+- Parking lot potholes and inadequate lighting
+- Elevator/escalator injuries in Chicago high-rises
+- Construction site injuries (often overlap workers comp + third party)
+- Negligent security (apartment assault, hotel parking)
+
+DISCOVERY FOCUS:
+- Sweep logs, inspection records
+- Prior similar incidents at location (FOIA for public property)
+- Video surveillance (spoliation letter day 1)
+- Employee training records on hazard response
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 5: CHICAGO ORDINANCE NEGLIGENCE PER SE
+═══════════════════════════════════════════════════════════════════════════════
+
+Negligence per se: violation of a safety statute or ordinance establishes breach
+of duty as matter of law if the ordinance was designed to prevent the type of harm
+that occurred and the victim is within the class of persons the ordinance protects.
+
+Chicago Municipal Code contains hundreds of ordinances that create negligence per se
+arguments in personal injury cases when violated.
+
+═══════════════════════════════════════════════════════════════════════════════
+COMMON CHICAGO ORDINANCES IN PI CASES
+═══════════════════════════════════════════════════════════════════════════════
+
+SNOW AND ICE REMOVAL — MCC 10-8-180:
+Property owners and occupants must clear snow from sidewalks within specified time
+after snowfall ends (commonly cited: 3 hours after snowfall ends between 7 AM and
+7 PM, or by 10 AM if snow stopped overnight). Failure to remove snow/ice creating
+ hazardous sidewalk conditions supports negligence per se for pedestrian slip-and-fall
+ on Chicago sidewalks adjacent to commercial/residential property.
+
+BUILDING CODE VIOLATIONS — Title 13 (Building Code):
+- Defective stairways without required handrails
+- Inadequate guardrails on elevated surfaces
+- Non-compliant elevator maintenance
+- Inadequate exit lighting in commercial buildings
+- Violation of fire egress requirements
+
+When city building inspector cited violation predating injury, plaintiff's case
+strengthened dramatically.
+
+LEASH LAW — MCC 7-12-420:
+Dogs must be on leash not exceeding 6 feet when off owner's property. Violation
+supports negligence per se in dog attack cases (in addition to 510 ILCS 5/16 strict
+liability against owner).
+
+TRAFFIC ORDINANCES:
+Chicago traffic code mirrors state law in many areas; municipal violations in
+accidents on city streets may support per se arguments where ordinance designed
+to protect pedestrians/drivers.
+
+RESTAURANT / FOOD ESTABLISHMENT — sanitation and safety codes:
+Slip on greasy kitchen floor in Chicago restaurant — health code maintenance
+requirements may establish per se breach.
+
+CONSTRUCTION ORDINANCES:
+Permit requirements, barricade standards, sidewalk protection during construction —
+violations causing pedestrian injury = per se + ordinary negligence theories.
+
+HOW TO USE NEGLigence PER SE:
+1. Identify applicable ordinance section
+2. Prove defendant violated ordinance (citation, inspection report, testimony)
+3. Prove violation caused injury to person ordinance meant to protect
+4. Breach element established — still must prove causation and damages
+
+DEFENSES:
+- Compliance shown by evidence
+- Ordinance not safety-related (administrative violation only)
+- Victim not in protected class
+- Comparative fault still applies under 735 ILCS 5/2-1116
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 6: DOG BITE LAW — 510 ILCS 5/16 STRICT LIABILITY
+═══════════════════════════════════════════════════════════════════════════════
+
+STATUTE: 510 ILCS 5/16 — Animal attacks or injuries
+
+Illinois Animal Control Act imposes STRICT LIABILITY on dog owners (and persons
+harboring or keeping the dog) for injuries caused by the dog attacking, attempting
+to attack, or injuring any person peacefully conducting themselves and lawfully
+positioned wherever they may be.
+
+KEY FEATURES:
+
+NO ONE-BITE RULE:
+Owner liable even if dog never showed aggression before. No need to prove owner
+knew dog was dangerous.
+
+NO PROVOCATION DEFENSE IN STATUTE (limited):
+Unlike some states, Illinois strict liability under 5/16 is broad. Provocation
+may affect comparative fault apportionment under 735 ILCS 5/2-1116 but does not
+eliminate strict liability entirely in most cases.
+
+PEACEFULLY CONDUCTING THEMSELVES:
+Victim must not be tormenting, abusing, or attacking the dog. Trespasser committing
+crime may lose protection.
+
+LAWFULLY POSITIONED:
+Includes public sidewalks, parks, victim's own property, delivery person on owner's
+property with implied invitation.
+
+LIABILITY EXTENDS BEYOND BITE:
+"Attacking, attempting to attack, or injuring" covers knock-down injuries even
+without puncture wound.
+
+OWNER vs. KEEPER:
+Person keeping or harboring dog (not just registered owner) may be liable — relevant
+for landlord/tenant situations.
+
+HOMEOWNERS / RENTERS INSURANCE:
+Claims typically paid through liability coverage. Breed restrictions apply.
+
+CHICAGO-SPECIFIC:
+Leash ordinance violation (MCC 7-12-420) adds negligence per se layer.
+Chicago Animal Care and Control investigates bites — report immediately.
+
+SETTLEMENT IMPACT:
+Facial bites, pediatric cases, scarring, nerve damage command premium values in
+Cook County. Strict liability simplifies liability phase — fight is over damages
+and comparative fault only.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 7: WORKERS COMPENSATION — MANDATORY, 45-DAY REPORT, TOP 5 STATE
+═══════════════════════════════════════════════════════════════════════════════
+
+STATUTE: 820 ILCS 305/ (Illinois Workers' Compensation Act)
+
+Illinois is widely ranked among the TOP 5 most employee-favorable workers
+compensation states in America based on benefit levels, scope of coverage, and
+judicial interpretation favoring injured workers at the Illinois Workers'
+Compensation Commission (IWCC).
+
+MANDATORY COVERAGE:
+Nearly every employer in Illinois with employees must provide workers compensation
+insurance (exceptions extremely limited — certain agricultural, domestic workers).
+NO opt-out like Texas non-subscribers. Employer without insurance faces penalties,
+personal liability, and criminal exposure.
+
+EXCLUSIVE REMEDY:
+Workers comp generally bars direct negligence lawsuit against employer for workplace
+injury. Trade-off: no fault proof required — employee need not prove employer
+negligence to receive benefits.
+
+═══════════════════════════════════════════════════════════════════════════════
+45-DAY REPORTING RULE — CRITICAL
+═══════════════════════════════════════════════════════════════════════════════
+
+820 ILCS 305/6(c): Employee should notify employer of accidental injury within
+45 DAYS of occurrence. Failure to report within 45 days may bar benefits unless
+reasonable excuse and no prejudice to employer — but insurers DENY late reports
+aggressively.
+
+BEST PRACTICE: Report IN WRITING same day or within 24 hours.
+- Complete employer's accident report form
+- Keep copy with timestamp
+- Email supervisor and HR simultaneously
+- Describe ALL body parts injured, not just most painful
+
+BENEFITS AVAILABLE:
+- Medical expenses: all reasonable and necessary, no dollar cap
+- Temporary Total Disability (TTD): 2/3 of average weekly wage while unable to work
+- Temporary Partial Disability (TPD): when working light duty at reduced wages
+- Permanent Partial Disability (PPD): scheduled injuries (hand, leg, etc.) + wage
+  differential for serious cases
+- Permanent Total Disability (PTD): lifetime benefits if completely unable to work
+- Vocational rehabilitation
+- Death benefits to dependents
+
+PPD SCHEDULE — ILLINOIS ADVANTAGE:
+Illinois uses detailed schedule for body parts (820 ILCS 305/8(e)) with weeks of
+compensation assigned per amputation/loss. Non-schedule injuries (neck, back) use
+whole person impairment rating — often generous compared to other states.
+
+THIRD-PARTY OVERLAP:
+Construction worker injured by subcontractor's negligence, delivery driver hit by
+other vehicle, factory worker hurt by defective machine — workers comp from
+employer PLUS personal injury suit against third party. Comp carrier holds lien on
+third-party recovery (820 ILCS 305/5).
+
+RETALIATION:
+820 ILCS 305/6(h) — illegal to fire or discriminate for filing workers comp claim.
+Hard to prove but powerful when documented.
+
+FILING WITH IWCC:
+Application for Adjustment of Claim within 3 years of injury or 2 years after last
+comp payment — whichever is later (820 ILCS 305/6(d)). Do not confuse with 45-day
+employer notice — both required.
+
+ILLINOIS vs. OTHER STATES — WHY "TOP 5 FAVORABLE":
+- Higher wage replacement rate (66.67% vs. lower in some states)
+- Broader definition of compensable injuries (repetitive trauma recognized)
+- Arbitrators historically worker-sympathetic in Chicago
+- Strong penalties for uninsured employers
+- No arbitrary caps on medical treatment like some reformed states
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 8: MOTOR VEHICLE AND OTHER COMMON INJURY CLAIMS
+═══════════════════════════════════════════════════════════════════════════════
+
+AUTO ACCIDENTS:
+Illinois fault-based system. Sue at-fault driver for full damages: medical, lost
+wages, pain and suffering, disfigurement, loss of normal life, loss of consortium.
+
+Minimum liability limits (Illinois): $25,000 per person / $50,000 per accident BI.
+UM/UIM mandatory offer — must reject in writing to waive.
+
+Uninsured motorist claims common in Chicago metro — carry high UM limits.
+
+HIT-AND-RUN:
+UM coverage on your policy; police report required within reasonable time.
+
+RIDESHARE (Uber/Lyft):
+Period 1/2/3 coverage analysis — app status determines which policy applies.
+
+PRODUCT LIABILITY:
+Strict liability and negligence theories for defective products causing injury —
+2-year SOL under 735 ILCS 5/13-202.
+
+ASSAULT/BATTERY:
+Intentional tort — 2-year SOL. Homeowners insurance often EXCLUDES intentional acts.
+Pursue assailant assets and criminal restitution.
+
+NURSING HOME ABUSE:
+Health Care Arbitration Act may require arbitration — complex. 2-year SOL with
+potential discovery tolling in abuse cases.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 9: GOVERNMENT ENTITY CLAIMS — NOTICE AND IMMUNITY
+═══════════════════════════════════════════════════════════════════════════════
+
+LOCAL GOVERNMENT — 745 ILCS 10/:
+- 1-year written notice (Section 8-101) — MANDATORY
+- Immunity exceptions for proprietary vs. governmental functions
+- Willful and wanton conduct removes some immunity shields
+- Damage caps in some categories — consult current statute
+
+CTA (Chicago Transit Authority):
+Special entity — notice to CTA within 6 months for some claims under separate
+statutory provisions (705 ILCS 25/) — EXTREMELY SHORT. CTA cases require immediate
+attorney consultation.
+
+CITY OF CHICKAGO:
+Notice to City Clerk or Corporation Counsel. FOIA for prior complaints at location.
+
+ILLINOIS STATE:
+Court of Claims — 705 ILCS 505 — 1-year filing limitation for most claims against
+State of Illinois.
+
+POLICE MISCONDUCT:
+Separate statutes (740 ILCS 22/ etc.) — not standard PI but overlap in injury cases.
+
+SOVEREIGN IMMUNITY DEFENSES:
+Government entity may claim immunity for discretionary policy decisions vs.
+ministerial acts — litigation-intensive distinction.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 10: SETTLEMENT RANGES AND VALUATION IN ILLINOIS
+═══════════════════════════════════════════════════════════════════════════════
+
+Cook County and collar counties (DuPage, Lake, Will) typically yield higher settlements
+than downstate rural counties. Ranges illustrative for pre-suit negotiation.
+
+SLIP-AND-FALL (retail, liability clear, Chicago):
+- Soft tissue, 2-3 months treatment: $8,000 – $30,000
+- Moderate, PT 6 months: $30,000 – $90,000
+- Herniated disc, injections: $75,000 – $200,000
+- Surgery: $150,000 – $450,000+
+
+AUTO ACCIDENT (Cook County, clear liability):
+- Soft tissue: $10,000 – $35,000
+- Disc injury with treatment: $50,000 – $175,000
+- Surgery, permanent impairment: $125,000 – $500,000+
+
+DOG BITE (facial scar, child):
+- Minor scar: $15,000 – $50,000
+- Significant facial scarring: $50,000 – $250,000+
+- Multiple surgeries pediatric: $100,000 – $400,000+
+
+WORKERS COMP (administrative, not settlement but reference):
+- Shoulder rotator cuff PPD: 20-40 weeks × weekly rate
+- Back fusion PPD + wage differential: can exceed $200,000 lifetime value
+
+SETTLEMENT PROCESS:
+1. MMI from treating physician
+2. Demand package to adjuster
+3. Negotiation (60-120 days common)
+4. Mediation (mandatory in some Cook County circuits before trial)
+5. Lawsuit filing before SOL if no resolution
+
+LIENS:
+- Group health subrogation (BCBS Illinois, etc.)
+- Medicare/Medicaid
+- Workers comp lien on third-party case
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 11: TOP ILLINOIS INSURERS AND ADJUSTER TACTICS
+═══════════════════════════════════════════════════════════════════════════════
+
+STATE FARM — Dominant Illinois market. Recorded statements, Colossus, 51% fault push.
+
+ALLSTATE — Pre-existing condition focus, IME scheduling, low initial offers.
+
+COUNTRY FINANCIAL — Strong Illinois farm/auto presence. Conservative rural adjusters.
+
+PROGRESSIVE — Quick settlement before MRI in soft tissue cases.
+
+AMERICAN FAMILY — Commercial premises defense in downstate retail.
+
+LIBERTY MUTUAL — Employer workers comp + GL coordination in workplace injury overlap.
+
+CHICAGO-SPECIFIC ADJUSTERS:
+Higher caseloads, familiarity with Cook County jury values — initial offers may be
+slightly higher but still 25-40% of case value typical at first offer.
+
+TACTICS:
+- Delay until SOL pressure (especially if 1-year gov notice already handled)
+- Surveillance in Cook County moderate+ cases
+- Biased IME physicians
+- Social media monitoring
+- Argue open and obvious in premises cases
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 12: ILLINOIS-SPECIFIC PITFALLS
+═══════════════════════════════════════════════════════════════════════════════
+
+DO NOT miss 1-year government notice — most common catastrophic error in Chicago cases.
+
+DO NOT wait 45 days to report workplace injury — report same day in writing.
+
+DO NOT assume natural ice/snow case is automatic win — unnatural accumulation required.
+
+DO NOT give recorded statement without counsel in serious injury cases.
+
+DO NOT confuse abolished invitee/licensee distinction with "no duty" — reasonable
+care standard still requires proving breach and notice.
+
+DO NOT file in wrong court — Illinois circuit court for county where injury occurred
+or defendant resides (735 ILCS 5/2-101 venue rules).
+
+DO NOT ignore workers comp lien on third-party recovery — lien reduces net settlement.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 13: IMMEDIATE ACTION CHECKLIST — ILLINOIS
+═══════════════════════════════════════════════════════════════════════════════
+
+SAME DAY:
+□ Medical care — ER, urgent care, or physician
+□ Photograph scene, hazard, injuries
+□ Report to property manager / obtain incident report (retail)
+□ Report workplace injury IN WRITING to employer (workers comp)
+□ Police report if auto accident or dog bite
+□ Witness contact information
+□ Identify if CTA, City of Chicago, or any government entity involved
+
+WITHIN 7 DAYS:
+□ Spoliation letter preserving surveillance video
+□ Free consultation with PI attorney (especially Cook County / government cases)
+□ Report dog bite to Animal Control
+□ Document lost wages
+
+WITHIN 45 DAYS:
+□ Workers comp employer report MUST be completed (if workplace injury)
+
+WITHIN 1 YEAR:
+□ Government notice of claim FILED if any public entity liable
+
+WITHIN 2 YEARS:
+□ Lawsuit filed or case settled (general PI SOL)
+
+ONGOING:
+□ Consistent medical treatment without gaps
+□ Avoid social media activity inconsistent with injury claims
+□ Preserve all medical bills and EOBs
+
+
+═══════════════════════════════════════════════════════════════════════════════
+APPENDIX A: KEY ILLINOIS STATUTE CITATIONS
+═══════════════════════════════════════════════════════════════════════════════
+
+735 ILCS 5/2-1116 — Comparative fault (51% bar)
+735 ILCS 5/13-202 — 2-year personal injury SOL
+740 ILCS 130/2 — Premises Liability Act (single duty standard)
+510 ILCS 5/16 — Dog bite strict liability
+820 ILCS 305/6 — Workers comp notice (45 days) and filing
+745 ILCS 10/8-101 — Local government 1-year notice
+Chicago MCC 10-8-180 — Snow/ice sidewalk removal
+Chicago MCC 7-12-420 — Dog leash ordinance
+
+
+═══════════════════════════════════════════════════════════════════════════════
+APPENDIX B: VOICE ASSISTANT QUICK-ANSWER SCRIPTS
+═══════════════════════════════════════════════════════════════════════════════
+
+Q: "How long do I have to sue in Illinois?"
+A: "Illinois has a 2-year statute of limitations for personal injury from the date
+of injury. If a city, county, or other local government might be responsible, you
+must file a written notice of claim within 1 year — often before you'd even think
+about suing."
+
+Q: "What is Illinois comparative fault?"
+A: "Under 735 ILCS 5/2-1116, if you are more than 50% at fault, you recover nothing.
+At 50% or less, your award is reduced by your fault percentage."
+
+Q: "Does Illinois have the invitee licensee distinction?"
+A: "No. The Premises Liability Act abolished that distinction. Property owners owe
+reasonable care to invitees and licensees alike."
+
+Q: "Is Illinois good for workers comp?"
+A: "Illinois is consistently ranked among the top 5 most employee-favorable workers
+comp states. Coverage is mandatory for nearly all employers. You must report your
+injury to your employer within 45 days, in writing, and you can receive medical
+coverage and two-thirds of your wages while unable to work."
+
+Q: "Are dog owners liable in Illinois?"
+A: "Yes. Under 510 ILCS 5/16, dog owners are strictly liable if their dog attacks
+or injures someone who is peacefully and lawfully present — even if the dog never
+bit anyone before."
+
+END OF ILLINOIS PERSONAL INJURY LAW KNOWLEDGE BASE
